@@ -1,22 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <b-button>Test button</b-button>
-    <arythmetics-task :problem="'2+2'" :answer="4"/>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <arythmetics-task-window :task="singleTask"/>
   </div>
 </template>
 
 <script>
-import ArythmeticsTask from './components/ArythmeticsTask.vue'
-import HelloWorld from './components/HelloWorld.vue'
+import ArythmeticsTaskWindow from './components/arythmetics-task/ArythmeticsTaskWindow.vue'
+import {ArythmeticsTaskDef} from "./components/arythmetics-task/common";
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    ArythmeticsTask
-  }
+    ArythmeticsTaskWindow
+  },
+  data: () => ({
+    singleTask: new ArythmeticsTaskDef("2+2", "4")
+  })
 }
 </script>
 
