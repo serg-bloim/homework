@@ -1,0 +1,34 @@
+<template>
+<div>
+  TaskList
+  <div v-for="task in tasks"
+       :key="task.id"
+  v-on:click="selectTask(task)"> {{task.preview()}} </div>
+</div>
+</template>
+
+<script>
+// import {TaskDef} from "../util/common";
+
+export default {
+  name: "TaskList",
+  props:{
+    /**
+     * @param {TaskDef[]} tasks
+     */
+    tasks:Array
+  },
+  methods:{
+    /**
+     * @param {TaskDef} task
+     */
+    selectTask(task){
+      this.$router.push({name: 'task', params:{task}})
+    }
+  }
+}
+</script>
+
+<style scoped>
+
+</style>

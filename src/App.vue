@@ -1,21 +1,28 @@
 <template>
   <div id="app">
-    <arythmetics-task-window :task="singleTask"/>
+    <p>
+      <!-- use router-link component for navigation. -->
+      <!-- specify the link by passing the `to` prop. -->
+      <!-- `<router-link>` will be rendered as an `<a>` tag by default -->
+      <router-link to="/list">Go to List</router-link>
+      <router-link to="/task">Go to Task</router-link>
+    </p>
+
+<!--    <task-list :tasks="tasks"/>-->
+<!--    <arythmetics-task-window :task="singleTask" hidden/>-->
+    <router-view/>
   </div>
 </template>
 
 <script>
-import ArythmeticsTaskWindow from './components/arythmetics-task/ArythmeticsTaskWindow.vue'
 import {ArythmeticsTaskDef} from "./components/arythmetics-task/common";
 
 
 export default {
   name: 'App',
-  components: {
-    ArythmeticsTaskWindow
-  },
   data: () => ({
-    singleTask: new ArythmeticsTaskDef("2+2", "4")
+    singleTask: new ArythmeticsTaskDef("2+2", "4"),
+    tasks:[new ArythmeticsTaskDef("2+2", "4"), new ArythmeticsTaskDef("3+3", "6")]
   })
 }
 </script>
