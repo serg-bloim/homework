@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div>{{ tsk_preview }}</div>
-    <arythmetics-task-window v-if="arythmetics"/>
+    <arythmetics-task-window v-if="arythmetics" :task="task" v-on:submit-correct="on_correct"/>
+<!--    <b-button>Next</b-button>-->
   </div>
 </template>
 
@@ -27,9 +27,16 @@ export default {
     },
 
   },
-  data: () => ({
-    arythmetics: this?.task instanceof ArythmeticsTaskDef
-  })
+  data() {
+    return {
+      arythmetics: (this.task instanceof ArythmeticsTaskDef).toString(),
+    };
+  },
+  methods:{
+    on_correct(){
+      alert('123')
+    }
+  }
 }
 </script>
 

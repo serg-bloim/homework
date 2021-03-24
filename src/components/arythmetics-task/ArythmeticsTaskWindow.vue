@@ -1,5 +1,6 @@
 <template>
   <div>
+    ArythmeticsTaskWindow
     <b-container class="bv-example-row">
       <b-row>
         <b-col> {{ task.problem }} = </b-col>
@@ -22,24 +23,29 @@ export default {
     };
   },
   props: {
-    problem: String,
-    correctAnswer: String,
-    task: ArythmeticsTaskDef
+    task: ArythmeticsTaskDef,
   },
   computed: {
     abc() {
       return 456
     }
   },
+  mounted() {
+   console.log(this.task)
+  },
   methods:{
     submit(){
       let msg;
+      let event;
       if(this.answerTry.toString() === this.task.answer){
+        event = 'submit-correct';
         msg = "Correct"
       }else{
+        event = 'submit-wrong'
         msg = "Wrong"
       }
       alert(msg)
+      this.$emit(event)
     },
     submit_keypress(e){
       if(e.keyCode === 13){
