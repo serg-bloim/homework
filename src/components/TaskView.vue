@@ -1,7 +1,15 @@
 <template>
   <div>
-    <arythmetics-task-window v-if="arythmetics" :task="task" v-on:submit-correct="on_correct"/>
-<!--    <b-button>Next</b-button>-->
+    <h1>TaskView</h1>
+    <div>{{solution.task.preview()}}</div>
+    <div>{{solution.id}}</div>
+<!--    v-if="arythmetics"-->
+    <simple :qwe="solution.id" :solution="solution" />
+    <arythmetics-task-window
+        :id="solution_id"
+        :solution="solution"/>
+    <b-button @click="changeTask(-1)">Prev</b-button>
+    <b-button @click="changeTask(1)">Next</b-button>
   </div>
 </template>
 
@@ -9,13 +17,15 @@
 import {TaskDef} from "../util/common";
 import ArythmeticsTaskWindow from "./arythmetics-task/ArythmeticsTaskWindow";
 import {ArythmeticsTaskDef} from "./arythmetics-task/common";
+import Simple from "./Simple";
 
 export default {
   name: "TaskView",
-  components: {ArythmeticsTaskWindow},
+  components: {Simple, ArythmeticsTaskWindow},
   props: {
-    task: TaskDef,
     id: String,
+    initTask: TaskDef,
+    tasks: Array,
   },
   mounted() {
     console.log("mounted:")
@@ -25,19 +35,38 @@ export default {
     tsk_preview() {
       return this.task?.preview()
     },
-
+    task(){
+      return this.solution.task
+    },
+    arythmetics() {
+      return this.solution.task instanceof ArythmeticsTaskDef;
+    },
   },
   data() {
+    let sols = this.tasks.map(t=>t.createSolution())
+    let sol = sols.find(s=>s.task.id === this.initTask.id)
     return {
-      arythmetics: (this.task instanceof ArythmeticsTaskDef).toString(),
+      solutions: sols,
+      solution: sol,
+      solution_id: sol.id
     };
   },
   methods:{
     on_correct(){
       alert('123')
-    }
+    },
+    changeTask(ind_change){
+      let ind = this.solutions.findIndex(s=>s.task.id === this.solution.task.id)
+      let new_ind = (ind+ind_change)%this.solutions.length
+      let sol = this.solutions[new_ind];
+      this.solution = sol
+      console.log(this.solution)
+      console.log(this.solution.task.preview())
+      ind++
+    },
   }
 }
+
 </script>
 
 <style scoped>

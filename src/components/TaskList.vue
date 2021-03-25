@@ -1,10 +1,11 @@
 <template>
-<div>
-  TaskList
-  <div v-for="task in tasks"
-       :key="task.id"
-  v-on:click="selectTask(task)"> {{task.preview()}} </div>
-</div>
+  <div>
+    TaskList
+    <div v-for="task in tasks"
+         :key="task.id"
+         v-on:click="selectTask(task)"> {{ task.preview() }}
+    </div>
+  </div>
 </template>
 
 <script>
@@ -12,18 +13,18 @@
 
 export default {
   name: "TaskList",
-  props:{
+  props: {
     /**
      * @param {TaskDef[]} tasks
      */
-    tasks:Array
+    tasks: Array
   },
-  methods:{
+  methods: {
     /**
      * @param {TaskDef} task
      */
-    selectTask(task){
-      this.$router.push({name: 'task', params:{task}})
+    selectTask(task) {
+      this.$router.push({name: 'task', params: {tasks: this.tasks, initTask: task}})
     }
   }
 }

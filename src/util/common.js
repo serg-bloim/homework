@@ -7,4 +7,19 @@ export class TaskDef {
     preview(){
         return ""
     }
+
+    createSolution(){
+        throw new Error('You have to implement the method createSolution!');
+    }
+}
+export class TaskSolutionState {
+    id = uuidv4();
+    /**
+     * @type TaskDef
+     */
+    task;
+
+    constructor(task) {
+        this.task = task;
+    }
 }
