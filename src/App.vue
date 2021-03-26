@@ -5,7 +5,6 @@
       <!-- specify the link by passing the `to` prop. -->
       <!-- `<router-link>` will be rendered as an `<a>` tag by default -->
       <router-link to="/list">Go to List</router-link>
-      <router-link to="/task">Go to Task</router-link>
     </p>
 
 <!--    <task-list :tasks="tasks"/>-->
