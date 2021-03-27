@@ -4,7 +4,7 @@
     <b-container class="bv-example-row">
       <b-row>
         <b-col> {{ task.problem }} = </b-col>
-        <b-col><b-form-input type="number" v-model="solution.solution" v-on:keypress="submit_keypress" placeholder="???"></b-form-input></b-col>
+        <b-col><b-form-input type="number" v-model="solution.answer" v-on:keypress="submit_keypress" placeholder="???"></b-form-input></b-col>
         <b-col><b-button v-on:click="submit">Submit</b-button></b-col>
       </b-row>
     </b-container>
@@ -41,7 +41,7 @@ export default {
     submit(){
       let msg;
       let event;
-      if(this.solution.solution.toString() === this.task.answer){
+      if(this.solution.answer.toString() === this.task.answer){
         event = 'submit-correct';
         msg = "Correct"
       }else{

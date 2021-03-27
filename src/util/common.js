@@ -22,4 +22,8 @@ export class TaskSolutionState {
     constructor(task) {
         this.task = task;
     }
+
+    toString(){
+        return this.task.preview()
+    }
 }

@@ -9,8 +9,8 @@ export class ArythmeticsTaskDef extends TaskDef{
         this.answer = answer;
     }
 
-    preview() {
-        return this.problem + " = ?"
+    preview(answer = "?") {
+        return this.problem + " = " + answer
     }
 
     createSolution() {
@@ -18,9 +18,13 @@ export class ArythmeticsTaskDef extends TaskDef{
     }
 }
 export class ArythmeticsSolution extends TaskSolutionState{
-    solution;
+    answer;
 
     constructor(task) {
         super(task);
+    }
+
+    toString(){
+        return this.task.preview(this.answer)
     }
 }
