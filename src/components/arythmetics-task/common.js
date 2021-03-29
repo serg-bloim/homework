@@ -18,6 +18,10 @@ export class ArythmeticsTaskDef extends TaskDef{
     }
 }
 export class ArythmeticsSolution extends TaskSolutionState{
+    /**
+     * @type ArythmeticsTaskDef
+     */
+    task;
     answer;
 
     constructor(task) {
@@ -26,5 +30,9 @@ export class ArythmeticsSolution extends TaskSolutionState{
 
     toString(){
         return this.task.preview(this.answer)
+    }
+
+    is_correct() {
+        return this.answer === this.task.answer
     }
 }

@@ -6,7 +6,9 @@
         {{ sol.id }}
         <arythmetics-task-window
             :id="sol.id"
-            :solution="sol"/>
+            :solution="sol"
+            v-on:submit-correct="on_correct"
+        />
       </div>
     </div>
     <b-button @click="changeTask(-1)">Prev</b-button>
@@ -56,6 +58,7 @@ export default {
   methods: {
     on_correct() {
       alert('123')
+
     },
     changeTask(ind_change) {
       let ind = this.solutions.findIndex(s => s.task.id === this.solution.task.id)

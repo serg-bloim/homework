@@ -26,4 +26,11 @@ export class TaskSolutionState {
     toString(){
         return this.task.preview()
     }
+
+    /**
+     * @type boolean
+     */
+    is_correct(){
+        throw new Error('You have to implement the method is_correct!');
+    }
 }
