@@ -1,12 +1,12 @@
 <template>
   <div>
     <h1>TaskView</h1>
-    <div v-for="sol in solutions" :key="sol.id">
-      <div v-if="solution.id === sol.id">
-        {{ sol.id }}
+    <div v-for="tsk in tasks" :key="tsk.id">
+      <div v-if="task.id === tsk.id">
+        {{ tsk.id }}
         <arythmetics-task-window
-            :id="sol.id"
-            :solution="sol"
+            :id="tsk.id"
+            :task="tsk"
             v-on:submit-correct="on_correct"
         />
       </div>
@@ -32,42 +32,34 @@ export default {
   },
   mounted() {
     console.log("mounted:")
-    console.log(this.task?.preview())
+    console.log(this.task?.preview?.())
+  },
+  data(){
+    return{
+      task:this.initTask
+    }
   },
   computed: {
     tsk_preview() {
-      return this.task?.preview()
-    },
-    task() {
-      return this.solution.task
+      return this.task?.preview?.()
     },
     arythmetics() {
-      return this.solution.task instanceof ArythmeticsTaskDef;
+      return this.task instanceof ArythmeticsTaskDef;
     },
   },
-  data() {
-    /** @type {TaskSolutionState[]} **/
-    let sols = this.tasks.map(t => t.createSolution())
-    let sol = sols.find(s => s.task.id === this.initTask.id)
-    return {
-      solutions: sols,
-      solution: sol,
-      solution_id: sol.id
-    };
-  },
+
   methods: {
     on_correct() {
       alert('123')
-
     },
     changeTask(ind_change) {
-      let ind = this.solutions.findIndex(s => s.task.id === this.solution.task.id)
-      let len = this.solutions.length;
+      let ind = this.tasks.findIndex(tsk => tsk.id === this.task.id)
+      let len = this.tasks.length;
       let new_ind = (ind + ind_change + len) % len
-      let sol = this.solutions[new_ind];
-      this.solution = sol
-      console.log(this.solution)
-      console.log(this.solution.task.preview())
+      let tsk = this.tasks[new_ind];
+      this.task = tsk
+      console.log(this.task)
+      console.log(this.task.preview())
       ind++
     },
   }

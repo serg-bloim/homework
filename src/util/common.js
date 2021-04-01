@@ -11,6 +11,13 @@ export class TaskDef {
     createSolution(){
         throw new Error('You have to implement the method createSolution!');
     }
+
+    /**
+     * @type boolean
+     */
+    is_correct(){
+        throw new Error('You have to implement the method is_correct!');
+    }
 }
 export class TaskSolutionState {
     id = uuidv4();

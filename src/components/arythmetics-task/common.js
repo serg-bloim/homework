@@ -1,20 +1,25 @@
 import {TaskDef, TaskSolutionState} from "../../util/common";
 
 export class ArythmeticsTaskDef extends TaskDef{
-    answer;
+    correctAnswer;
     problem;
-    constructor(problem, answer) {
+    answer;
+    constructor(problem, correctAnswer) {
         super();
         this.problem = problem;
-        this.answer = answer;
+        this.correctAnswer = correctAnswer;
     }
 
     preview(answer = "?") {
         return this.problem + " = " + answer
     }
 
-    createSolution() {
-        return new ArythmeticsSolution(this)
+    toString(){
+        return this.preview?.(this.answer)
+    }
+
+    is_correct() {
+        return this.answer === this.task.correctAnswer
     }
 }
 export class ArythmeticsSolution extends TaskSolutionState{
@@ -33,6 +38,6 @@ export class ArythmeticsSolution extends TaskSolutionState{
     }
 
     is_correct() {
-        return this.answer === this.task.answer
+        return this.answer === this.task.correctAnswer
     }
 }

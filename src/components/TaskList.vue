@@ -3,7 +3,7 @@
     TaskList
     <div v-for="task in tasks"
          :key="task.id"
-         v-on:click="selectTask(task)"> {{ task.preview() }}
+         v-on:click="selectTask(task)"> {{ task.toString() }}
     </div>
   </div>
 </template>

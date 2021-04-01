@@ -4,7 +4,7 @@
     <b-container class="bv-example-row">
       <b-row>
         <b-col> {{ task.problem }} = </b-col>
-        <b-col><b-form-input type="number" v-model="solution.answer" v-on:keypress="submit_keypress" placeholder="???"></b-form-input></b-col>
+        <b-col><b-form-input type="number" v-model="task.answer" v-on:keypress="submit_keypress" placeholder="???"></b-form-input></b-col>
         <b-col><b-button v-on:click="submit">Submit</b-button></b-col>
       </b-row>
     </b-container>
@@ -24,15 +24,12 @@ export default {
   },
   props: {
     id: String,
-    solution: ArythmeticsSolution,
+    task: ArythmeticsTaskDef,
   },
   computed: {
     abc() {
       return 456
     },
-    task() {
-      return this.solution.task;
-    }
   },
   mounted() {
    console.log("ArythmeticsTaskWindow mounted  " + this.task)
@@ -41,7 +38,7 @@ export default {
     submit(){
       let msg;
       let event;
-      if(this.solution.answer.toString() === this.task.answer){
+      if(this.task.answer.toString() === this.task.correctAnswer){
         event = 'submit-correct';
         msg = "Correct"
       }else{
