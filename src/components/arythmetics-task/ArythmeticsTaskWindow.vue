@@ -16,36 +16,21 @@ import {ArythmeticsSolution, ArythmeticsTaskDef} from "./common";
 
 export default {
   name: "ArythmeticsTaskWindow",
-  data: function () {
-    console.log("ArythmeticsTaskWindow->data()")
-    return {
-      answerTry: undefined
-    };
-  },
+  data: () => ({
+    answerTry: undefined
+  }),
   props: {
     id: String,
     task: ArythmeticsTaskDef,
   },
-  computed: {
-    abc() {
-      return 456
-    },
-  },
-  mounted() {
-   console.log("ArythmeticsTaskWindow mounted  " + this.task)
-  },
   methods:{
     submit(){
-      let msg;
       let event;
       if(this.task.answer.toString() === this.task.correctAnswer){
         event = 'submit-correct';
-        msg = "Correct"
       }else{
         event = 'submit-wrong'
-        msg = "Wrong"
       }
-      alert(msg)
       this.$emit(event)
     },
     submit_keypress(e){
