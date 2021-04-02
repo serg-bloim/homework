@@ -19,7 +19,7 @@ export class ArythmeticsTaskDef extends TaskDef{
     }
 
     is_correct() {
-        return this.answer === this.task.correctAnswer
+        return this.answer === this.correctAnswer
     }
 }
 export class ArythmeticsSolution extends TaskSolutionState{

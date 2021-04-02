@@ -1,9 +1,11 @@
 <template>
-  <div>
+  <div class="tasklist">
     TaskList
     <div v-for="task in tasks"
          :key="task.id"
-         v-on:click="selectTask(task)"> {{ task.toString() }}
+         v-on:click="selectTask(task)"
+         :class="task.is_correct()?'correct':'wrong'"
+    > {{ task.toString() }}
     </div>
   </div>
 </template>
@@ -31,5 +33,10 @@ export default {
 </script>
 
 <style scoped>
-
+div.tasklist .correct{
+  background-color: darkseagreen;
+}
+div.tasklist .wrong{
+  background-color: indianred;
+}
 </style>
