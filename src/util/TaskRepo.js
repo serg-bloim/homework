@@ -1,10 +1,12 @@
-import {ArythmeticsTaskDef} from "../components/arythmetics-task/common";
+import {ArythmeticsTaskDef, SumTaskFactory} from "../components/arythmetics-task/common";
 
-let task1 = new ArythmeticsTaskDef("2+2", "4");
-let task2 = new ArythmeticsTaskDef("3+3", "6");
-
+let taskFactory = new SumTaskFactory()
+// Array.from()
+let tsks = Array.from({length:3},()=>taskFactory.createTask())
+// tsks = [taskFactory.createTask(), taskFactory.createTask()]
+console.log(tsks)
 class TaskRepo {
-    allTasks = [task1, task2];
+    allTasks = tsks;
 
     getTasks() {
         return this.allTasks

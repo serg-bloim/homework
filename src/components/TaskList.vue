@@ -1,12 +1,15 @@
 <template>
-  <div class="tasklist">
-    TaskList
-    <div v-for="task in tasks"
-         :key="task.id"
-         v-on:click="selectTask(task)"
-         :class="task.is_correct()?'correct':'wrong'"
-    > {{ task.toString() }}
+  <div>
+    <div class="tasklist">
+      TaskList
+      <div v-for="task in tasks"
+           :key="task.id"
+           v-on:click="selectTask(task)"
+           :class="task.is_correct()?'correct':'wrong'">
+        {{ task.toString() }}
+      </div>
     </div>
+    <b-button >Generate</b-button>
   </div>
 </template>
 

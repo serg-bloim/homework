@@ -41,3 +41,11 @@ export class TaskSolutionState {
         throw new Error('You have to implement the method is_correct!');
     }
 }
+export class TaskFactory {
+    /**
+     * @type TaskDef
+     */
+    createTask(){
+        throw new Error('You have to implement the method createTask!');
+    }
+}

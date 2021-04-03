@@ -14,14 +14,13 @@
 </template>
 
 <script>
-import {ArythmeticsTaskDef} from "./components/arythmetics-task/common";
-
+import {ArythmeticsTaskDef, SumTaskFactory} from "./components/arythmetics-task/common";
 
 export default {
   name: 'App',
   data: () => ({
     singleTask: new ArythmeticsTaskDef("2+2", "4"),
-    tasks:[new ArythmeticsTaskDef("2+2", "4"), new ArythmeticsTaskDef("3+3", "6")]
+    tasks:[new ArythmeticsTaskDef("2+5", "7"), new ArythmeticsTaskDef("3+3", "6")]
   })
 }
 </script>
