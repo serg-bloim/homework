@@ -1,9 +1,7 @@
 import {ArythmeticsTaskDef, SumTaskFactory} from "../components/arythmetics-task/common";
 
-let taskFactory = new SumTaskFactory()
-// Array.from()
+let taskFactory = new SumTaskFactory(5)
 let tsks = Array.from({length:3},()=>taskFactory.createTask())
-// tsks = [taskFactory.createTask(), taskFactory.createTask()]
 console.log(tsks)
 class TaskRepo {
     allTasks = tsks;

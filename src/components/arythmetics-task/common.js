@@ -15,37 +15,27 @@ export class ArythmeticsTaskDef extends TaskDef{
     }
 
     toString(){
-        return this.preview?.(this.answer)
+        let answr = undefined
+        if(this.answer) {
+            answr = this.answer
+        }
+        return this.preview(answr)
     }
 
     is_correct() {
         return this.answer === this.correctAnswer
     }
 }
-export class ArythmeticsSolution extends TaskSolutionState{
-    /**
-     * @type ArythmeticsTaskDef
-     */
-    task;
-    answer;
-
-    constructor(task) {
-        super(task);
-    }
-
-    toString(){
-        return this.task.preview(this.answer)
-    }
-
-    is_correct() {
-        return this.answer === this.task.correctAnswer
-    }
-}
 
 export class SumTaskFactory extends TaskFactory{
+    limit;
+    constructor(limit = 10) {
+        super();
+        this.limit = limit;
+    }
     createTask() {
-        let a = rand(0, 10)
-        let b = rand(0, 10)
+        let a = rand(0, this.limit)
+        let b = rand(0, this.limit)
         let res = a+b
         return new ArythmeticsTaskDef(`${a} + ${b}`, res.toString())
     }

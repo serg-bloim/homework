@@ -3,11 +3,11 @@
     <h1>TaskView</h1>
     <div v-for="tsk in tasks" :key="tsk.id">
       <div v-if="task.id === tsk.id">
-        {{ tsk.id }}
         <arythmetics-task-window
             :id="tsk.id"
             :task="tsk"
             v-on:submit-correct="on_correct"
+            v-on:submit-wrong="on_wrong"
         />
       </div>
     </div>
@@ -50,7 +50,10 @@ export default {
 
   methods: {
     on_correct() {
-      alert('123')
+      alert('Correct')
+    },
+    on_wrong() {
+      alert('Wrong')
     },
     changeTask(ind_change) {
       let ind = this.tasks.findIndex(tsk => tsk.id === this.task.id)

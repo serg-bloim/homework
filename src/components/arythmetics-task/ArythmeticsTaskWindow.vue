@@ -1,6 +1,5 @@
 <template>
   <div>
-    ArythmeticsTaskWindow
     <b-container class="bv-example-row">
       <b-row>
         <b-col> {{ task.problem }} = </b-col>
