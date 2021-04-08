@@ -9,7 +9,7 @@
         {{ task.toString() }}
       </div>
     </div>
-    <b-button >Generate</b-button>
+    <b-button v-on:click="$emit('generate-list')">Generate</b-button>
   </div>
 </template>
 

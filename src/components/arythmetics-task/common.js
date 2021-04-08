@@ -28,7 +28,7 @@ export class ArythmeticsTaskDef extends TaskDef{
 }
 
 export class SumTaskFactory extends TaskFactory{
-    limit;
+    limit = 15;
     constructor(limit = 10) {
         super();
         this.limit = limit;

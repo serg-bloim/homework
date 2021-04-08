@@ -5,23 +5,26 @@
       <!-- specify the link by passing the `to` prop. -->
       <!-- `<router-link>` will be rendered as an `<a>` tag by default -->
       <router-link to="/list">Go to List</router-link>
+      <br/>
+      <router-link to="/test">Test</router-link>
     </p>
-
-<!--    <task-list :tasks="tasks"/>-->
-<!--    <arythmetics-task-window :task="singleTask" hidden/>-->
-    <router-view/>
+    <router-view :tasks="tasks" v-on:generate-list="genList"/>
   </div>
 </template>
 
 <script>
-import {ArythmeticsTaskDef, SumTaskFactory} from "./components/arythmetics-task/common";
+import {generateTaskList} from "./util/generation";
 
 export default {
   name: 'App',
   data: () => ({
-    singleTask: new ArythmeticsTaskDef("2+2", "4"),
-    tasks:[new ArythmeticsTaskDef("2+5", "7"), new ArythmeticsTaskDef("3+3", "6")]
-  })
+    tasks: generateTaskList()
+  }),
+  methods: {
+    genList() {
+      this.tasks = generateTaskList()
+    }
+  }
 }
 </script>
 
