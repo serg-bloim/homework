@@ -4,14 +4,19 @@
       <b-row>
         <b-col> {{ task.problem }} = </b-col>
         <b-col><b-form-input type="number" v-model="task.answer" v-on:keypress="submit_keypress" placeholder="???"></b-form-input></b-col>
-        <b-col><b-button v-on:click="submit">Submit</b-button></b-col>
+<!--        <b-col></b-col>-->
+      </b-row>
+      <b-row>
+        <b-col>
+          <b-button v-on:click="submit">Submit</b-button>
+        </b-col>
       </b-row>
     </b-container>
   </div>
 </template>
 
 <script>
-import {ArythmeticsSolution, ArythmeticsTaskDef} from "./common";
+import {ArythmeticsTaskDef} from "./common";
 
 export default {
   name: "ArythmeticsTaskWindow",

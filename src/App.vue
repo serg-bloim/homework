@@ -4,7 +4,7 @@
       <!-- use router-link component for navigation. -->
       <!-- specify the link by passing the `to` prop. -->
       <!-- `<router-link>` will be rendered as an `<a>` tag by default -->
-      <router-link to="/list">Go to List</router-link>
+<!--      <router-link to="/list">Go to List</router-link>-->
     </p>
     <router-view :tasks="tasks" v-on:generate-list="genList"/>
   </div>

@@ -2,9 +2,9 @@
   <div>
     <div class="tasklist">
       TaskList
-      <div v-for="task in tasks"
+      <div v-for="(task, tind) in tasks"
            :key="task.id"
-           v-on:click="selectTask(task)"
+           v-on:click="selectTask(task, tind)"
            :class="task.is_correct()?'correct':'wrong'">
         {{ task.toString() }}
       </div>
@@ -28,8 +28,8 @@ export default {
     /**
      * @param {TaskDef} task
      */
-    selectTask(task) {
-      this.$router.push({name: 'task', params: {tasks: this.tasks, initTask: task}})
+    selectTask(task, tind) {
+      this.$router.push({name: 'task', params: {tasks: this.tasks, initTask: task, initInd:tind}})
     }
   }
 }
