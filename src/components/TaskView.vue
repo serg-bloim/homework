@@ -1,11 +1,13 @@
 <template>
   <div>
-    <table>
+    <table  class="m-5">
       <tr>
         <td> <b-button @click="changeTask(-1)">Prev</b-button> </td>
         <td>
-          <router-link to="/list">List</router-link>
+          <span class="my-font-h1">
+          <router-link to="/list" class="list-link">List</router-link>
           {{ ind + 1 }}/{{ tasks.length }}
+            </span>
         </td>
         <td> <b-button @click="changeTask(1)">Next</b-button> </td>
       </tr>
@@ -24,7 +26,7 @@
     <div style="display: none">
       <h1>TaskView</h1>
       <div v-for="tsk in tasks" :key="tsk.id">
-        <div v-if="task.id === tsk.id">
+        <div v-if="tasks[ind].id === tsk.id">
           <arythmetics-task-window
               :id="tsk.id"
               :task="tsk"
@@ -49,28 +51,15 @@ export default {
   name: "TaskView",
   components: {Simple, ArythmeticsTaskWindow},
   props: {
-    id: String,
-    initTask: TaskDef,
     tasks: Array,
     initInd: Number,
   },
-  mounted() {
-    console.log("mounted:")
-    console.log(this.task?.preview?.())
-  },
   data() {
     return {
-      task: this.initTask,
       ind: this.initInd ?? 0,
     }
   },
   computed: {
-    tsk_preview() {
-      return this.task?.preview?.()
-    },
-    arythmetics() {
-      return this.task instanceof ArythmeticsTaskDef;
-    },
     current_task(){
       return this.tasks[this.ind]
     }
@@ -93,5 +82,12 @@ export default {
 </script>
 
 <style scoped>
+.list-link{
+  font-family: Helvetica;
 
+}
+.my-font-h1 {
+  font-size: x-large;
+  font-family: Helvetica;
+}
 </style>

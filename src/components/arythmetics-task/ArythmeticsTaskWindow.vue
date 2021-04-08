@@ -1,9 +1,11 @@
 <template>
   <div>
     <b-container class="bv-example-row">
-      <b-row>
-        <b-col> {{ task.problem }} = </b-col>
-        <b-col><b-form-input type="number" v-model="task.answer" v-on:keypress="submit_keypress" placeholder="???"></b-form-input></b-col>
+      <b-row align-v="center">
+        <b-col align="right"><span class="arythmetics-task arythmetics-problem">{{ task.problem }} =</span> </b-col>
+        <b-col align="left"><span class="arythmetics-task arythmetics-answer">
+          <b-form-input type="number" v-model="task.answer" v-on:keypress="submit_keypress" placeholder="???" class="arythmetics-task"/>
+        </span></b-col>
 <!--        <b-col></b-col>-->
       </b-row>
       <b-row>
@@ -45,3 +47,10 @@ export default {
   }
 };
 </script>
+
+<style type="text/css">
+.arythmetics-task {
+  font-family: Helvetica;
+  font-size: x-large;
+}
+</style>

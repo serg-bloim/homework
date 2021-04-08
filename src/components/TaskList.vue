@@ -29,7 +29,7 @@ export default {
      * @param {TaskDef} task
      */
     selectTask(task, tind) {
-      this.$router.push({name: 'task', params: {tasks: this.tasks, initTask: task, initInd:tind}})
+      this.$router.push({name: 'task', params: {tasks: this.tasks, initInd:tind}})
     }
   }
 }
