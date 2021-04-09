@@ -11,7 +11,7 @@
                         v-model="task.answer"
                         v-on:keypress="submit_keypress"
                         v-on:blur="focus_answer"
-                        :state="stt"
+                        :state="answerState"
                         placeholder="???" class="arythmetics-task"/>
         </span>
             <b-button v-on:click="task.answer='';focus_answer()">C</b-button>
@@ -34,25 +34,20 @@ export default {
   name: "ArythmeticsTaskWindow",
   data: () => ({
     answerTry: undefined,
-    stt: null,
+    answerState: null,
   }),
   props: {
     task: ArythmeticsTaskDef,
-  },
-  computed:{
-    answerState(){
-      return this.task.answer ? this.task.answer === this.task.correctAnswer : null
-    }
   },
   methods: {
     submit() {
       let event;
       if (this.task.answer.toString() === this.task.correctAnswer) {
         event = 'submit-correct';
-        this.stt = true
+        this.answerState = true
       } else {
         event = 'submit-wrong'
-        this.stt = false
+        this.answerState = false
       }
       this.$emit(event)
     },
@@ -61,16 +56,13 @@ export default {
         this.submit()
       }
     },
-    focus_answer(){
-      console.log("focus_answer");
+    focus_answer() {
       this.$refs.answerinput.$el.focus();
-      // this.$refs.answerinput.focus();
     },
   },
-  watch:{
-    task(){
-      console.log("task changed")
-      this.stt = null
+  watch: {
+    task() {
+      this.answerState = null
     }
   }
 };

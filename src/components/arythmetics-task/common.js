@@ -1,4 +1,4 @@
-import {TaskDef, TaskFactory, TaskSolutionState} from "../../util/common";
+import {TaskDef, TaskFactory} from "../../util/common";
 
 export class ArythmeticsTaskDef extends TaskDef{
     correctAnswer;

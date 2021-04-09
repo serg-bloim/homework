@@ -1,4 +1,4 @@
-import {ArythmeticsTaskDef, SumTaskFactory} from "../components/arythmetics-task/common";
+import {SumTaskFactory} from "../components/arythmetics-task/common";
 
 let taskFactory = new SumTaskFactory(5)
 let tsks = Array.from({length:3},()=>taskFactory.createTask())
