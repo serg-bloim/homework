@@ -2,9 +2,9 @@
   <div>
     <div class="tasklist">
       TaskList
-      <div v-for="(task, tind) in tasks"
+      <div v-for="(task, tind) in homework.tasks"
            :key="task.id"
-           v-on:click="selectTask(task, tind)"
+           v-on:click="selectTask(tind)"
            :class="task.is_correct()?'correct':'wrong'">
         {{ task.toString() }}
       </div>
@@ -16,20 +16,19 @@
 <script>
 // import {TaskDef} from "../util/common";
 
+import {Homework} from "../util/common";
+
 export default {
   name: "TaskList",
   props: {
-    /**
-     * @param {TaskDef[]} tasks
-     */
-    tasks: Array
+    homework:Homework,
   },
   methods: {
     /**
-     * @param {TaskDef} task
+     * @param {integer} tind
      */
-    selectTask(task, tind) {
-      this.$router.push({name: 'task', params: {tasks: this.tasks, initInd:tind}})
+    selectTask(tind) {
+      this.$router.push({name: 'task', params: {initInd:tind, homework: this.homework}})
     }
   }
 }

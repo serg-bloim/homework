@@ -49,3 +49,16 @@ export class TaskFactory {
         throw new Error('You have to implement the method createTask!');
     }
 }
+
+export class Homework {
+    /**
+     * @type {TaskDef[]}
+     */
+    tasks;
+    /**
+     * @param {TaskDef[]} tasks
+     */
+    constructor(tasks) {
+        this.tasks = tasks
+    }
+}

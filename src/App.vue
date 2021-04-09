@@ -1,20 +1,21 @@
 <template>
   <div id="app" class="w-100 mt-4">
-    <router-view :tasks="tasks" v-on:generate-list="genList"/>
+    <router-view :homework="activeHomework" v-on:generate-list="genList"/>
   </div>
 </template>
 
 <script>
 import {generateTaskList} from "./util/generation";
+import HomeworkRepo from "./util/HomeworkRepo";
 
 export default {
   name: 'App',
   data: () => ({
-    tasks: generateTaskList()
+    activeHomework: HomeworkRepo.getActiveHomework()
   }),
   methods: {
     genList() {
-      this.tasks = generateTaskList()
+      this.activeHomework = HomeworkRepo.getActiveHomework()
     }
   }
 }

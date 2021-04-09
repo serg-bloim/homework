@@ -6,7 +6,7 @@
         <b-col>
           <span class="my-font-h1">
           <router-link to="/list" class="list-link">List</router-link>
-          {{ ind + 1 }}/{{ tasks.length }}
+          {{ ind + 1 }}/{{ homework.tasks.length }}
             </span>
         </b-col>
         <b-col> <b-button @click="changeTask(1)">Next</b-button> </b-col>
@@ -28,7 +28,7 @@
       <h1>TaskView</h1>
           <arythmetics-task-window
               :id="123"
-              :task="tasks[ind]"
+              :task="homework.tasks[ind]"
               v-on:submit-correct="on_correct"
           />
       <b-button @click="changeTask(-1)">Prev</b-button>
@@ -40,13 +40,14 @@
 <script>
 import ArythmeticsTaskWindow from "./arythmetics-task/ArythmeticsTaskWindow";
 import Simple from "./Simple";
+import {Homework} from "../util/common";
 
 export default {
   name: "TaskView",
   components: {Simple, ArythmeticsTaskWindow},
   props: {
-    tasks: Array,
     initInd: Number,
+    homework:Homework,
   },
   data() {
     return {
@@ -55,7 +56,7 @@ export default {
   },
   computed: {
     current_task(){
-      return this.tasks[this.ind]
+      return this.homework.tasks[this.ind]
     }
   },
 
@@ -64,7 +65,7 @@ export default {
       setTimeout(()=>{this.changeTask(1)}, 1000)
     },
     changeTask(ind_change) {
-      let len = this.tasks.length;
+      let len = this.homework.tasks.length;
       this.ind = (this.ind + ind_change + len) % len
     },
   }
