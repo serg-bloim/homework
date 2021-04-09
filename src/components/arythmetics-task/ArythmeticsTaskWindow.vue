@@ -1,12 +1,22 @@
 <template>
-  <div>
-    <b-container class="bv-example-row">
+  <div ref="bdy">
+    <b-container>
       <b-row align-v="center">
-        <b-col align="right"><span class="arythmetics-task arythmetics-problem">{{ task.problem }} =</span> </b-col>
-        <b-col align="left"><span class="arythmetics-task arythmetics-answer">
-          <b-form-input type="number" v-model="task.answer" v-on:keypress="submit_keypress" placeholder="???" class="arythmetics-task"/>
-        </span></b-col>
-<!--        <b-col></b-col>-->
+        <b-col align="right"><span class="arythmetics-task arythmetics-problem">{{ task.problem }} =</span></b-col>
+        <b-col align="left">
+          <div class="arythmetics-answer-col">
+            <span class="arythmetics-task arythmetics-answer">
+          <b-form-input autofocus ref="answerinput"
+                        type="number"
+                        v-model="task.answer"
+                        v-on:keypress="submit_keypress"
+                        v-on:blur="focus_answer"
+                        :state="stt"
+                        placeholder="???" class="arythmetics-task"/>
+        </span>
+            <b-button v-on:click="task.answer='';focus_answer()">C</b-button>
+          </div>
+        </b-col>
       </b-row>
       <b-row>
         <b-col>
@@ -23,26 +33,44 @@ import {ArythmeticsTaskDef} from "./common";
 export default {
   name: "ArythmeticsTaskWindow",
   data: () => ({
-    answerTry: undefined
+    answerTry: undefined,
+    stt: null,
   }),
   props: {
-    id: String,
     task: ArythmeticsTaskDef,
   },
-  methods:{
-    submit(){
+  computed:{
+    answerState(){
+      return this.task.answer ? this.task.answer === this.task.correctAnswer : null
+    }
+  },
+  methods: {
+    submit() {
       let event;
-      if(this.task.answer.toString() === this.task.correctAnswer){
+      if (this.task.answer.toString() === this.task.correctAnswer) {
         event = 'submit-correct';
-      }else{
+        this.stt = true
+      } else {
         event = 'submit-wrong'
+        this.stt = false
       }
       this.$emit(event)
     },
-    submit_keypress(e){
-      if(e.keyCode === 13){
+    submit_keypress(e) {
+      if (e.keyCode === 13) {
         this.submit()
       }
+    },
+    focus_answer(){
+      console.log("focus_answer");
+      this.$refs.answerinput.$el.focus();
+      // this.$refs.answerinput.focus();
+    },
+  },
+  watch:{
+    task(){
+      console.log("task changed")
+      this.stt = null
     }
   }
 };
@@ -52,5 +80,15 @@ export default {
 .arythmetics-task {
   font-family: Helvetica;
   font-size: x-large;
+}
+
+input.arythmetics-task {
+  width: 100px;
+  display: inline-block;
+}
+
+.arythmetics-answer-col {
+  display: flex;
+  justify-content: space-between;
 }
 </style>

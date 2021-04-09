@@ -1,11 +1,5 @@
 <template>
-  <div id="app">
-    <p>
-      <!-- use router-link component for navigation. -->
-      <!-- specify the link by passing the `to` prop. -->
-      <!-- `<router-link>` will be rendered as an `<a>` tag by default -->
-<!--      <router-link to="/list">Go to List</router-link>-->
-    </p>
+  <div id="app" class="w-100 mt-4">
     <router-view :tasks="tasks" v-on:generate-list="genList"/>
   </div>
 </template>
@@ -33,5 +27,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+.row{
+  margin-bottom: 25px;
 }
 </style>
