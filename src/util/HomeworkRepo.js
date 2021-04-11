@@ -1,5 +1,6 @@
 import {Homework} from "./common";
 import {generateTaskList} from "./generation";
+import {db} from "./db";
 
 function createDummyHomework() {
     let tasks = generateTaskList();
@@ -9,8 +10,9 @@ function createDummyHomework() {
 class HomeworkRepo {
     #activeHomework = createDummyHomework();
 
-    getActiveHomework(){
-        return this.#activeHomework;
+    async getActiveHomework(){
+        let jsonObj = await db.homeworks.get({status:'active'});
+        return Homework.fromPlain(jsonObj)
     }
 }
 

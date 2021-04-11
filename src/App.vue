@@ -7,16 +7,21 @@
 <script>
 import {generateTaskList} from "./util/generation";
 import HomeworkRepo from "./util/HomeworkRepo";
+import {Homework} from "./util/common";
 
 export default {
   name: 'App',
   data: () => ({
-    activeHomework: HomeworkRepo.getActiveHomework()
+    activeHomework: Homework.empty()
   }),
   methods: {
     genList() {
       this.activeHomework = HomeworkRepo.getActiveHomework()
     }
+  },
+  mounted() {
+    HomeworkRepo.getActiveHomework().then(hw => this.activeHomework = hw)
+
   }
 }
 </script>
@@ -29,7 +34,8 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-.row{
+
+.row {
   margin-bottom: 25px;
 }
 </style>

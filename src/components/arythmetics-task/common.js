@@ -1,9 +1,13 @@
 import {TaskDef, TaskFactory} from "../../util/common";
+import {classToPlain} from "class-transformer";
 
-export class ArythmeticsTaskDef extends TaskDef{
+export class ArythmeticsTaskDef extends TaskDef {
+    static TYPE_STR = "ArythmeticsTaskDef"
+    __class=ArythmeticsTaskDef.TYPE_STR;
     correctAnswer;
     problem;
     answer;
+
     constructor(problem, correctAnswer) {
         super();
         this.problem = problem;
@@ -14,9 +18,9 @@ export class ArythmeticsTaskDef extends TaskDef{
         return this.problem + " = " + answer
     }
 
-    toString(){
+    toString() {
         let answr = undefined
-        if(this.answer) {
+        if (this.answer) {
             answr = this.answer
         }
         return this.preview(answr)
@@ -25,9 +29,14 @@ export class ArythmeticsTaskDef extends TaskDef{
     is_correct() {
         return this.answer === this.correctAnswer
     }
+
+    toPlain() {
+        return classToPlain(this);
+    }
+
 }
 
-export class SumTaskFactory extends TaskFactory{
+export class SumTaskFactory extends TaskFactory {
     limit = 15;
     constructor(limit = 10) {
         super();
@@ -36,11 +45,11 @@ export class SumTaskFactory extends TaskFactory{
     createTask() {
         let a = rand(0, this.limit)
         let b = rand(0, this.limit)
-        let res = a+b
+        let res = a + b
         return new ArythmeticsTaskDef(`${a} + ${b}`, res.toString())
     }
 }
 
-function rand(min, max){
+function rand(min, max) {
     return Math.floor((Math.random() * (min + max)) + min);
 }
