@@ -5,7 +5,6 @@
 </template>
 
 <script>
-import {generateTaskList} from "./util/generation";
 import HomeworkRepo from "./util/HomeworkRepo";
 import {Homework} from "./util/common";
 

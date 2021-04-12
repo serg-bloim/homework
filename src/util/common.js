@@ -1,6 +1,6 @@
 import {v4 as uuidv4} from 'uuid'
 import {ArythmeticsTaskDef} from "../components/arythmetics-task/common";
-import {classToPlain, plainToClass, Type} from "class-transformer";
+import {classToPlain, plainToClass} from "class-transformer";
 
 export class TaskDef {
     id = uuidv4();

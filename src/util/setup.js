@@ -1,9 +1,6 @@
 import {db} from "./db";
 import {v4 as uuidv4} from 'uuid'
 import {generateTaskList} from "./generation";
-import {Homework} from "./common";
-import {ArythmeticsTaskDef} from "../components/arythmetics-task/common";
-import {classToPlain, deserialize, plainToClass, serialize, Type} from "class-transformer";
 
 export function setup() {
     db.version(1).stores({
