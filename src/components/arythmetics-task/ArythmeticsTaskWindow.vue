@@ -42,14 +42,15 @@ export default {
   methods: {
     submit() {
       let event;
-      if (this.task.answer.toString() === this.task.correctAnswer) {
+      let isCorrect = this.task.answer.toString() === this.task.correctAnswer;
+      if (isCorrect) {
         event = 'submit-correct';
         this.answerState = true
       } else {
         event = 'submit-wrong'
         this.answerState = false
       }
-      this.$emit(event, {problem: this.task.problem, answer: this.task.answer, expected: this.task.correctAnswer})
+      this.$emit(event, {problem: this.task.problem, answer: this.task.answer, expected: this.task.correctAnswer, correct: isCorrect})
     },
     submit_keypress(e) {
       if (e.keyCode === 13) {

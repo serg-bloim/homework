@@ -6,6 +6,7 @@ export function setup() {
     db.version(1).stores({
         homeworks: 'id, status, class',
         tasks: 'id, solved, state',
+        logs: '++id, timestamp, type, target'
     });
     db.open()
 }

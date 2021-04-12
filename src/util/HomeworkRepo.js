@@ -1,6 +1,7 @@
 import {Homework} from "./common";
 import {generateTaskList} from "./generation";
 import {db} from "./db";
+import {log} from "./LogRepo";
 
 function createDummyHomework() {
     let tasks = generateTaskList();
@@ -15,10 +16,19 @@ class HomeworkRepo {
         return Homework.fromPlain(jsonObj)
     }
 
-    reportTaskAnswer(isCorrect, taskId, timestamp, state) {
+    /**
+     *
+     * @param isCorrect
+     * @param {TaskDef} task
+     */
+    reportTaskAnswer(isCorrect, task, ans) {
+        let taskId = task.id;
+        let state = task.getState();
         db.tasks.put({id: taskId, solved: isCorrect, state: state})
             .catch(console.log)
-        console.log(`Task(${taskId}) was solved ${isCorrect ? 'correctly' : 'wrong'}. On ${timestamp}(${new Date(timestamp)}) Details: ${JSON.stringify(state)}`)
+        let isCorrectStr = isCorrect ? 'correctly' : 'wrong';
+        log('task-answer', `${task.toString()}`, task.id, ans)
+        console.log(`Task(${taskId}) was solved ${isCorrectStr}. Details: ${JSON.stringify(ans)}`)
     }
 
     async getAllHomeworks() {
