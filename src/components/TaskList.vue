@@ -9,13 +9,10 @@
         {{ task.toString() }}
       </div>
     </div>
-    <b-button v-on:click="$emit('generate-list')">Generate</b-button>
   </div>
 </template>
 
 <script>
-// import {TaskDef} from "../util/common";
-
 import {Homework} from "../util/common";
 
 export default {

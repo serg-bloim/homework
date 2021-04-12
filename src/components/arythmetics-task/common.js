@@ -34,6 +34,15 @@ export class ArythmeticsTaskDef extends TaskDef {
         return classToPlain(this);
     }
 
+    getState() {
+        return {
+            answer: this.answer
+        }
+    }
+
+    setState(state) {
+        this.answer = state.answer
+    }
 }
 
 export class SumTaskFactory extends TaskFactory {

@@ -1,6 +1,11 @@
 <template>
   <div>
-    <router-link to="/list">To active homework</router-link>
+    <div>
+      <router-link to="/list">To active homework</router-link>
+    </div>
+    <div>
+      <router-link to="/settings">Settings</router-link>
+    </div>
     <div v-for="h in homeworks" v-bind:key="h.id" :class="classes(h)">{{ h.name }}
       <b-button :disabled="h.isActive()" v-on:click="activateHomework(h)">Activate</b-button>
     </div>

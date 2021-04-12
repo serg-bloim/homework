@@ -54,12 +54,12 @@ export default {
   },
 
   methods: {
-    on_correct(ans,b,c) {
-      HomeworkRepo.reportTaskAnswer('correct', this.current_task.id, Date.now(), ans);
+    on_correct(ans) {
+      HomeworkRepo.reportTaskAnswer(true, this.current_task.id, Date.now(), this.current_task.getState());
       setTimeout(()=>{this.changeTask(1)}, 1000)
     },
-    on_wrong(ans,b,c) {
-      HomeworkRepo.reportTaskAnswer('wrong', this.current_task.id, Date.now(), ans);
+    on_wrong(ans) {
+      HomeworkRepo.reportTaskAnswer(false, this.current_task.id, Date.now(), this.current_task.getState());
     },
     changeTask(ind_change) {
       let len = this.homework.tasks.length;

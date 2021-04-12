@@ -6,27 +6,43 @@ export class TaskDef {
     id = uuidv4();
     type = "none";
 
-    preview(){
+    preview() {
         return ""
     }
 
-    createSolution(){
+    createSolution() {
         throw new Error('You have to implement the method createSolution!');
     }
 
     /**
      * @type boolean
      */
-    is_correct(){
+    is_correct() {
         throw new Error('You have to implement the method is_correct!');
     }
+
     /**
-     * @type boolean
+     * @type {Object}
      */
-    toPlain(){
+    toPlain() {
+        throw new Error('You have to implement the method toPlain!');
+    }
+
+    /**
+     * @type {Object}
+     */
+    getState() {
+        throw new Error('You have to implement the method toPlain!');
+    }
+
+    /**
+     * @param {Object} state
+     */
+    setState(state) {
         throw new Error('You have to implement the method toPlain!');
     }
 }
+
 export class TaskSolutionState {
     id = uuidv4();
     /**
@@ -38,22 +54,23 @@ export class TaskSolutionState {
         this.task = task;
     }
 
-    toString(){
+    toString() {
         return this.task.preview()
     }
 
     /**
      * @type boolean
      */
-    is_correct(){
+    is_correct() {
         throw new Error('You have to implement the method is_correct!');
     }
 }
+
 export class TaskFactory {
     /**
      * @type TaskDef
      */
-    createTask(){
+    createTask() {
         throw new Error('You have to implement the method createTask!');
     }
 }
@@ -61,14 +78,15 @@ export class TaskFactory {
 function convertTask(taskObj) {
     let clazz;
     switch (taskObj.__class) {
-        case ArythmeticsTaskDef.TYPE_STR : clazz = ArythmeticsTaskDef
+        case ArythmeticsTaskDef.TYPE_STR :
+            clazz = ArythmeticsTaskDef
     }
     return plainToClass(clazz, taskObj)
 }
 
 export class Homework {
     static TYPE_STR = "Homework"
-    __class=Homework.TYPE_STR
+    __class = Homework.TYPE_STR
     /**
      * @type {string}
      */
@@ -85,6 +103,7 @@ export class Homework {
      * @type {TaskDef[]}
      */
     tasks;
+
     /**
      * @param {TaskDef[]} tasks
      */
@@ -92,7 +111,7 @@ export class Homework {
         this.tasks = tasks
     }
 
-    isActive(){
+    isActive() {
         return this.status === Homework.STATUS.ACTIVE;
     }
 
@@ -103,9 +122,13 @@ export class Homework {
     }
 
     static fromPlain(obj) {
-        let hw = plainToClass(Homework, obj)
-        hw.tasks = obj.tasks.map(convertTask);
-        return hw;
+        if (obj) {
+            let hw = plainToClass(Homework, obj)
+            hw.tasks = obj.tasks.map(convertTask);
+            return hw;
+        } else {
+            return Homework.empty()
+        }
     }
 
     static empty() {
