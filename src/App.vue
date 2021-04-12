@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="w-100 mt-4">
-    <router-view :homework="activeHomework" v-on:generate-list="genList" />
+    <router-view :homework="activeHomework" v-on:generate-list="genList" v-on:update-active-homework="updateActive"/>
   </div>
 </template>
 
@@ -17,6 +17,9 @@ export default {
   methods: {
     genList() {
       this.activeHomework = HomeworkRepo.getActiveHomework()
+    },
+    updateActive(homework){
+      this.activeHomework = homework
     }
   },
   mounted() {

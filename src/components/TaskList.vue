@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="tasklist">
-      TaskList
+      TaskList <router-link to="/homeworks">Lists</router-link>
       <div v-for="(task, tind) in homework.tasks"
            :key="task.id"
            v-on:click="selectTask(tind)"

@@ -1,5 +1,6 @@
 <template>
   <div>
+    <router-link to="/list">To active homework</router-link>
     <div v-for="h in homeworks" v-bind:key="h.id" :class="classes(h)">{{ h.name }}
       <b-button :disabled="h.isActive()" v-on:click="activateHomework(h)">Activate</b-button>
     </div>
@@ -34,7 +35,10 @@ export default {
       }
     },
     activateHomework(homework) {
-      HomeworkRepo.setActive(homework).then(() => this.refresh())
+      HomeworkRepo.setActive(homework).then(() => {
+        this.refresh();
+        this.$emit('update-active-homework', homework)
+      })
     },
     refresh() {
       HomeworkRepo.getAllHomeworks().then(hws => this.homeworks = hws)
