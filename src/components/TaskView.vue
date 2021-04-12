@@ -17,6 +17,7 @@
               :id="current_task.id"
               :task="current_task"
               v-on:submit-correct="on_correct"
+              v-on:submit-wrong="on_wrong"
           />
         </b-col>
       </b-row>
@@ -30,6 +31,7 @@
               :id="123"
               :task="homework.tasks[ind]"
               v-on:submit-correct="on_correct"
+              v-on:submit-wrong="on_wrong"
           />
       <b-button @click="changeTask(-1)">Prev</b-button>
       <b-button @click="changeTask(1)">Next</b-button>
@@ -41,6 +43,7 @@
 import ArythmeticsTaskWindow from "./arythmetics-task/ArythmeticsTaskWindow";
 import Simple from "./Simple";
 import {Homework} from "../util/common";
+import HomeworkRepo from "../util/HomeworkRepo";
 
 export default {
   name: "TaskView",
@@ -61,8 +64,12 @@ export default {
   },
 
   methods: {
-    on_correct() {
+    on_correct(ans,b,c) {
+      HomeworkRepo.reportTaskAnswer('correct', this.current_task.id, Date.now(), ans);
       setTimeout(()=>{this.changeTask(1)}, 1000)
+    },
+    on_wrong(ans,b,c) {
+      HomeworkRepo.reportTaskAnswer('wrong', this.current_task.id, Date.now(), ans);
     },
     changeTask(ind_change) {
       let len = this.homework.tasks.length;

@@ -49,7 +49,7 @@ export default {
         event = 'submit-wrong'
         this.answerState = false
       }
-      this.$emit(event)
+      this.$emit(event, {problem: this.task.problem, answer: this.task.answer, expected: this.task.correctAnswer})
     },
     submit_keypress(e) {
       if (e.keyCode === 13) {
