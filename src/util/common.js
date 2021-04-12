@@ -70,6 +70,18 @@ export class Homework {
     static TYPE_STR = "Homework"
     __class=Homework.TYPE_STR
     /**
+     * @type {string}
+     */
+    id;
+    /**
+     * @type {string}
+     */
+    name;
+    /**
+     * @type {string}
+     */
+    status;
+    /**
      * @type {TaskDef[]}
      */
     tasks;
@@ -78,6 +90,10 @@ export class Homework {
      */
     constructor(tasks) {
         this.tasks = tasks
+    }
+
+    isActive(){
+        return this.status === Homework.STATUS.ACTIVE;
     }
 
     toPlain() {
@@ -94,5 +110,11 @@ export class Homework {
 
     static empty() {
         return new Homework([])
+    }
+
+    static STATUS = {
+        NEW: "new",
+        ACTIVE: "active",
+        SOLVED: "solved",
     }
 }

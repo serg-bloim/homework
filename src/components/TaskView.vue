@@ -18,6 +18,7 @@
               :task="current_task"
               v-on:submit-correct="on_correct"
               v-on:submit-wrong="on_wrong"
+              v-if="current_task"
           />
         </b-col>
       </b-row>
@@ -25,17 +26,6 @@
 
       </b-row>
     </b-container>
-    <div style="display: none">
-      <h1>TaskView</h1>
-          <arythmetics-task-window
-              :id="123"
-              :task="homework.tasks[ind]"
-              v-on:submit-correct="on_correct"
-              v-on:submit-wrong="on_wrong"
-          />
-      <b-button @click="changeTask(-1)">Prev</b-button>
-      <b-button @click="changeTask(1)">Next</b-button>
-    </div>
   </div>
 </template>
 
@@ -75,6 +65,9 @@ export default {
       let len = this.homework.tasks.length;
       this.ind = (this.ind + ind_change + len) % len
     },
+  },
+  mounted() {
+    console.log(this.homework)
   }
 }
 

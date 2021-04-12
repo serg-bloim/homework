@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="w-100 mt-4">
-    <router-view :homework="activeHomework" v-on:generate-list="genList"/>
+    <router-view :homework="activeHomework" v-on:generate-list="genList" />
   </div>
 </template>
 
