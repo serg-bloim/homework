@@ -50,6 +50,14 @@ class HomeworkRepo {
             })
 
     }
+
+    /**
+     * @param {Homework} homework
+     * @return {Promise<string>}
+     */
+    async addHomework(homework){
+        return db.homeworks.put(homework.toPlain())
+    }
 }
 
 export default new HomeworkRepo()

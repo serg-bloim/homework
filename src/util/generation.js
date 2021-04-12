@@ -7,7 +7,5 @@ let taskFactory = new SumTaskFactory();
  * @type TaskDef[]
  */
 export function generateTaskList(){
-    let ts = create_array(5, ()=>taskFactory.createTask());
-    console.log(ts)
-    return ts
+    return create_array(5, () => taskFactory.createTask())
 }

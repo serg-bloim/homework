@@ -90,15 +90,15 @@ export class Homework {
     /**
      * @type {string}
      */
-    id;
+    id = uuidv4();
     /**
      * @type {string}
      */
-    name;
+    name = this.id;
     /**
      * @type {string}
      */
-    status;
+    status = Homework.STATUS.NEW;
     /**
      * @type {TaskDef[]}
      */
