@@ -41,6 +41,10 @@ export class TaskDef {
     setState(state) {
         throw new Error('You have to implement the method toPlain!');
     }
+
+    hasAnswer() {
+        throw new Error('You have to implement the method hasAnswer!');
+    }
 }
 
 export class TaskSolutionState {

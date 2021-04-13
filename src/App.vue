@@ -11,14 +11,23 @@ import {Homework} from "./util/common";
 export default {
   name: 'App',
   data: () => ({
-    activeHomework: Homework.empty()
+    activeHomework: Homework.empty(),
+    taskState:{}
   }),
   methods: {
     updateActive(homework) {
       this.activeHomework = homework
+      for (let task of homework.tasks) {
+        HomeworkRepo.getTaskState(task.id).then(s => {
+          if (s) {
+            task.setState(s)
+          }
+        })
+      }
     }
   },
   mounted() {
+    console.log("mounted")
     HomeworkRepo.getActiveHomework().then(hw => {
       this.activeHomework = hw
       for (let task of hw.tasks) {

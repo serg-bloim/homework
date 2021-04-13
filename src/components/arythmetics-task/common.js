@@ -43,6 +43,10 @@ export class ArythmeticsTaskDef extends TaskDef {
     setState(state) {
         this.answer = state.answer
     }
+
+    hasAnswer() {
+        return (typeof this.answer) === 'string' && this.answer.length>0
+    }
 }
 
 export class SumTaskFactory extends TaskFactory {
