@@ -27,7 +27,7 @@ export class ArythmeticsTaskDef extends TaskDef {
     }
 
     is_correct() {
-        return this.answer === this.correctAnswer
+        return this.answer?.toString?.() === this.correctAnswer.toString()
     }
 
     toPlain() {
