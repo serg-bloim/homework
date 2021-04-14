@@ -64,7 +64,7 @@ class HomeworkFactory {
     taskFactories = []
 
     addTaskPlan(taskFactory, num) {
-        for(let i = 0; i < num; i++){
+        for (let i = 0; i < num; i++) {
             this.taskFactories.push(taskFactory)
         }
     }
@@ -77,24 +77,23 @@ class HomeworkFactory {
             status: "new",
             tasks: [],
         };
-        for(const tskFactory of this.taskFactories){
+        for (const tskFactory of this.taskFactories) {
             hw.tasks.push(tskFactory.create())
         }
         return hw;
     }
 }
+
 class SumTaskFactory {
     min = 0;
     max;
-    constructor(limit1, limit2) {
-        if(limit2){
-            this.min = limit1
-            this.max = limit2
-        }else{
-            this.max = limit1
-        }
+
+    constructor(min, max) {
+        this.min = min
+        this.max = max
     }
-    create(){
+
+    create() {
         let res = rand(this.min, this.max)
         let a = rand(0, res)
         let b = res - a
@@ -107,18 +106,21 @@ class SumTaskFactory {
         };
     }
 }
+
 class MinusTaskFactory {
     min = 0;
     max;
+
     constructor(limit1, limit2) {
-        if(limit2){
+        if (limit2) {
             this.min = limit1
             this.max = limit2
-        }else{
+        } else {
             this.max = limit1
         }
     }
-    create(){
+
+    create() {
         let a = rand(this.min, this.max)
         let b = rand(0, a)
         let res = a - b
@@ -134,7 +136,7 @@ class MinusTaskFactory {
 
 
 let hwFactory = new HomeworkFactory()
-hwFactory.addTaskPlan(new SumTaskFactory(10), 5)
+hwFactory.addTaskPlan(new SumTaskFactory(3, 10), 5)
 hwFactory.addTaskPlan(new MinusTaskFactory(2, 6), 2)
 hwFactory.addTaskPlan(new SumTaskFactory(11, 15), 3)
 hwFactory.addTaskPlan(new SumTaskFactory(16, 20), 1)
