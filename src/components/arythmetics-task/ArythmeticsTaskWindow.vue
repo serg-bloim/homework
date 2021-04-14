@@ -42,7 +42,7 @@ export default {
   methods: {
     submit() {
       let event;
-      let isCorrect = this.task.answer.toString() === this.task.correctAnswer;
+      let isCorrect = this.task.answer.toString() === this.task.correctAnswer.toString();
       if (isCorrect) {
         event = 'submit-correct';
         this.answerState = true

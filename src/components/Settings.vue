@@ -22,7 +22,7 @@ export default {
   name: "Settings",
   data() {
     return {
-      importUrl: "/import.json"
+      importUrl: "/homework/import.json"
     }
   },
   methods: {

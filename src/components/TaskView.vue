@@ -79,8 +79,8 @@ export default {
     on_correct(ans) {
       ans.attemptTime = Date.now() - this.attemptStartedTS
       HomeworkRepo.reportTaskAnswer(true, this.current_task, ans);
-      for (let ind of next_array_key(this.ind + 1, this.submitted_tasks.length)) {
-        if (!this.tasks[ind].hasAnswer()) {
+      for (let ind of next_array_key(this.ind + 1, this.homework.tasks.length)) {
+        if (!this.homework.tasks[ind].hasAnswer()) {
           setTimeout(()=>{this.ind = ind}, 1000)
           break
         }
