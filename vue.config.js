@@ -3,5 +3,4 @@
  */
 module.exports = {
     publicPath: "/homework",
-    outputDir: "docs",
 }
