@@ -2,6 +2,7 @@ const fs = require("fs");
 const uuidv4 = require("uuid/v4");
 const dateFormat = require("dateformat");
 const _ = require('lodash');
+const random = require('random');
 
 let prefix = 'Homework '
 let startDate = tomorrow(new Date())
@@ -18,7 +19,7 @@ function generateTasks() {
 }
 
 function rand(min, max) {
-    return Math.floor((Math.random() * (max - min)) + min);
+    return random.int(min, max)
 }
 
 function generateSumTask(limit) {
