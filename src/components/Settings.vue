@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <router-link to="/homeworks">Homeworks</router-link>
+      <router-link to="/homeworks">Homeworks</router-link> {{appVersion}}
     </div>
     <div>
       <b-button v-on:click="generateDate">Generate Data</b-button>
@@ -32,6 +32,7 @@ import HomeworkRepo from "../util/HomeworkRepo";
 import GitHub from "github-api";
 import {db} from "../util/db";
 import {initGitHub, LS_GITHUB_TOKEN} from "../util/github";
+import {appVersion} from "../util/version";
 
 const LS_IMPORT_URL = "settings.importUrl";
 const LS_EXPORT_REPO = "settings.exportRepo";
@@ -42,6 +43,7 @@ export default {
   name: "Settings",
   data() {
     return {
+      appVersion: appVersion,
       importUrl: localStorage.getItem(LS_IMPORT_URL) ?? "/homework/import.json",
       exportToken: localStorage.getItem(LS_GITHUB_TOKEN) ?? '',
       exportRepo: localStorage.getItem(LS_EXPORT_REPO) ?? 'homework',
