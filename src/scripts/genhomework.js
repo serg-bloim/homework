@@ -1,6 +1,7 @@
 const fs = require("fs");
 const uuidv4 = require("uuid/v4");
 const dateFormat = require("dateformat");
+const _ = require('lodash');
 
 let prefix = 'Homework '
 let startDate = tomorrow(new Date())
@@ -77,8 +78,27 @@ class HomeworkFactory {
             status: "new",
             tasks: [],
         };
+
+        function contains(arr, obj) {
+            const ignoreIdComparator = function (val1, val2, key) {
+                if(key==='id') return true
+            }
+            for(let e of arr){
+                if(_.isEqualWith(e, obj, ignoreIdComparator))
+                    return true
+            }
+            return false
+        }
+
         for (const tskFactory of this.taskFactories) {
-            hw.tasks.push(tskFactory.create())
+            for(let i=0; i<100; i++){
+                let task = tskFactory.create();
+                if(!contains(hw.tasks, task))
+                {
+                    hw.tasks.push(task)
+                    break
+                }
+            }
         }
         return hw;
     }
