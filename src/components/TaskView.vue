@@ -87,6 +87,7 @@ export default {
       }
     },
     on_wrong(ans) {
+      ans.attemptTime = Date.now() - this.attemptStartedTS
       HomeworkRepo.reportTaskAnswer(false, this.current_task, ans);
     },
     changeTask(ind_change) {
