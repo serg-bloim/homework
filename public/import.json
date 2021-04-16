@@ -1,87 +1,87 @@
 {
     "homeworks": [
         {
-            "id": "7a7be90a-e52f-463c-acff-e17d18b070d4",
-            "name": "Homework 2021/04/15 2",
+            "id": "8413698a-4158-4419-879b-bdb05c2dbfbd",
+            "name": "Homework 2021/04/16",
             "__class": "Homework",
             "status": "new",
             "tasks": [
                 {
-                    "id": "2bd536ba-1032-4ef9-8fad-58e61d7829ae",
+                    "id": "5fe6477b-4752-433d-9c6c-87a3f5beb0fd",
+                    "type": "none",
+                    "__class": "ArythmeticsTaskDef",
+                    "correctAnswer": 5,
+                    "problem": "2 + 3"
+                },
+                {
+                    "id": "c1eb207f-5a04-4ed4-aff2-2d9d58c4067f",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
                     "correctAnswer": 9,
-                    "problem": "1 + 8"
+                    "problem": "6 + 3"
                 },
                 {
-                    "id": "b7f9062b-cae7-47bc-9b58-3a09243b7276",
+                    "id": "b321bcc4-869f-4779-860f-dd79cb7f815e",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
-                    "correctAnswer": 8,
-                    "problem": "0 + 8"
+                    "correctAnswer": 6,
+                    "problem": "4 + 2"
                 },
                 {
-                    "id": "8420b19a-b30f-44d3-92e9-ed30763470dd",
+                    "id": "d1696525-6f26-4703-8eb2-cc253857f949",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
-                    "correctAnswer": 3,
-                    "problem": "2 + 1"
+                    "correctAnswer": 10,
+                    "problem": "4 + 6"
                 },
                 {
-                    "id": "8123cad2-6fa5-4dd2-99d5-aeb60253ff55",
+                    "id": "d32ff01f-533e-4010-bf1c-1ec6ff2dd848",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
-                    "correctAnswer": 9,
-                    "problem": "3 + 6"
+                    "correctAnswer": 10,
+                    "problem": "5 + 5"
                 },
                 {
-                    "id": "6364a17a-8ab1-4cfe-a5d8-dccef0d8223c",
+                    "id": "8dc59fa9-f373-489a-b375-95413236182a",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
-                    "correctAnswer": 8,
-                    "problem": "7 + 1"
+                    "correctAnswer": 1,
+                    "problem": "4 - 3"
                 },
                 {
-                    "id": "546cdb82-7403-445d-8c75-98ba342682f4",
+                    "id": "89b10e4d-df01-4c93-bfd2-1512eeeea708",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
-                    "correctAnswer": 3,
-                    "problem": "6 - 3"
+                    "correctAnswer": 0,
+                    "problem": "2 - 2"
                 },
                 {
-                    "id": "918c35c1-68eb-40b2-9cf6-73939267f67a",
+                    "id": "09f158ae-d684-4fa7-a517-9207fcba23f5",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
-                    "correctAnswer": 3,
-                    "problem": "4 - 1"
+                    "correctAnswer": 13,
+                    "problem": "6 + 7"
                 },
                 {
-                    "id": "1e515142-324c-44a9-a215-05873f6bb3c7",
-                    "type": "none",
-                    "__class": "ArythmeticsTaskDef",
-                    "correctAnswer": 12,
-                    "problem": "10 + 2"
-                },
-                {
-                    "id": "42513fa0-6364-49c4-8b1b-2f4ac8c54dff",
-                    "type": "none",
-                    "__class": "ArythmeticsTaskDef",
-                    "correctAnswer": 12,
-                    "problem": "7 + 5"
-                },
-                {
-                    "id": "80f68117-ee8f-4d0d-8641-76fc2123a89d",
+                    "id": "2aa534a8-b8b4-4b3e-8bff-6b1065af9acb",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
                     "correctAnswer": 11,
-                    "problem": "6 + 5"
+                    "problem": "9 + 2"
                 },
                 {
-                    "id": "15eb2346-5f9f-4ccf-9b34-f4efd8b1989d",
+                    "id": "0194540e-1c3a-49cc-ba22-7176e821091e",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
-                    "correctAnswer": 19,
-                    "problem": "6 + 13"
+                    "correctAnswer": 12,
+                    "problem": "2 + 10"
+                },
+                {
+                    "id": "8a8515e6-692a-4225-8e5f-bd550abdfc8a",
+                    "type": "none",
+                    "__class": "ArythmeticsTaskDef",
+                    "correctAnswer": 17,
+                    "problem": "11 + 6"
                 }
             ]
         }
