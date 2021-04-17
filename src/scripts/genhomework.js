@@ -163,5 +163,11 @@ hwFactory.addTaskPlan(new SumTaskFactory(11, 15), 3)
 hwFactory.addTaskPlan(new SumTaskFactory(16, 20), 1)
 let data = {homeworks: [hwFactory.create()]};
 fs.writeFile('public/import.json', JSON.stringify(data, null, 4), console.log);
-console.log(data)
+for( const hw of data.homeworks){
+    console.log("-------")
+for (let t of  hw.tasks){
+    console.log(t.problem + " = " + t.correctAnswer)
+}
+
+}
 
