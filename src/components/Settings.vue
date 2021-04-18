@@ -2,9 +2,10 @@
   <div>
     <div>
       <router-link to="/homeworks">Homeworks</router-link> {{appVersion}}
+      <br/><br/>
     </div>
     <div>
-      <b-button v-on:click="generateDate">Generate Data</b-button>
+      <b-button v-on:click="upgradeData">Upgrade Data</b-button>
     </div>
     <div>
       <b-input type="text" v-model="importUrl"/>
@@ -27,7 +28,7 @@
 </template>
 
 <script>
-import {generateDBData} from "../util/setup";
+import {upgradeDBData} from "../util/setup";
 import {Homework} from "../util/common";
 import HomeworkRepo from "../util/HomeworkRepo";
 import GitHub from "github-api";
@@ -83,8 +84,8 @@ export default {
     },
   },
   methods: {
-    generateDate() {
-      generateDBData()
+    upgradeData() {
+      upgradeDBData()
     },
     importData() {
       fetch(this.importUrl).then(r => r.json())
