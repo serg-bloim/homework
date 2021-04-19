@@ -9,6 +9,7 @@
     <div>
       <b-input type="text" v-model="importUrl"/>
       <b-button v-on:click="importData">Import</b-button>
+      <div :class="importStatusClass">{{importStatusText}}</div>
     </div>
     <div>
       <p>Github token:</p>
@@ -33,6 +34,7 @@ import GitHub from "github-api";
 import {db} from "../util/db";
 import {initGitHub, LS_GITHUB_TOKEN} from "../util/github";
 import {appVersion} from "../util/version";
+import {isNullUndefinedEmpty} from "../util/basic";
 
 const LS_IMPORT_URL = "settings.importUrl";
 const LS_EXPORT_REPO = "settings.exportRepo";
@@ -48,10 +50,21 @@ export default {
       exportToken: localStorage.getItem(LS_GITHUB_TOKEN) ?? '',
       exportRepo: localStorage.getItem(LS_EXPORT_REPO) ?? 'homework',
       exportBranch: localStorage.getItem(LS_EXPORT_BRANCH) ?? 'master',
-      exportPath: localStorage.getItem(LS_EXPORT_PATH) ?? 'data/export.json'
+      exportPath: localStorage.getItem(LS_EXPORT_PATH) ?? 'data/export.json',
+      importStatusText: '',
+      importStatusSuccess: false
     }
   },
-  watch:{
+  computed: {
+    importStatusClass() {
+      if (isNullUndefinedEmpty(this.importStatusText)) {
+        return 'settings-importstataus-none'
+      } else {
+        return this.importStatusSuccess ? 'settings-importstataus-success' : 'settings-importstataus-failure'
+      }
+    }
+  },
+  watch: {
     importUrl(newV, oldV){
       localStorage.setItem(LS_IMPORT_URL, newV)
     },
@@ -85,12 +98,15 @@ export default {
               HomeworkRepo.addHomework(hw)
                   .then(key => {
                     console.log(`Imported ${key}`)
-                    alert(`Imported a new homework ${hw.name}`)
+                    this.importStatusText = 'Success'
+                    this.importStatusSuccess = true
                   })
                   .catch(err => {
                     console.log(`Failed to import ${hw.id}`)
                     console.log(hw)
                     console.log(err)
+                    this.importStatusText = 'Failed'
+                    this.importStatusSuccess = false
                   })
             }
           }).catch(console.log)
@@ -124,5 +140,13 @@ export default {
 </script>
 
 <style scoped>
-
+.settings-importstataus-none{
+  display: none;
+}
+.settings-importstataus-success{
+  background-color: lightgreen;
+}
+.settings-importstataus-failure{
+  background-color: palevioletred;
+}
 </style>
