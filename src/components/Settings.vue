@@ -83,8 +83,10 @@ export default {
             console.log(`Importing ${hws.length} homeworks:`)
             for (const hw of hws) {
               HomeworkRepo.addHomework(hw)
-                  .then(key =>
-                      console.log(`Imported ${key}`))
+                  .then(key => {
+                    console.log(`Imported ${key}`)
+                    alert(`Imported a new homework ${hw.name}`)
+                  })
                   .catch(err => {
                     console.log(`Failed to import ${hw.id}`)
                     console.log(hw)

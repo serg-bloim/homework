@@ -56,7 +56,7 @@ class HomeworkRepo {
      * @return {Promise<string>}
      */
     async addHomework(homework){
-        return db.homeworks.put(homework.toPlain())
+        return db.homeworks.add(homework.toPlain())
     }
 }
 
