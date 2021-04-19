@@ -76,6 +76,7 @@ class HomeworkFactory {
             id: uuidv4(),
             name: this.namePrefix + dateFormat(this.startDate, this.dateFormat),
             __class: "Homework",
+            __ver: "1",
             status: "new",
             tasks: [],
         };
@@ -122,6 +123,7 @@ class SumTaskFactory {
             id: uuidv4(),
             type: "none",
             __class: "ArythmeticsTaskDef",
+            __ver: "1",
             correctAnswer: a + b,
             problem: `${a} + ${b}`
         };
@@ -144,11 +146,11 @@ class MinusTaskFactory {
     create() {
         let a = rand(this.min, this.max)
         let b = rand(0, a)
-        let res = a - b
         return {
             id: uuidv4(),
             type: "none",
             __class: "ArythmeticsTaskDef",
+            __ver: "1",
             correctAnswer: a - b,
             problem: `${a} - ${b}`
         };
@@ -157,9 +159,9 @@ class MinusTaskFactory {
 
 
 let hwFactory = new HomeworkFactory()
-hwFactory.addTaskPlan(new SumTaskFactory(3, 10), 5)
-hwFactory.addTaskPlan(new MinusTaskFactory(2, 6), 2)
-hwFactory.addTaskPlan(new SumTaskFactory(11, 15), 3)
+hwFactory.addTaskPlan(new SumTaskFactory(3, 10), 4)
+hwFactory.addTaskPlan(new MinusTaskFactory(4, 8), 3)
+hwFactory.addTaskPlan(new SumTaskFactory(11, 15), 4)
 hwFactory.addTaskPlan(new SumTaskFactory(16, 20), 1)
 let data = {homeworks: [hwFactory.create()]};
 fs.writeFile('public/import.json', JSON.stringify(data, null, 4), console.log);
