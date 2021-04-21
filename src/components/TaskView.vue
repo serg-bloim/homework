@@ -78,6 +78,7 @@ export default {
   methods: {
     on_correct(ans) {
       ans.attemptTime = Date.now() - this.attemptStartedTS
+      this.attemptStartedTS = Date.now()
       HomeworkRepo.reportTaskAnswer(true, this.current_task, ans);
       for (let ind of next_array_key(this.ind + 1, this.homework.tasks.length)) {
         if (!this.homework.tasks[ind].hasAnswer()) {
@@ -88,6 +89,7 @@ export default {
     },
     on_wrong(ans) {
       ans.attemptTime = Date.now() - this.attemptStartedTS
+      this.attemptStartedTS = Date.now()
       HomeworkRepo.reportTaskAnswer(false, this.current_task, ans);
     },
     changeTask(ind_change) {

@@ -10,6 +10,7 @@
     <div>
       <b-input type="text" v-model="importUrl"/>
       <b-button v-on:click="importData">Import</b-button>
+      <b-button v-on:click="restoreData">Restore</b-button>
       <div :class="importStatusClass">{{importStatusText}}</div>
     </div>
     <div>
@@ -86,6 +87,17 @@ export default {
   methods: {
     upgradeData() {
       upgradeDBData()
+    },
+    restoreData(){
+      fetch(this.importUrl).then(r => r.json())
+          .then(json => {
+            for(let collection of ['homeworks', 'tasks', 'logs'] ){
+              // for(let entity of json[collection]){
+                db[collection].bulkPut(json[collection])
+                // db.homeworks.bulkPut()
+              // }
+            }
+          }).catch(console.log)
     },
     importData() {
       fetch(this.importUrl).then(r => r.json())
