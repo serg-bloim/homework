@@ -117,7 +117,7 @@ class SumTaskFactory {
 
     create() {
         let res = rand(this.min, this.max)
-        let a = rand(0, res)
+        let a = rand(1, res-1)
         let b = res - a
         return {
             id: uuidv4(),
@@ -145,7 +145,7 @@ class MinusTaskFactory {
 
     create() {
         let a = rand(this.min, this.max)
-        let b = rand(0, a)
+        let b = rand(1, a)
         return {
             id: uuidv4(),
             type: "none",
