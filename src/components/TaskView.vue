@@ -16,14 +16,15 @@
           <arythmetics-task-window
               :id="current_task.id"
               :task="current_task"
-              v-on:submit-correct="on_correct"
-              v-on:submit-wrong="on_wrong"
+              v-on:submit="submit"
               v-if="current_task"
           />
         </b-col>
       </b-row>
       <b-row>
-
+          <b-col>
+            <b-button v-on:click="submit">Submit</b-button>
+          </b-col>
       </b-row>
     </b-container>
   </div>
@@ -34,7 +35,7 @@ import ArythmeticsTaskWindow from "./arythmetics-task/ArythmeticsTaskWindow";
 import Simple from "./Simple";
 import {Homework} from "../util/common";
 import HomeworkRepo from "../util/HomeworkRepo";
-import {create_seq, next_array_key} from "../util/arrays.js";
+import {next_array_key} from "../util/arrays.js";
 
 export default {
   name: "TaskView",
@@ -76,21 +77,22 @@ export default {
     },
   },
   methods: {
-    on_correct(ans) {
+    submit() {
+      let isCorrect = this.current_task.is_correct();
+      let ans = this.current_task.createSubmission();
       ans.attemptTime = Date.now() - this.attemptStartedTS
       this.attemptStartedTS = Date.now()
-      HomeworkRepo.reportTaskAnswer(true, this.current_task, ans);
-      for (let ind of next_array_key(this.ind + 1, this.homework.tasks.length)) {
-        if (!this.homework.tasks[ind].hasAnswer()) {
-          setTimeout(()=>{this.ind = ind}, 1000)
-          break
+      HomeworkRepo.reportTaskAnswer(isCorrect, this.current_task, ans);
+      if (isCorrect) {
+        for (let ind of next_array_key(this.ind + 1, this.homework.tasks.length)) {
+          if (!this.homework.tasks[ind].hasAnswer()) {
+            setTimeout(() => {
+              this.ind = ind
+            }, 1000)
+            break
+          }
         }
       }
-    },
-    on_wrong(ans) {
-      ans.attemptTime = Date.now() - this.attemptStartedTS
-      this.attemptStartedTS = Date.now()
-      HomeworkRepo.reportTaskAnswer(false, this.current_task, ans);
     },
     changeTask(ind_change) {
       let len = this.homework.tasks.length;

@@ -47,6 +47,12 @@ export class ArythmeticsTaskDef extends TaskDef {
     hasAnswer() {
         return (typeof this.answer) === 'string' && this.answer.length>0
     }
+
+    createSubmission() {
+        return {
+            problem: this.problem, answer: this.answer, expected: this.correctAnswer, correct: this.is_correct()
+        }
+    }
 }
 
 export class SumTaskFactory extends TaskFactory {

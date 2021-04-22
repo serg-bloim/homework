@@ -45,6 +45,13 @@ export class TaskDef {
     hasAnswer() {
         throw new Error('You have to implement the method hasAnswer!');
     }
+
+    /**
+     * @return {{problem:string, answer, correct: (boolean), expected}}
+     */
+    createSubmission(){
+        throw new Error('You have to implement the method createSubmission!');
+    }
 }
 
 export class TaskSolutionState {

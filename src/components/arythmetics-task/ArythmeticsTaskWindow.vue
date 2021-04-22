@@ -18,11 +18,6 @@
           </div>
         </b-col>
       </b-row>
-      <b-row>
-        <b-col>
-          <b-button v-on:click="submit">Submit</b-button>
-        </b-col>
-      </b-row>
     </b-container>
   </div>
 </template>
@@ -40,21 +35,9 @@ export default {
     task: ArythmeticsTaskDef,
   },
   methods: {
-    submit() {
-      let event;
-      let isCorrect = this.task.is_correct();
-      if (isCorrect) {
-        event = 'submit-correct';
-        this.answerState = true
-      } else {
-        event = 'submit-wrong'
-        this.answerState = false
-      }
-      this.$emit(event, {problem: this.task.problem, answer: this.task.answer, expected: this.task.correctAnswer, correct: isCorrect})
-    },
     submit_keypress(e) {
       if (e.keyCode === 13) {
-        this.submit()
+        this.$emit("submit")
       }
     },
     focus_answer() {
