@@ -83,20 +83,19 @@ class HomeworkFactory {
 
         function contains(arr, obj) {
             const ignoreIdComparator = function (val1, val2, key) {
-                if(key==='id') return true
+                if (key === 'id') return true
             }
-            for(let e of arr){
-                if(_.isEqualWith(e, obj, ignoreIdComparator))
+            for (let e of arr) {
+                if (_.isEqualWith(e, obj, ignoreIdComparator))
                     return true
             }
             return false
         }
 
         for (const tskFactory of this.taskFactories) {
-            for(let i=0; i<100; i++){
+            for (let i = 0; i < 100; i++) {
                 let task = tskFactory.create();
-                if(!contains(hw.tasks, task))
-                {
+                if (!contains(hw.tasks, task)) {
                     hw.tasks.push(task)
                     break
                 }
@@ -104,6 +103,17 @@ class HomeworkFactory {
         }
         return hw;
     }
+}
+
+function renderArythmeticTask(problem, correctAnswer) {
+    return {
+        id: uuidv4(),
+        type: "none",
+        __class: "ArythmeticsTaskDef",
+        __ver: "1",
+        correctAnswer: correctAnswer,
+        problem: problem
+    };
 }
 
 class SumTaskFactory {
@@ -117,16 +127,23 @@ class SumTaskFactory {
 
     create() {
         let res = rand(this.min, this.max)
-        let a = rand(1, res-1)
+        let a = rand(1, res - 1)
         let b = res - a
-        return {
-            id: uuidv4(),
-            type: "none",
-            __class: "ArythmeticsTaskDef",
-            __ver: "1",
-            correctAnswer: a + b,
-            problem: `${a} + ${b}`
-        };
+        return this.render(a, b);
+    }
+
+    render(a, b) {
+        let correctAnswer = a + b;
+        let problem = `${a} + ${b}`;
+        return renderArythmeticTask(problem, correctAnswer);
+    }
+}
+
+class SumWithTensFactory extends SumTaskFactory {
+    create() {
+        let a = rand(this.min, this.max)*10
+        let b = rand(1, 10)
+        return this.render(a, b)
     }
 }
 
@@ -146,14 +163,9 @@ class MinusTaskFactory {
     create() {
         let a = rand(this.min, this.max)
         let b = rand(1, a)
-        return {
-            id: uuidv4(),
-            type: "none",
-            __class: "ArythmeticsTaskDef",
-            __ver: "1",
-            correctAnswer: a - b,
-            problem: `${a} - ${b}`
-        };
+        let correctAnswer = a - b;
+        let problem = `${a} - ${b}`;
+        return renderArythmeticTask(problem, correctAnswer)
     }
 }
 
@@ -162,14 +174,14 @@ let hwFactory = new HomeworkFactory()
 hwFactory.addTaskPlan(new SumTaskFactory(3, 10), 4)
 hwFactory.addTaskPlan(new MinusTaskFactory(4, 8), 3)
 hwFactory.addTaskPlan(new SumTaskFactory(11, 15), 4)
+hwFactory.addTaskPlan(new SumWithTensFactory(1, 3), 4)
 hwFactory.addTaskPlan(new SumTaskFactory(16, 20), 1)
 let data = {homeworks: [hwFactory.create()]};
 fs.writeFile('public/import.json', JSON.stringify(data, null, 4), console.log);
-for( const hw of data.homeworks){
+for (const hw of data.homeworks) {
     console.log("-------")
-for (let t of  hw.tasks){
-    console.log(t.problem + " = " + t.correctAnswer)
-}
-
+    for (let t of hw.tasks) {
+        console.log(t.problem + " = " + t.correctAnswer)
+    }
 }
 
