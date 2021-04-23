@@ -10,10 +10,11 @@
                 {
                     "id": "7ef92f30-f283-4d7a-adc0-d72d04d0ccb7",
                     "type": "none",
-                    "__class": "ArythmeticsTaskDef",
+                    "__class": "OptionsTaskDef",
                     "__ver": "1",
-                    "correctAnswer": 7,
-                    "problem": "2 + 5"
+                    "correctOption": 0,
+                    "problem": "Кот",
+                    "options": ["Кот", "Собака", "Лошадь", "Дом"]
                 },
                 {
                     "id": "b90794d6-393b-4ab0-b267-225ed70ee18a",

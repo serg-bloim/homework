@@ -1,7 +1,7 @@
-import {Homework} from "./common";
 import {generateTaskList} from "./generation";
 import {db} from "./db";
 import {log} from "./LogRepo";
+import {Homework} from "./homework";
 
 function createDummyHomework() {
     let tasks = generateTaskList();

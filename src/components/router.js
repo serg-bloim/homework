@@ -4,6 +4,7 @@ import TaskList from "./TaskList";
 import HomeworksBrowser from "./HomeworksBrowser";
 import Settings from "./Settings";
 import DataServices from "./DataServices";
+import TestPage from "./TestPage";
 
 const routes = [
     {path: '/task', name:"task", component: TaskView, props:true},
@@ -11,6 +12,7 @@ const routes = [
     {path: '/homeworks', component: HomeworksBrowser, props: true},
     {path: '/settings', component: Settings, props: true},
     {path: '/data-services', component: DataServices},
+    {path: '/test', component: TestPage},
     {path: "/", redirect: "/homeworks"},
 ]
 export default new VueRouter({routes})

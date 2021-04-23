@@ -14,7 +14,7 @@
 
 <script>
 import HomeworkRepo from "../util/HomeworkRepo";
-import {Homework} from "../util/common";
+import {Homework} from "../util/homework";
 
 export default {
   name: "HomeworksBrowser",

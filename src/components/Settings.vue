@@ -2,6 +2,8 @@
   <div>
     <div>
       <router-link to="/homeworks">Homeworks</router-link> {{appVersion}}
+      <br/>
+      <router-link to="/test">Test Page</router-link>
       <br/><br/>
     </div>
     <div>
@@ -26,13 +28,13 @@
 
 <script>
 import {upgradeDBData} from "../util/setup";
-import {Homework} from "../util/common";
 import HomeworkRepo from "../util/HomeworkRepo";
 import GitHub from "github-api";
 import {db} from "../util/db";
 import {initGitHub, LS_GITHUB_TOKEN} from "../util/github";
 import {appVersion} from "../util/version";
 import {isNullUndefinedEmpty} from "../util/basic";
+import {Homework} from "../util/homework";
 
 const LS_IMPORT_URL = "settings.importUrl";
 const LS_EXPORT_REPO = "settings.exportRepo";

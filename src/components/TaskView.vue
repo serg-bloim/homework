@@ -13,12 +13,18 @@
       </b-row>
       <b-row>
         <b-col colspan="3">
-          <arythmetics-task-window
-              :id="current_task.id"
-              :task="current_task"
-              v-on:submit="submit"
-              v-if="current_task"
+          <component :is="componentName(current_task)"
+                     :id="current_task.id"
+                     :task="current_task"
+                     v-on:submit="submit"
+                     v-if="current_task"
           />
+<!--          <arythmetics-task-window-->
+<!--              :id="current_task.id"-->
+<!--              :task="current_task"-->
+<!--              v-on:submit="submit"-->
+<!--              v-if="current_task"-->
+<!--          />-->
         </b-col>
       </b-row>
       <b-row>
@@ -33,9 +39,10 @@
 <script>
 import ArythmeticsTaskWindow from "./arythmetics-task/ArythmeticsTaskWindow";
 import Simple from "./Simple";
-import {Homework} from "../util/common";
 import HomeworkRepo from "../util/HomeworkRepo";
 import {next_array_key} from "../util/arrays.js";
+import OptionsTask from "./options-task/OptionsTask";
+import {Homework} from "../util/homework";
 
 export default {
   name: "TaskView",
@@ -93,6 +100,13 @@ export default {
           }
         }
       }
+    },
+    componentName(current_task){
+      return {
+        ArythmeticsTaskDef: ArythmeticsTaskWindow,
+        OptionsTaskDef: OptionsTask
+
+      }[current_task.__class]
     },
     changeTask(ind_change) {
       let len = this.homework.tasks.length;

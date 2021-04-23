@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import {Homework} from "../util/common";
+import {Homework} from "../util/homework";
 
 export default {
   name: "TaskList",

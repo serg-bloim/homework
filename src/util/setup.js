@@ -1,9 +1,9 @@
 import {db} from "./db";
 import {v4 as uuidv4} from 'uuid'
 import {generateTaskList} from "./generation";
-import {Homework} from "./common";
 import {create_array} from "./arrays";
 import _ from 'lodash'
+import {Homework} from "./homework";
 
 export function setup() {
     db.version(1).stores({
