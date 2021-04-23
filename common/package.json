@@ -1,0 +1,27 @@
+{
+  "name": "homework-common",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "class-transformer": "^0.4.0",
+    "core-js": "^3.6.5",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  }
+}

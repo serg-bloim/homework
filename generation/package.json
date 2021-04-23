@@ -1,0 +1,32 @@
+{
+  "name": "homework-common",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "dateformat": "^4.5.1",
+    "homework-common": "file:../common",
+    "lodash": "^4.17.21",
+    "random": "^3.0.6",
+    "uuid": "^3.4.0"
+  },
+  "scripts": {
+    "genhomework": "node genhomework.js"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  }
+}
