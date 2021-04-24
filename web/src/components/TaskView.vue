@@ -75,6 +75,7 @@ export default {
   watch:{
     ind(updated, old){
       console.log(`ind ${old} -> ${updated}`)
+      window.scrollTo(0,0)
       this.startAttempt()
     },
     homework(updated, old){
