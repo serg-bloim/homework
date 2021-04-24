@@ -1,41 +1,141 @@
 {
-  "homeworks": [
-    {
-      "id": "19387794-8a71-4fb9-a113-44f4aa5edd0b",
-      "name": "Homework 2021/04/33",
-      "__class": "Homework",
-      "__ver": "1",
-      "status": "new",
-      "tasks": [
+    "homeworks": [
         {
-          "id": "7ef92f30-f283-4d7a-adc0-d72d04d0ccb7",
-          "type": "none",
-          "__class": "OptionsTaskDef",
-          "__ver": "1",
-          "correctOption": 0,
-          "problem": "Кот",
-          "options": [
-            "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cat.png",
-            "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/car.png",
-            "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/whale.png",
-            "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/house.png"
-          ]
-        },
-        {
-          "id": "7ef92f30-f283-4d7a-adc0-d72d04d0ccb7",
-          "type": "none",
-          "__class": "OptionsTaskDef",
-          "__ver": "1",
-          "correctOption": 2,
-          "problem": "Кит",
-          "options": [
-            "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cat.png",
-            "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/car.png",
-            "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/whale.png",
-            "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/house.png"
-          ]
+            "id": "ee3727a8-920c-4dd6-9962-69780b1fe989",
+            "name": "Homework 2021/04/24",
+            "__class": "Homework",
+            "__ver": "1",
+            "status": "new",
+            "tasks": [
+                {
+                    "id": "d65f674a-5c5f-46b4-8dae-9391713e53e7",
+                    "type": "none",
+                    "__class": "ArythmeticsTaskDef",
+                    "__ver": "1",
+                    "correctAnswer": 10,
+                    "problem": "9 + 1"
+                },
+                {
+                    "id": "f5ef8f6f-deb5-4a6d-994d-0160cf3bd2dd",
+                    "type": "none",
+                    "__class": "ArythmeticsTaskDef",
+                    "__ver": "1",
+                    "correctAnswer": 7,
+                    "problem": "4 + 3"
+                },
+                {
+                    "id": "23996823-036b-4d19-bc50-c681c99989d9",
+                    "type": "none",
+                    "__class": "ArythmeticsTaskDef",
+                    "__ver": "1",
+                    "correctAnswer": 7,
+                    "problem": "1 + 6"
+                },
+                {
+                    "id": "8b5644a3-d776-4158-b20f-a61d15d4511b",
+                    "type": "none",
+                    "__class": "ArythmeticsTaskDef",
+                    "__ver": "1",
+                    "correctAnswer": 6,
+                    "problem": "3 + 3"
+                },
+                {
+                    "id": "0f4273ea-2d50-4da2-9ff8-dd0890fa35a0",
+                    "type": "none",
+                    "__class": "ArythmeticsTaskDef",
+                    "__ver": "1",
+                    "correctAnswer": 0,
+                    "problem": "6 - 6"
+                },
+                {
+                    "id": "5cfcb957-70ab-4c16-aac3-f4b6dfa50f6c",
+                    "type": "none",
+                    "__class": "ArythmeticsTaskDef",
+                    "__ver": "1",
+                    "correctAnswer": 5,
+                    "problem": "7 - 2"
+                },
+                {
+                    "id": "450667c8-c21b-4991-bd41-35aefa711ecc",
+                    "type": "none",
+                    "__class": "ArythmeticsTaskDef",
+                    "__ver": "1",
+                    "correctAnswer": 2,
+                    "problem": "8 - 6"
+                },
+                {
+                    "id": "45b5671c-3e06-4b32-b2d6-ddec1eaac0ff",
+                    "type": "none",
+                    "__class": "ArythmeticsTaskDef",
+                    "__ver": "1",
+                    "correctAnswer": 15,
+                    "problem": "10 + 5"
+                },
+                {
+                    "id": "5de2a784-7ea1-48fd-8285-901060479fcb",
+                    "type": "none",
+                    "__class": "ArythmeticsTaskDef",
+                    "__ver": "1",
+                    "correctAnswer": 13,
+                    "problem": "1 + 12"
+                },
+                {
+                    "id": "0059a945-aef7-4009-a660-a838fa3f8e87",
+                    "type": "none",
+                    "__class": "ArythmeticsTaskDef",
+                    "__ver": "1",
+                    "correctAnswer": 13,
+                    "problem": "10 + 3"
+                },
+                {
+                    "id": "0e845d99-9872-487c-8db6-d6176e0cee44",
+                    "type": "none",
+                    "__class": "ArythmeticsTaskDef",
+                    "__ver": "1",
+                    "correctAnswer": 13,
+                    "problem": "6 + 7"
+                },
+                {
+                    "id": "21c85d0d-e148-4994-8cb0-de6861289495",
+                    "type": "none",
+                    "__class": "ArythmeticsTaskDef",
+                    "__ver": "1",
+                    "correctAnswer": 25,
+                    "problem": "20 + 5"
+                },
+                {
+                    "id": "bfa89993-08d6-49df-b688-ab43b91fdfa9",
+                    "type": "none",
+                    "__class": "ArythmeticsTaskDef",
+                    "__ver": "1",
+                    "correctAnswer": 21,
+                    "problem": "20 + 1"
+                },
+                {
+                    "id": "2b9c74da-debc-4a91-9931-8a13a2b604b5",
+                    "type": "none",
+                    "__class": "ArythmeticsTaskDef",
+                    "__ver": "1",
+                    "correctAnswer": 22,
+                    "problem": "20 + 2"
+                },
+                {
+                    "id": "0aa7a80a-50b8-40ce-badb-45736948d92a",
+                    "type": "none",
+                    "__class": "ArythmeticsTaskDef",
+                    "__ver": "1",
+                    "correctAnswer": 19,
+                    "problem": "10 + 9"
+                },
+                {
+                    "id": "f1d1c74f-4024-4abc-872d-3d70548c9390",
+                    "type": "none",
+                    "__class": "ArythmeticsTaskDef",
+                    "__ver": "1",
+                    "correctAnswer": 19,
+                    "problem": "12 + 7"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
