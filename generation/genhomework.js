@@ -5,6 +5,7 @@ import * as fs from 'fs'
 import _ from 'lodash'
 import {TaskFactory} from "./TaskFactory.js";
 import {OptionsTaskFactory} from "./OptionsTaskFactory.js";
+import {imgs} from "./images.js";
 
 let prefix = 'Homework '
 let startDate = tomorrow(new Date())
@@ -173,12 +174,11 @@ class MinusTaskFactory extends TaskFactory{
     }
 }
 
-
 let hwFactory = new HomeworkFactory()
 // hwFactory.addTaskPlan(new SumTaskFactory(3, 10), 4)
 // hwFactory.addTaskPlan(new MinusTaskFactory(4, 8), 3)
 // hwFactory.addTaskPlan(new SumTaskFactory(11, 15), 4)
-hwFactory.addTaskPlan(new OptionsTaskFactory(20), 10)
+hwFactory.addTaskPlan(new OptionsTaskFactory(imgs, 20), 10)
 // hwFactory.addTaskPlan(new SumWithTensFactory(1, 3), 4)
 // hwFactory.addTaskPlan(new SumTaskFactory(16, 20), 1)
 let data = {homeworks: [hwFactory.create()]};

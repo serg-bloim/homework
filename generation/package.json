@@ -15,7 +15,9 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2"
+    "directory-tree": "^2.2.9",
+    "eslint": "^6.7.2",
+    "parse-url": "^5.0.2"
   },
   "eslintConfig": {
     "root": true,
