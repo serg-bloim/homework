@@ -42,6 +42,7 @@ import HomeworkRepo from "../util/HomeworkRepo";
 import OptionsTask from "./options-task/OptionsTask";
 import {Homework} from "homework-common/src/util/homework";
 import {next_array_key} from "homework-common/src/util/arrays";
+import {debug} from "homework-common/src/util/basic";
 
 export default {
   name: "TaskView",
@@ -62,7 +63,7 @@ export default {
       return this.homework.tasks[this.ind]
     },
     submitted_tasks(){
-      return this.homework.tasks.count(t=>t.hasAnswer())
+      return this.homework.tasks.count(t=>t.lastSubmissionSuccessful)
     },
   },
   updated() {
@@ -79,7 +80,7 @@ export default {
       this.startAttempt()
     },
     homework(updated, old){
-      console.log(`homework ${old.name} -> ${updated.name}`)
+      debug(`homework ${old.name} -> ${updated.name}`)
       this.startAttempt()
     },
   },
@@ -90,9 +91,10 @@ export default {
       ans.attemptTime = Date.now() - this.attemptStartedTS
       this.attemptStartedTS = Date.now()
       HomeworkRepo.reportTaskAnswer(isCorrect, this.current_task, ans);
+      this.current_task.lastSubmissionSuccessful = isCorrect
       if (isCorrect) {
         for (let ind of next_array_key(this.ind + 1, this.homework.tasks.length)) {
-          if (!this.homework.tasks[ind].hasAnswer()) {
+          if (!this.homework.tasks[ind].lastSubmissionSuccessful) {
             setTimeout(() => {
               this.ind = ind
             }, 1000)

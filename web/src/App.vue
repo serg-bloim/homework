@@ -7,6 +7,7 @@
 <script>
 import HomeworkRepo from "./util/HomeworkRepo";
 import {Homework} from "homework-common/src/util/homework";
+import {debug} from "homework-common/src/util/basic";
 
 export default {
   name: 'App',
@@ -18,27 +19,20 @@ export default {
     updateActive(homework) {
       this.activeHomework = homework
       for (let task of homework.tasks) {
-        HomeworkRepo.getTaskState(task.id).then(s => {
-          if (s) {
-            task.setState(s)
+        HomeworkRepo.getTaskState(task.id).then(tsk => {
+          if (tsk) {
+            task.lastSubmissionSuccessful = tsk.solved
+            if (tsk.state) {
+              task.setState(tsk.state)
+            }
           }
         })
       }
     }
   },
   mounted() {
-    console.log("mounted")
-    HomeworkRepo.getActiveHomework().then(hw => {
-      this.activeHomework = hw
-      for (let task of hw.tasks) {
-        HomeworkRepo.getTaskState(task.id).then(s => {
-          if (s) {
-            task.setState(s)
-          }
-        })
-      }
-    })
-
+    debug("mounted")
+    HomeworkRepo.getActiveHomework().then(this.updateActive)
   }
 }
 </script>

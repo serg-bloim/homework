@@ -46,7 +46,7 @@ class HomeworkRepo {
     async getTaskState(id) {
         return db.tasks.get(id)
             .then(task => {
-                return task?.state ?? {}
+                return task ?? {}
             })
 
     }
