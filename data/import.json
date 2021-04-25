@@ -1,150 +1,150 @@
 {
     "homeworks": [
         {
-            "id": "f7eff114-f388-4dcc-b4a0-82fba800b5c6",
+            "id": "fc1b1c74-1248-4133-8da1-8103dfcb086f",
             "name": "Homework 2021/04/25",
             "__class": "Homework",
             "__ver": "1",
             "status": "new",
             "tasks": [
                 {
-                    "id": "a744f3a2-2ef6-489a-b79c-182f2932faf6",
+                    "id": "ccb9b349-ee78-4084-a984-72d3e792e8da",
                     "type": "none",
                     "__class": "OptionsTaskDef",
                     "__ver": "1",
-                    "problem": "забор",
-                    "correctOption": 0,
-                    "options": [
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fence.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cat.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/window.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/ship.png"
-                    ]
-                },
-                {
-                    "id": "74899671-8a61-4b59-a6b8-d8b955557840",
-                    "type": "none",
-                    "__class": "OptionsTaskDef",
-                    "__ver": "1",
-                    "problem": "корабль",
+                    "problem": "Слон",
                     "correctOption": 3,
                     "options": [
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/window.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fence.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/ship.png"
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fish.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/turtle.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/robot.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/elephant.png"
                     ]
                 },
                 {
-                    "id": "aa2b826f-389b-4e00-b9b3-040dc508608d",
+                    "id": "74189750-4683-4576-a69c-6d5be61fb3c1",
                     "type": "none",
                     "__class": "OptionsTaskDef",
                     "__ver": "1",
-                    "problem": "машина",
+                    "problem": "Те-ле-ви-зор",
                     "correctOption": 0,
                     "options": [
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/car.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tv.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/frog.png",
                         "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fireworks.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/ship.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png"
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/robot.png"
                     ]
                 },
                 {
-                    "id": "a0c995b4-2bea-411d-aac3-5b8db3157183",
+                    "id": "91174208-d8a2-4838-858f-494bef2b85a5",
                     "type": "none",
                     "__class": "OptionsTaskDef",
                     "__ver": "1",
-                    "problem": "дом",
+                    "problem": "Ко-ле-со",
                     "correctOption": 1,
                     "options": [
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/window.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/house.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fireworks.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cat.png"
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/pencil.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/wheel.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
                     ]
                 },
                 {
-                    "id": "5e8201f4-b15d-4d16-b28e-a913fac5af17",
+                    "id": "648cef5a-e0c4-4d98-b944-7e73be471160",
                     "type": "none",
                     "__class": "OptionsTaskDef",
                     "__ver": "1",
-                    "problem": "фейерверк",
-                    "correctOption": 0,
-                    "options": [
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fireworks.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/ship.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cat.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png"
-                    ]
-                },
-                {
-                    "id": "7fbcf9f4-a256-43c0-8d14-423503a8e3a2",
-                    "type": "none",
-                    "__class": "OptionsTaskDef",
-                    "__ver": "1",
-                    "problem": "забор",
+                    "problem": "Ка-ру-се-ль",
                     "correctOption": 2,
                     "options": [
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/elephant.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/house.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fence.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fireworks.png"
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/pencil.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tv.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/carusel.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png"
                     ]
                 },
                 {
-                    "id": "9b2e6d92-9473-4313-9851-14fbb0d74765",
+                    "id": "ec18e471-2210-40e3-90a2-cc1e985406e9",
                     "type": "none",
                     "__class": "OptionsTaskDef",
                     "__ver": "1",
-                    "problem": "суп",
+                    "problem": "Гру-ша",
                     "correctOption": 3,
                     "options": [
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fence.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/car.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fireworks.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/soup.png"
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/robot.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tv.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/pear.png"
                     ]
                 },
                 {
-                    "id": "22c684a9-412f-4a51-a6e0-8b2b2fa4bc8e",
+                    "id": "d03e7fd2-5c76-4a95-87fd-1af56b84f86e",
                     "type": "none",
                     "__class": "OptionsTaskDef",
                     "__ver": "1",
-                    "problem": "машина",
+                    "problem": "Суп",
                     "correctOption": 0,
                     "options": [
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/car.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/house.png",
                         "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/soup.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fish.png"
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cat.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/frog.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/orange.png"
                     ]
                 },
                 {
-                    "id": "56c9f195-d548-4ea9-9915-6962ddfdb1ce",
+                    "id": "d950f018-1ce3-4757-90f7-e18897e0a04b",
                     "type": "none",
                     "__class": "OptionsTaskDef",
                     "__ver": "1",
-                    "problem": "забор",
-                    "correctOption": 1,
+                    "problem": "Де-ре-во",
+                    "correctOption": 2,
                     "options": [
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/corn.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/frog.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/ship.png"
+                    ]
+                },
+                {
+                    "id": "4e737c2b-6b0b-46b0-8678-c3a6f250c426",
+                    "type": "none",
+                    "__class": "OptionsTaskDef",
+                    "__ver": "1",
+                    "problem": "Пы-ле-сос",
+                    "correctOption": 2,
+                    "options": [
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cake.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/book.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/vacuum.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/orange.png"
+                    ]
+                },
+                {
+                    "id": "a76b0a70-2d1a-425d-9bf7-a54c3de0eda7",
+                    "type": "none",
+                    "__class": "OptionsTaskDef",
+                    "__ver": "1",
+                    "problem": "Ля-гуш-ка",
+                    "correctOption": 0,
+                    "options": [
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/frog.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/pear.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fish.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/orange.png"
+                    ]
+                },
+                {
+                    "id": "26484a68-67d9-42e9-8db5-e09db4db0268",
+                    "type": "none",
+                    "__class": "OptionsTaskDef",
+                    "__ver": "1",
+                    "problem": "Цве-ток",
+                    "correctOption": 3,
+                    "options": [
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/table.png",
                         "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fireworks.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fence.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/whale.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cat.png"
-                    ]
-                },
-                {
-                    "id": "26a66b9e-45e6-4aa2-9bc1-574021d86c18",
-                    "type": "none",
-                    "__class": "OptionsTaskDef",
-                    "__ver": "1",
-                    "problem": "суп",
-                    "correctOption": 1,
-                    "options": [
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/window.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/soup.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fence.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png"
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/house.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/flower.png"
                     ]
                 }
             ]
