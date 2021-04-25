@@ -85,11 +85,11 @@ class HomeworkFactory {
         };
 
         function contains(arr, obj) {
-            const ignoreIdComparator = function (val1, val2, key) {
-                if (key === 'id') return true
-            }
+            // const ignoreIdComparator = function (val1, val2, key) {
+            //     if (key === 'id') return true
+            // }
             for (let e of arr) {
-                if (_.isEqualWith(e, obj, ignoreIdComparator))
+                if (e.__class === obj.__class && e.problem === obj.problem)
                     return true
             }
             return false
