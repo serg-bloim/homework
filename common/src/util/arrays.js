@@ -26,6 +26,16 @@ export function* next_array_key(start, len) {
 }
 
 
+export function swap(arr, a, b) {
+    if(a < arr.length && b < arr.length){
+        let buffer = arr[a]
+        arr[a] = arr[b]
+        arr[b] = buffer
+        return true
+    }
+    return false
+}
+
 
 /**
  * @param {(e)=>Boolean} predicate
@@ -38,4 +48,15 @@ Array.prototype.count = function(predicate){
         }
     }
     return res
+}
+
+
+Array.prototype.swap = function(a, b){
+    if(a < this.length && b < this.length){
+        let buffer = this[a]
+        this[a] = this[b]
+        this[b] = buffer
+        return true
+    }
+    return false
 }

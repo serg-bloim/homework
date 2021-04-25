@@ -3,6 +3,8 @@ import dateFormat from 'dateformat'
 import random from 'random'
 import * as fs from 'fs'
 import _ from 'lodash'
+import {TaskFactory} from "./TaskFactory.js";
+import {OptionsTaskFactory} from "./OptionsTaskFactory.js";
 
 let prefix = 'Homework '
 let startDate = tomorrow(new Date())
@@ -116,11 +118,12 @@ function renderArythmeticTask(problem, correctAnswer) {
     };
 }
 
-class SumTaskFactory {
+class SumTaskFactory extends TaskFactory {
     min = 0;
     max;
 
     constructor(min, max) {
+        super();
         this.min = min
         this.max = max
     }
@@ -147,11 +150,12 @@ class SumWithTensFactory extends SumTaskFactory {
     }
 }
 
-class MinusTaskFactory {
+class MinusTaskFactory extends TaskFactory{
     min = 0;
     max;
 
     constructor(limit1, limit2) {
+        super();
         if (limit2) {
             this.min = limit1
             this.max = limit2
@@ -171,11 +175,12 @@ class MinusTaskFactory {
 
 
 let hwFactory = new HomeworkFactory()
-hwFactory.addTaskPlan(new SumTaskFactory(3, 10), 4)
-hwFactory.addTaskPlan(new MinusTaskFactory(4, 8), 3)
-hwFactory.addTaskPlan(new SumTaskFactory(11, 15), 4)
-hwFactory.addTaskPlan(new SumWithTensFactory(1, 3), 4)
-hwFactory.addTaskPlan(new SumTaskFactory(16, 20), 1)
+// hwFactory.addTaskPlan(new SumTaskFactory(3, 10), 4)
+// hwFactory.addTaskPlan(new MinusTaskFactory(4, 8), 3)
+// hwFactory.addTaskPlan(new SumTaskFactory(11, 15), 4)
+hwFactory.addTaskPlan(new OptionsTaskFactory(20), 10)
+// hwFactory.addTaskPlan(new SumWithTensFactory(1, 3), 4)
+// hwFactory.addTaskPlan(new SumTaskFactory(16, 20), 1)
 let data = {homeworks: [hwFactory.create()]};
 fs.writeFile('../data/import.json', JSON.stringify(data, null, 4), console.log);
 for (const hw of data.homeworks) {
