@@ -43,6 +43,7 @@ import OptionsTask from "./options-task/OptionsTask";
 import {Homework} from "homework-common/src/util/homework";
 import {next_array_key} from "homework-common/src/util/arrays";
 import {debug} from "homework-common/src/util/basic";
+import {isTaskSounds} from "./Settings";
 
 const submissionSounds={correct:"https://raw.githubusercontent.com/serg-bloim/homework/master/data/audio/success.mp3", wrong:"https://raw.githubusercontent.com/serg-bloim/homework/master/data/audio/reject.mp3"}
 Object.values(submissionSounds).forEach(url => new Audio(url))
@@ -95,7 +96,9 @@ export default {
       this.attemptStartedTS = Date.now()
       HomeworkRepo.reportTaskAnswer(isCorrect, this.current_task, ans);
       this.current_task.lastSubmissionSuccessful = isCorrect
-      new Audio(isCorrect?submissionSounds.correct:submissionSounds.wrong).play()
+      if(isTaskSounds()) {
+        new Audio(isCorrect ? submissionSounds.correct : submissionSounds.wrong).play()
+      }
       if (isCorrect) {
         for (let ind of next_array_key(this.ind + 1, this.homework.tasks.length)) {
           if (!this.homework.tasks[ind].lastSubmissionSuccessful) {

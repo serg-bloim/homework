@@ -23,6 +23,9 @@
 
       <b-button v-on:click="exportFile">Export</b-button>
     </div>
+    <div>
+      <b-checkbox v-model="taskSounds">Task Sounds</b-checkbox>
+    </div>
   </div>
 </template>
 
@@ -35,6 +38,7 @@ import {initGitHub, LS_GITHUB_TOKEN} from "../util/github";
 import {appVersion} from "../util/version";
 import {Homework} from "homework-common/src/util/homework";
 import {isNullUndefinedEmpty} from "homework-common/src/util/isNullUndefinedEmpty";
+import {isTaskSounds, setTaskSounds} from "./Settings";
 
 const LS_IMPORT_URL = "settings.importUrl";
 const LS_EXPORT_REPO = "settings.exportRepo";
@@ -51,6 +55,7 @@ export default {
       exportRepo: localStorage.getItem(LS_EXPORT_REPO) ?? 'homework',
       exportBranch: localStorage.getItem(LS_EXPORT_BRANCH) ?? 'master',
       exportPath: localStorage.getItem(LS_EXPORT_PATH) ?? 'data/export.json',
+      taskSounds: isTaskSounds(),
       importStatusText: '',
       importStatusSuccess: false
     }
@@ -80,6 +85,9 @@ export default {
     },
     exportPath(newV, oldV){
       localStorage.setItem(LS_EXPORT_PATH, newV)
+    },
+    taskSounds(newV, oldV){
+      setTaskSounds(newV)
     },
   },
   methods: {
