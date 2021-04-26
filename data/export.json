@@ -2676,7 +2676,7 @@
         "answer": "2",
         "expected": 2,
         "correct": true,
-        "attemptTime": 66260
+        "attemptTime": 24588
       },
       "id": 8,
       "__ver": "1"
@@ -2736,7 +2736,7 @@
         "answer": "9",
         "expected": 9,
         "correct": true,
-        "attemptTime": 47052
+        "attemptTime": 20737
       },
       "id": 12,
       "__ver": "1"
@@ -2796,7 +2796,7 @@
         "answer": "2",
         "expected": 2,
         "correct": true,
-        "attemptTime": 26167
+        "attemptTime": 15208
       },
       "id": 16,
       "__ver": "1"
@@ -2826,7 +2826,7 @@
         "answer": "11",
         "expected": 11,
         "correct": true,
-        "attemptTime": 18277
+        "attemptTime": 539
       },
       "id": 18,
       "__ver": "1"
@@ -3021,7 +3021,7 @@
         "answer": "18",
         "expected": 18,
         "correct": true,
-        "attemptTime": 84465
+        "attemptTime": 6705
       },
       "id": 31,
       "__ver": "1"
@@ -3036,7 +3036,7 @@
         "answer": "18",
         "expected": 18,
         "correct": true,
-        "attemptTime": 88877
+        "attemptTime": 4413
       },
       "id": 32,
       "__ver": "1"
@@ -3051,7 +3051,7 @@
         "answer": "18",
         "expected": 18,
         "correct": true,
-        "attemptTime": 89540
+        "attemptTime": 662
       },
       "id": 33,
       "__ver": "1"
@@ -3126,7 +3126,7 @@
         "answer": "7",
         "expected": 7,
         "correct": true,
-        "attemptTime": 42904
+        "attemptTime": 22892
       },
       "id": 38,
       "__ver": "1"
@@ -3216,7 +3216,7 @@
         "answer": "4",
         "expected": 4,
         "correct": true,
-        "attemptTime": 35599
+        "attemptTime": 6079
       },
       "id": 44,
       "__ver": "1"
@@ -3261,7 +3261,7 @@
         "answer": "12",
         "expected": 12,
         "correct": true,
-        "attemptTime": 34794
+        "attemptTime": 22035
       },
       "id": 47,
       "__ver": "1"
@@ -3426,7 +3426,7 @@
         "answer": "12",
         "expected": 12,
         "correct": true,
-        "attemptTime": 72916
+        "attemptTime": 5978
       },
       "id": 58,
       "__ver": "1"
@@ -3441,7 +3441,7 @@
         "answer": "31",
         "expected": 13,
         "correct": false,
-        "attemptTime": 0
+        "attemptTime": 151327
       },
       "id": 59,
       "__ver": "1"
@@ -3456,7 +3456,7 @@
         "answer": "13",
         "expected": 13,
         "correct": true,
-        "attemptTime": 159853
+        "attemptTime": 9530
       },
       "id": 60,
       "__ver": "1"
@@ -3485,7 +3485,7 @@
         "problem": "2 + 3",
         "expected": 5,
         "correct": false,
-        "attemptTime": 0
+        "attemptTime": 41096671
       },
       "id": 62,
       "__ver": "1"
@@ -3500,7 +3500,7 @@
         "answer": "5",
         "expected": 5,
         "correct": true,
-        "attemptTime": 18715
+        "attemptTime": 17212
       },
       "id": 63,
       "__ver": "1"
@@ -3635,7 +3635,7 @@
         "answer": "7",
         "expected": 7,
         "correct": true,
-        "attemptTime": 5450
+        "attemptTime": 29202
       },
       "id": 72,
       "__ver": "1"
@@ -3755,7 +3755,7 @@
         "answer": "2",
         "expected": 2,
         "correct": true,
-        "attemptTime": 51553
+        "attemptTime": 27336
       },
       "id": 80,
       "__ver": "1"
@@ -3830,7 +3830,7 @@
         "answer": "14",
         "expected": 14,
         "correct": true,
-        "attemptTime": 31879
+        "attemptTime": 32886
       },
       "id": 85,
       "__ver": "1"
@@ -3965,7 +3965,7 @@
         "answer": "12",
         "expected": 12,
         "correct": true,
-        "attemptTime": 15743
+        "attemptTime": 6127
       },
       "id": 94,
       "__ver": "1"
@@ -4145,7 +4145,7 @@
         "answer": "11",
         "expected": 11,
         "correct": true,
-        "attemptTime": 62282
+        "attemptTime": 16865
       },
       "id": 106,
       "__ver": "1"
@@ -4175,7 +4175,7 @@
         "answer": "19",
         "expected": 19,
         "correct": true,
-        "attemptTime": 61866
+        "attemptTime": 151674
       },
       "id": 108,
       "__ver": "1"
@@ -4310,7 +4310,7 @@
         "answer": "60",
         "expected": 13,
         "correct": false,
-        "attemptTime": 49033
+        "attemptTime": 13176
       },
       "id": 117,
       "__ver": "1"
@@ -4325,7 +4325,7 @@
         "answer": "13",
         "expected": 13,
         "correct": true,
-        "attemptTime": 79974
+        "attemptTime": 30941
       },
       "id": 118,
       "__ver": "1"
@@ -4370,7 +4370,7 @@
         "answer": "12",
         "expected": 12,
         "correct": true,
-        "attemptTime": 21895
+        "attemptTime": 11604
       },
       "id": 121,
       "__ver": "1"
@@ -4400,7 +4400,7 @@
         "answer": "17",
         "expected": 17,
         "correct": true,
-        "attemptTime": 25611
+        "attemptTime": 3081
       },
       "id": 123,
       "__ver": "1"
@@ -4415,7 +4415,7 @@
         "answer": "17",
         "expected": 17,
         "correct": true,
-        "attemptTime": 3017
+        "attemptTime": 8825
       },
       "id": 124,
       "__ver": "1"
@@ -4430,7 +4430,7 @@
         "answer": "17",
         "expected": 17,
         "correct": true,
-        "attemptTime": 5952
+        "attemptTime": 2935
       },
       "id": 125,
       "__ver": "1"
@@ -4445,7 +4445,7 @@
         "answer": "17",
         "expected": 17,
         "correct": true,
-        "attemptTime": 6155
+        "attemptTime": 203
       },
       "id": 126,
       "__ver": "1"
@@ -4460,7 +4460,7 @@
         "answer": "17",
         "expected": 17,
         "correct": true,
-        "attemptTime": 6771
+        "attemptTime": 616
       },
       "id": 127,
       "__ver": "1"
@@ -4640,7 +4640,7 @@
         "answer": "12",
         "expected": 20,
         "correct": false,
-        "attemptTime": 29980
+        "attemptTime": 6402
       },
       "id": 139,
       "__ver": "1"
@@ -4655,7 +4655,7 @@
         "answer": "12",
         "expected": 20,
         "correct": false,
-        "attemptTime": 30831
+        "attemptTime": 851
       },
       "id": 140,
       "__ver": "1"
@@ -4670,7 +4670,7 @@
         "answer": "12",
         "expected": 20,
         "correct": false,
-        "attemptTime": 41225
+        "attemptTime": 10396
       },
       "id": 141,
       "__ver": "1"
@@ -4685,7 +4685,7 @@
         "answer": "12",
         "expected": 20,
         "correct": false,
-        "attemptTime": 41951
+        "attemptTime": 725
       },
       "id": 142,
       "__ver": "1"
@@ -4700,7 +4700,7 @@
         "answer": "20",
         "expected": 20,
         "correct": true,
-        "attemptTime": 50916
+        "attemptTime": 8965
       },
       "id": 143,
       "__ver": "1"
@@ -4760,7 +4760,7 @@
         "answer": "4",
         "expected": 4,
         "correct": true,
-        "attemptTime": 11179
+        "attemptTime": 3933
       },
       "id": 147,
       "__ver": "1"
@@ -4805,7 +4805,7 @@
         "answer": "8",
         "expected": 8,
         "correct": true,
-        "attemptTime": 36198
+        "attemptTime": 11059
       },
       "id": 150,
       "__ver": "1"
@@ -4880,7 +4880,7 @@
         "answer": "8",
         "expected": 13,
         "correct": false,
-        "attemptTime": 90223
+        "attemptTime": 73798
       },
       "id": 155,
       "__ver": "1"
@@ -4895,7 +4895,7 @@
         "answer": "8",
         "expected": 13,
         "correct": false,
-        "attemptTime": 90765
+        "attemptTime": 542
       },
       "id": 156,
       "__ver": "1"
@@ -4910,7 +4910,7 @@
         "answer": "8",
         "expected": 13,
         "correct": false,
-        "attemptTime": 91552
+        "attemptTime": 786
       },
       "id": 157,
       "__ver": "1"
@@ -4925,7 +4925,7 @@
         "answer": "13",
         "expected": 13,
         "correct": true,
-        "attemptTime": 221848
+        "attemptTime": 130297
       },
       "id": 158,
       "__ver": "1"
@@ -4985,7 +4985,7 @@
         "answer": "8",
         "expected": 8,
         "correct": true,
-        "attemptTime": 28070
+        "attemptTime": 5907
       },
       "id": 162,
       "__ver": "1"
@@ -5150,7 +5150,7 @@
         "answer": "21",
         "expected": 20,
         "correct": false,
-        "attemptTime": 42017
+        "attemptTime": 4134
       },
       "id": 173,
       "__ver": "1"
@@ -5165,7 +5165,7 @@
         "answer": "21",
         "expected": 20,
         "correct": false,
-        "attemptTime": 42654
+        "attemptTime": 636
       },
       "id": 174,
       "__ver": "1"
@@ -5180,7 +5180,7 @@
         "answer": "02",
         "expected": 20,
         "correct": false,
-        "attemptTime": 61833
+        "attemptTime": 19178
       },
       "id": 175,
       "__ver": "1"
@@ -5195,7 +5195,7 @@
         "answer": "02",
         "expected": 20,
         "correct": false,
-        "attemptTime": 62471
+        "attemptTime": 639
       },
       "id": 176,
       "__ver": "1"
@@ -5210,7 +5210,7 @@
         "answer": "02",
         "expected": 20,
         "correct": false,
-        "attemptTime": 63001
+        "attemptTime": 530
       },
       "id": 177,
       "__ver": "1"
@@ -5225,7 +5225,7 @@
         "answer": "20",
         "expected": 20,
         "correct": true,
-        "attemptTime": 67760
+        "attemptTime": 4758
       },
       "id": 178,
       "__ver": "1"
@@ -5240,7 +5240,7 @@
         "answer": "20",
         "expected": 20,
         "correct": true,
-        "attemptTime": 68049
+        "attemptTime": 291
       },
       "id": 179,
       "__ver": "1"
@@ -5330,7 +5330,7 @@
         "answer": "2",
         "expected": 2,
         "correct": true,
-        "attemptTime": 15139
+        "attemptTime": 8798
       },
       "id": 185,
       "__ver": "1"
@@ -5390,7 +5390,7 @@
         "answer": "15",
         "expected": 15,
         "correct": true,
-        "attemptTime": 34126
+        "attemptTime": 5528
       },
       "id": 189,
       "__ver": "1"
@@ -5495,7 +5495,7 @@
         "answer": "9",
         "expected": 9,
         "correct": true,
-        "attemptTime": 10912
+        "attemptTime": 464
       },
       "id": 196,
       "__ver": "1"
@@ -5524,7 +5524,7 @@
         "answer": "5",
         "expected": 5,
         "correct": true,
-        "attemptTime": 8910
+        "attemptTime": 8645
       },
       "id": 198,
       "__ver": "1"
@@ -5539,7 +5539,7 @@
         "answer": "5",
         "expected": 5,
         "correct": true,
-        "attemptTime": 9301
+        "attemptTime": 391
       },
       "id": 199,
       "__ver": "1"
@@ -5567,7 +5567,7 @@
         "problem": "1 + 2",
         "expected": 3,
         "correct": false,
-        "attemptTime": 444
+        "attemptTime": 250
       },
       "id": 201,
       "__ver": "1"
@@ -5582,7 +5582,7 @@
         "answer": "3",
         "expected": 3,
         "correct": true,
-        "attemptTime": 4450
+        "attemptTime": 4006
       },
       "id": 202,
       "__ver": "1"
@@ -5642,7 +5642,7 @@
         "answer": "2",
         "expected": 2,
         "correct": true,
-        "attemptTime": 42518
+        "attemptTime": 32752
       },
       "id": 206,
       "__ver": "1"
@@ -5732,7 +5732,7 @@
         "answer": "09",
         "expected": 18,
         "correct": false,
-        "attemptTime": 26053
+        "attemptTime": 5391
       },
       "id": 212,
       "__ver": "1"
@@ -5747,7 +5747,7 @@
         "answer": "09",
         "expected": 18,
         "correct": false,
-        "attemptTime": 26445
+        "attemptTime": 391
       },
       "id": 213,
       "__ver": "1"
@@ -5762,7 +5762,7 @@
         "answer": "09",
         "expected": 18,
         "correct": false,
-        "attemptTime": 26898
+        "attemptTime": 453
       },
       "id": 214,
       "__ver": "1"
@@ -5777,7 +5777,7 @@
         "answer": "19",
         "expected": 18,
         "correct": false,
-        "attemptTime": 43877
+        "attemptTime": 16979
       },
       "id": 215,
       "__ver": "1"
@@ -5792,7 +5792,7 @@
         "answer": "90",
         "expected": 18,
         "correct": false,
-        "attemptTime": 51195
+        "attemptTime": 7318
       },
       "id": 216,
       "__ver": "1"
@@ -5807,7 +5807,7 @@
         "answer": "90",
         "expected": 18,
         "correct": false,
-        "attemptTime": 52434
+        "attemptTime": 1239
       },
       "id": 217,
       "__ver": "1"
@@ -5822,7 +5822,7 @@
         "answer": "09",
         "expected": 18,
         "correct": false,
-        "attemptTime": 90643
+        "attemptTime": 38209
       },
       "id": 218,
       "__ver": "1"
@@ -5837,7 +5837,7 @@
         "answer": "17",
         "expected": 18,
         "correct": false,
-        "attemptTime": 267326
+        "attemptTime": 176683
       },
       "id": 219,
       "__ver": "1"
@@ -5852,7 +5852,7 @@
         "answer": "18",
         "expected": 18,
         "correct": true,
-        "attemptTime": 284287
+        "attemptTime": 16961
       },
       "id": 220,
       "__ver": "1"
@@ -6048,7 +6048,7 @@
         "answer": "1",
         "expected": 1,
         "correct": true,
-        "attemptTime": 11695
+        "attemptTime": 34498
       },
       "id": 234
     },
@@ -6384,7 +6384,7 @@
         "answer": "10",
         "expected": 10,
         "correct": true,
-        "attemptTime": 3364
+        "attemptTime": 9493
       },
       "id": 258
     },
@@ -7162,7 +7162,7 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/carusel.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png"
         ],
-        "attemptTime": 1659
+        "attemptTime": 10336
       },
       "id": 302
     },
@@ -7182,7 +7182,7 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/carusel.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png"
         ],
-        "attemptTime": 5067
+        "attemptTime": 47636
       },
       "id": 303
     }
