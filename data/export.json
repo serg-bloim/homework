@@ -3441,7 +3441,7 @@
         "answer": "31",
         "expected": 13,
         "correct": false,
-        "attemptTime": 151327
+        "attemptTime": 0
       },
       "id": 59,
       "__ver": "1"
@@ -3485,7 +3485,7 @@
         "problem": "2 + 3",
         "expected": 5,
         "correct": false,
-        "attemptTime": 41096671
+        "attemptTime": 0
       },
       "id": 62,
       "__ver": "1"
@@ -3635,7 +3635,7 @@
         "answer": "7",
         "expected": 7,
         "correct": true,
-        "attemptTime": 29202
+        "attemptTime": 5450
       },
       "id": 72,
       "__ver": "1"
@@ -3830,7 +3830,7 @@
         "answer": "14",
         "expected": 14,
         "correct": true,
-        "attemptTime": 32886
+        "attemptTime": 31879
       },
       "id": 85,
       "__ver": "1"
@@ -4175,7 +4175,7 @@
         "answer": "19",
         "expected": 19,
         "correct": true,
-        "attemptTime": 151674
+        "attemptTime": 61866
       },
       "id": 108,
       "__ver": "1"
@@ -4415,7 +4415,7 @@
         "answer": "17",
         "expected": 17,
         "correct": true,
-        "attemptTime": 8825
+        "attemptTime": 3017
       },
       "id": 124,
       "__ver": "1"
@@ -6048,7 +6048,7 @@
         "answer": "1",
         "expected": 1,
         "correct": true,
-        "attemptTime": 34498
+        "attemptTime": 11695
       },
       "id": 234
     },
@@ -6384,7 +6384,7 @@
         "answer": "10",
         "expected": 10,
         "correct": true,
-        "attemptTime": 9493
+        "attemptTime": 3364
       },
       "id": 258
     },
@@ -7162,7 +7162,7 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/carusel.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png"
         ],
-        "attemptTime": 10336
+        "attemptTime": 1659
       },
       "id": 302
     },
@@ -7182,7 +7182,7 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/carusel.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png"
         ],
-        "attemptTime": 47636
+        "attemptTime": 5067
       },
       "id": 303
     }
