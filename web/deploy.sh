@@ -11,13 +11,16 @@ echo "Enter new version"
 read new_v
 echo "export const appVersion = '$new_v'" > src/util/version.js
 git add src/util/version.js
-git commit -m "Releasing $new_v"
-git tag "$new_v"
 npm install
 npm run build
+git add package-lock.json
+git commit -m "Releasing $new_v"
+git tag "$new_v"
+cd ..
 git checkout site
 rm -rf docs
-mv dist docs
+mv web/dist docs
 git add docs
 git commit -m "Releasing $new_v"
 git checkout "$current_branch"
+cd web
