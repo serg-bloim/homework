@@ -11,13 +11,16 @@
   "dependencies": {
     "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.21.2",
+    "chart.js": "^2.9.4",
     "class-transformer": "^0.4.0",
     "core-js": "^3.6.5",
+    "dateformat": "^4.5.1",
     "dexie": "^3.0.3",
     "github-api": "^3.4.0",
     "homework-common": "file:../common",
     "uuid": "^3.4.0",
     "vue": "^2.6.11",
+    "vue-chartjs": "^3.5.1",
     "vue-router": "^3.5.1"
   },
   "devDependencies": {
@@ -25,7 +28,6 @@
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
-    "dateformat": "^4.5.1",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "lodash": "^4.17.21",

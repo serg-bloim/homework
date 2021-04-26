@@ -4,6 +4,7 @@
       <router-link to="/homeworks">Homeworks</router-link> {{appVersion}}
       <br/>
       <router-link to="/test">Test Page</router-link>
+      <router-link to="/report">Report</router-link>
       <br/><br/>
     </div>
     <div>
@@ -30,15 +31,14 @@
 </template>
 
 <script>
-import {upgradeDBData} from "../util/setup";
 import HomeworkRepo from "../util/HomeworkRepo";
 import GitHub from "github-api";
-import {db} from "../util/db";
 import {initGitHub, LS_GITHUB_TOKEN} from "../util/github";
 import {appVersion} from "../util/version";
 import {Homework} from "homework-common/src/util/homework";
 import {isNullUndefinedEmpty} from "homework-common/src/util/isNullUndefinedEmpty";
 import {isTaskSounds, setTaskSounds} from "../util/common-settings";
+import {exportDB} from "../util/export";
 
 const LS_IMPORT_URL = "settings.importUrl";
 const LS_EXPORT_REPO = "settings.exportRepo";
@@ -120,18 +120,7 @@ export default {
       return [];
     },
     exportFile() {
-      Promise.all([
-        db.homeworks.toArray(),
-        db.tasks.toArray(),
-        db.logs.toArray()])
-          .then(([homeworks, tasks, logs]) => {
-            console.log(homeworks)
-            console.log(tasks)
-            console.log(logs)
-            return{
-              homeworks, tasks, logs
-            }
-          })
+      exportDB()
       .then(data=>{
         const gh = new GitHub({
           token: this.exportToken,

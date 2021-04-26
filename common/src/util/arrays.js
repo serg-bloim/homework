@@ -1,3 +1,4 @@
+import _ from 'lodash'
 /**
  * @template T
  *
@@ -59,4 +60,31 @@ Array.prototype.swap = function(a, b){
         return true
     }
     return false
+}
+
+
+Array.prototype.groupBy = function (keyF) {
+    return _.groupBy(this, keyF)
+}
+
+Array.prototype.sortBy = function (keyF, sortedKeys) {
+    if(sortedKeys){
+        return _.sortBy(this, a=>sortedKeys.indexOf(keyF(a)))
+    }
+    return _.groupBy(this, keyF)
+}
+
+Array.prototype.last = function () {
+    return this[this.length-1]
+}
+
+Array.prototype.takeUntil = function (predicate){
+    let newArr = []
+    for(let e of this){
+        newArr.push(e)
+        if (predicate(e)) {
+            break
+        }
+    }
+    return newArr
 }
