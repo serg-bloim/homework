@@ -43,7 +43,7 @@ import OptionsTask from "./options-task/OptionsTask";
 import {Homework} from "homework-common/src/util/homework";
 import {next_array_key} from "homework-common/src/util/arrays";
 import {debug} from "homework-common/src/util/basic";
-import {isTaskSounds} from "./Settings";
+import {isTaskSounds} from "../util/common-settings";
 
 const submissionSounds={correct:"https://raw.githubusercontent.com/serg-bloim/homework/master/data/audio/success.mp3", wrong:"https://raw.githubusercontent.com/serg-bloim/homework/master/data/audio/reject.mp3"}
 Object.values(submissionSounds).forEach(url => new Audio(url))

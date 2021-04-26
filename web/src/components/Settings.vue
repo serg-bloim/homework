@@ -38,7 +38,7 @@ import {initGitHub, LS_GITHUB_TOKEN} from "../util/github";
 import {appVersion} from "../util/version";
 import {Homework} from "homework-common/src/util/homework";
 import {isNullUndefinedEmpty} from "homework-common/src/util/isNullUndefinedEmpty";
-import {isTaskSounds, setTaskSounds} from "./Settings";
+import {isTaskSounds, setTaskSounds} from "../util/common-settings";
 
 const LS_IMPORT_URL = "settings.importUrl";
 const LS_EXPORT_REPO = "settings.exportRepo";
