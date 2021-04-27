@@ -4,7 +4,7 @@
       <b-row align-v="center" class="arythmetics-problem">
         <b-col align="right"><span>{{ task.problem }} =</span></b-col>
         <b-col align="left">
-          <AnswerInput v-model="task.answer" :state="answerState" v-on:submit="submit_keypress" />
+          <AnswerInput v-model="task.answer" :state="answerState" @submit="$emit('submit')" />
         </b-col>
       </b-row>
     </b-container>
@@ -27,9 +27,6 @@ export default {
     task: ArythmeticsTaskDef,
   },
   methods: {
-    submit_keypress(e) {
-      this.$emit("submit")
-    },
     focus_answer() {
       this.$refs.answerinput.$el.focus();
     },

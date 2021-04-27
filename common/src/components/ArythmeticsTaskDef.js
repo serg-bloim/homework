@@ -3,13 +3,12 @@ import {TaskDef} from "../util/taskDef";
 
 export class ArythmeticsTaskDef extends TaskDef {
     static TYPE_STR = "ArythmeticsTaskDef"
-    __class = ArythmeticsTaskDef.TYPE_STR;
     correctAnswer;
     problem;
     answer;
 
     constructor(problem, correctAnswer) {
-        super();
+        super(ArythmeticsTaskDef.TYPE_STR);
         this.problem = problem;
         this.correctAnswer = correctAnswer;
     }

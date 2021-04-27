@@ -16,7 +16,7 @@
           <component :is="componentName(current_task)"
                      :id="current_task.id"
                      :task="current_task"
-                     v-on:submit="submit"
+                     @submit="submit"
                      v-if="current_task"
           />
 <!--          <arythmetics-task-window-->
@@ -44,8 +44,12 @@ import {Homework} from "homework-common/src/util/homework";
 import {next_array_key} from "homework-common/src/util/arrays";
 import {debug} from "homework-common/src/util/basic";
 import {isTaskSounds} from "../util/common-settings";
+import AudioMatchTaskWindow from "./AudioMatchTaskWindow";
 
-const submissionSounds={correct:"https://raw.githubusercontent.com/serg-bloim/homework/master/data/audio/success.mp3", wrong:"https://raw.githubusercontent.com/serg-bloim/homework/master/data/audio/reject.mp3"}
+const submissionSounds = {
+  correct: "https://raw.githubusercontent.com/serg-bloim/homework/master/data/audio/success.mp3",
+  wrong: "https://raw.githubusercontent.com/serg-bloim/homework/master/data/audio/reject.mp3"
+}
 Object.values(submissionSounds).forEach(url => new Audio(url))
 
 export default {
@@ -90,6 +94,7 @@ export default {
   },
   methods: {
     submit() {
+      debug("TaskView->submit()")
       let isCorrect = this.current_task.is_correct();
       let ans = this.current_task.createSubmission();
       ans.attemptTime = Date.now() - this.attemptStartedTS
@@ -113,7 +118,8 @@ export default {
     componentName(current_task){
       return {
         ArythmeticsTaskDef: ArythmeticsTaskWindow,
-        OptionsTaskDef: OptionsTask
+        OptionsTaskDef: OptionsTask,
+        AudioMatchTaskDef: AudioMatchTaskWindow,
 
       }[current_task.__class]
     },

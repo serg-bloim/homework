@@ -4,14 +4,13 @@ import {TaskDef} from "../util/taskDef";
 
 export class OptionsTaskDef extends TaskDef{
     static TYPE_STR = "OptionsTaskDef"
-    __class=OptionsTaskDef.TYPE_STR;
     problem;
     options=[]
     correctOption=0
     selected;
 
     constructor(problem, options, correctOption) {
-        super();
+        super(OptionsTaskDef.TYPE_STR);
         this.problem = problem;
         this.options = options
         this.correctOption = correctOption

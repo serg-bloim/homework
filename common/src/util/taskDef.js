@@ -1,6 +1,11 @@
 import {v4 as uuidv4} from "uuid";
 
 export class TaskDef {
+    __class = 'TaskDef';
+    constructor(clazz) {
+        this.__class = clazz
+    }
+
     id = uuidv4();
     type = "none";
     lastSubmissionSuccessful = undefined;
