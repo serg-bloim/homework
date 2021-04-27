@@ -1,21 +1,10 @@
 <template>
   <div ref="bdy">
     <b-container>
-      <b-row align-v="center">
-        <b-col align="right"><span class="arythmetics-task arythmetics-problem">{{ task.problem }} =</span></b-col>
+      <b-row align-v="center" class="arythmetics-problem">
+        <b-col align="right"><span>{{ task.problem }} =</span></b-col>
         <b-col align="left">
-          <div class="arythmetics-answer-col">
-            <span class="arythmetics-task arythmetics-answer">
-          <b-form-input autofocus ref="answerinput"
-                        type="number"
-                        v-model="task.answer"
-                        v-on:keypress="submit_keypress"
-                        v-on:blur="focus_answer"
-                        :state="answerState"
-                        placeholder="???" class="arythmetics-task"/>
-        </span>
-            <b-button v-on:click="task.answer='';focus_answer()">C</b-button>
-          </div>
+          <AnswerInput v-model="task.answer" :state="answerState" v-on:submit="submit_keypress" />
         </b-col>
       </b-row>
     </b-container>
@@ -25,9 +14,11 @@
 <script>
 
 import {ArythmeticsTaskDef} from "homework-common/src/components/ArythmeticsTaskDef";
+import AnswerInput from "../AnswerInput";
 
 export default {
   name: "ArythmeticsTaskWindow",
+  components: {AnswerInput},
   data: () => ({
     answerTry: undefined,
     answerState: null,
@@ -37,9 +28,7 @@ export default {
   },
   methods: {
     submit_keypress(e) {
-      if (e.keyCode === 13) {
-        this.$emit("submit")
-      }
+      this.$emit("submit")
     },
     focus_answer() {
       this.$refs.answerinput.$el.focus();
@@ -54,18 +43,9 @@ export default {
 </script>
 
 <style type="text/css">
-.arythmetics-task {
+.arythmetics-problem{
   font-family: Helvetica;
   font-size: x-large;
 }
 
-input.arythmetics-task {
-  width: 100px;
-  display: inline-block;
-}
-
-.arythmetics-answer-col {
-  display: flex;
-  justify-content: space-between;
-}
 </style>
