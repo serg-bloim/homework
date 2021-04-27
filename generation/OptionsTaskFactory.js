@@ -40,6 +40,7 @@ export class OptionsTaskFactory extends TaskFactory {
             problem,
             correctOption,
             options,
+            __hash: problem,
         }
     }
 }

@@ -2,10 +2,9 @@ import uuidv4 from 'uuid/v4.js'
 import dateFormat from 'dateformat'
 import random from 'random'
 import * as fs from 'fs'
-import _ from 'lodash'
 import {TaskFactory} from "./TaskFactory.js";
-import {OptionsTaskFactory} from "./OptionsTaskFactory.js";
-import {imgs} from "./images.js";
+import {AudioNumberTaskFactory} from "./AudioNumberTaskFactory.js";
+import {audioCollection} from "./audio-numbers.js";
 
 let prefix = 'Homework '
 let startDate = tomorrow(new Date())
@@ -89,7 +88,7 @@ class HomeworkFactory {
             //     if (key === 'id') return true
             // }
             for (let e of arr) {
-                if (e.__class === obj.__class && e.problem === obj.problem)
+                if (e.__class === obj.__class && e.__hash === obj.__hash)
                     return true
             }
             return false
@@ -104,6 +103,7 @@ class HomeworkFactory {
                 }
             }
         }
+        hw.tasks.forEach(task=>delete task.__hash)
         return hw;
     }
 }
@@ -115,7 +115,8 @@ function renderArythmeticTask(problem, correctAnswer) {
         __class: "ArythmeticsTaskDef",
         __ver: "1",
         correctAnswer: correctAnswer,
-        problem: problem
+        problem: problem,
+        __hash: problem
     };
 }
 
@@ -175,10 +176,9 @@ class MinusTaskFactory extends TaskFactory{
 }
 
 let hwFactory = new HomeworkFactory()
-// hwFactory.addTaskPlan(new SumTaskFactory(3, 10), 4)
-// hwFactory.addTaskPlan(new MinusTaskFactory(4, 8), 3)
+
 // hwFactory.addTaskPlan(new SumTaskFactory(11, 15), 4)
-hwFactory.addTaskPlan(new OptionsTaskFactory(imgs, 20), 10)
+hwFactory.addTaskPlan(new AudioNumberTaskFactory(audioCollection, 1, 20), 10)
 // hwFactory.addTaskPlan(new SumWithTensFactory(1, 3), 4)
 // hwFactory.addTaskPlan(new SumTaskFactory(16, 20), 1)
 let data = {homeworks: [hwFactory.create()]};
@@ -186,7 +186,7 @@ fs.writeFile('../data/import.json', JSON.stringify(data, null, 4), console.log);
 for (const hw of data.homeworks) {
     console.log("-------")
     for (let t of hw.tasks) {
-        console.log(t.problem + " = " + t.correctAnswer)
+        console.log((t.problem??"audio") + " = " + (t.correctAnswer ?? t.expected))
     }
 }
 
