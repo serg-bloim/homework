@@ -3,9 +3,6 @@
     <div>
       <router-link to="/homeworks">Homeworks</router-link> {{appVersion}}
       <br/>
-      <router-link to="/test">Test Page</router-link>
-      <router-link to="/report">Report</router-link>
-      <br/><br/>
     </div>
     <div>
       <b-input type="text" v-model="importUrl"/>
@@ -27,6 +24,7 @@
     <div>
       <b-checkbox v-model="taskSounds">Task Sounds</b-checkbox>
     </div>
+    <router-link to="/report">Report</router-link>
   </div>
 </template>
 
