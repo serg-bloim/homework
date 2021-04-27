@@ -12,16 +12,23 @@ export class AudioMatchTaskDef extends TaskDef{
         this.expected = expected?.toString();
     }
 
+    preview(ans = "?") {
+        return "audio = " + ans
+    }
 
-    preview() {
-        return "audio"
+    toString() {
+        let answr = undefined
+        if (this.answer) {
+            answr = this.answer
+        }
+        return this.preview(answr)
     }
 
     /**
      * @type boolean
      */
     is_correct() {
-        return this.answer.toString() === this.expected
+        return this.answer?.toString() === this.expected?.toString()
     }
 
     /**
@@ -59,5 +66,4 @@ export class AudioMatchTaskDef extends TaskDef{
             problem: this.audioUrl, answer: this.answer, expected: this.expected, correct: this.is_correct()
         }
     }
-
 }

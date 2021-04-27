@@ -21,6 +21,11 @@ export default {
     play(){
       this.audio.play()
     }
+  },
+  watch:{
+    url(newV, oldV){
+      this.audio = new Audio(newV)
+    }
   }
 }
 </script>

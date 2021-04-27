@@ -3,8 +3,9 @@ import {v4 as uuidv4} from "uuid";
 import {classToPlain, plainToClass} from "class-transformer";
 import {OptionsTaskDef} from "../components/OptionsTaskDef";
 import {ArythmeticsTaskDef} from "../components/ArythmeticsTaskDef";
+import {AudioMatchTaskDef} from "../components/AudioMatchTaskDef.js";
 
-export const str2class = _.keyBy([ArythmeticsTaskDef, OptionsTaskDef], c => c.TYPE_STR)
+export const str2class = _.keyBy([ArythmeticsTaskDef, OptionsTaskDef, AudioMatchTaskDef], c => c.TYPE_STR)
 
 function convertTask(taskObj) {
     let clazz = str2class[taskObj.__class]

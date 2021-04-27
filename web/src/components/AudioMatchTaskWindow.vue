@@ -2,7 +2,7 @@
 <div>
   <b-container class="bv-example-row">
     <b-row>
-      <b-col><AudioPlayer :url="task.audioUrl" /></b-col>
+      <b-col><AudioPlayer ref="player" :url="task.audioUrl" /></b-col>
     </b-row>
     <b-row>
       <b-col  cols="4"></b-col>
@@ -17,6 +17,7 @@
 import {AudioMatchTaskDef} from "homework-common/src/components/AudioMatchTaskDef";
 import AudioPlayer from "./AudioPlayer";
 import AnswerInput from "./AnswerInput";
+import {debug} from "homework-common/src/util/basic.js";
 
 export default {
   name: "AudioMatchTaskWindow",
@@ -33,6 +34,23 @@ export default {
     inputStyle(){
       return 'number'
     }
+  },
+  methods:{
+    play(){
+      this.$nextTick(()=>{
+        debug(`AudioMatchTaskWindow->play(${this.task.expected})`)
+        this.$refs.player.play()
+      })
+
+    }
+  },
+  watch:{
+    task(){
+      this.play()
+    }
+  },
+  mounted() {
+    this.play()
   }
 }
 </script>

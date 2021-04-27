@@ -6,6 +6,7 @@ export class ArythmeticsTaskDef extends TaskDef {
     correctAnswer;
     problem;
     answer;
+    __ver=1;
 
     constructor(problem, correctAnswer) {
         super(ArythmeticsTaskDef.TYPE_STR);
@@ -49,7 +50,7 @@ export class ArythmeticsTaskDef extends TaskDef {
 
     createSubmission() {
         return {
-            problem: this.problem, answer: this.answer, expected: this.correctAnswer, correct: this.is_correct()
+            taskClass: this.__class, problem: this.problem, answer: this.answer, expected: this.correctAnswer, correct: this.is_correct(), __ver: this.__ver
         }
     }
 }
