@@ -3,12 +3,10 @@ import {classToPlain} from "class-transformer";
 
 export class AudioMatchTaskDef extends TaskDef{
     static TYPE_STR = "AudioMatchTaskDef"
-    audioUrl
     expected
     answer
-    constructor(audioUrl, expected) {
+    constructor(expected) {
         super(AudioMatchTaskDef.TYPE_STR);
-        this.audioUrl = audioUrl;
         this.expected = expected?.toString();
     }
 

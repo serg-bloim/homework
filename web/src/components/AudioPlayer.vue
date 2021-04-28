@@ -5,26 +5,39 @@
 </template>
 
 <script>
+import {Howl} from 'howler';
+
+function playSequentially(urls){
+  if(urls.length > 0) {
+    let sounds = urls.map(u => new Howl({src: [u]}));
+    for (let i = 1; i < sounds.length; i++) {
+      sounds[i - 1].on('end', function () {
+        sounds[i].play()
+      })
+    }
+    sounds[0].play()
+  }
+}
 
 export default {
   name: "AudioPlayer",
   props:{
-    url:String
+    urls:Array
   },
   data(){
-    let audio = new Audio(this.url);
+    let audio = new Howl({src: this.urls,autoplay: true,})
     return{
       audio: audio
     }
   },
   methods:{
     play(){
-      this.audio.play()
+      playSequentially(this.urls)
     }
   },
   watch:{
-    url(newV, oldV){
-      this.audio = new Audio(newV)
+    urls(newV, oldV){
+      this.audio = new Howl({src: newV,autoplay: true})
     }
   }
 }

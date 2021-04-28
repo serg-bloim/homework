@@ -3,16 +3,20 @@ import _ from 'lodash'
 export class AudioCollection {
     descriptorUrl;
     descriptor=undefined;
+    loadPromise;
     constructor(descriptorUrl) {
         this.descriptorUrl = descriptorUrl;
         let base = new URL(descriptorUrl)
-        fetch(descriptorUrl).then(data=>data.json())
+        this.loadPromise = fetch(descriptorUrl).then(data=>data.json())
             .then(json => this.descriptor = _.mapValues(json, relUrl => new URL(relUrl, base).toString()))
     }
     getResourceUrl(name){
         if(this.descriptor){
             return this.descriptor[name]
         }
+    }
+    load(){
+        return this.loadPromise
     }
 }
 

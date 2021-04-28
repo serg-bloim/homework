@@ -1,10 +1,11 @@
 <template>
   <div>
   Test Page
+    <b-button @click="testSound">SoundCheck</b-button>
 <!--    <AudioPlayer url="https://raw.githubusercontent.com/serg-bloim/homework/master/data/audio/success.mp3" />-->
 <!--    <AudioMatchTaskWindow :task="audioTask" />-->
     <TaskView :homework="audioHomework"/>
-    <TaskView :homework="arythmeticsHomework"/>
+<!--    <TaskView :homework="arythmeticsHomework"/>-->
   </div>
 </template>
 
@@ -18,6 +19,8 @@ import {AudioMatchTaskDef} from "homework-common/src/components/AudioMatchTaskDe
 import {ArythmeticsTaskDef} from "homework-common/src/components/ArythmeticsTaskDef";
 import TaskView from "./TaskView";
 import {Homework} from "homework-common/src/util/homework";
+import {Howl} from 'howler'
+import {create_seq} from "homework-common/src/util/arrays.js";
 const labels = [
   'January',
   'February',
@@ -40,12 +43,13 @@ const data = {
     data: [0, 10, 5, 2, 20, 30, 45],
   }]
 };
+let tsks = Array.from(create_seq(1,199)).map(n=>new AudioMatchTaskDef(n))
 export default {
   name: "TestPage",
   components: {TaskView, ArythmeticsTaskWindow, AudioMatchTaskWindow, AudioPlayer, MyBarChart},
   data(){
     let arythmeticsHomework = new Homework([new ArythmeticsTaskDef("2+2", 4)]);
-    let audioHomework = new Homework([new AudioMatchTaskDef("https://freesound.org/data/previews/439/439029_7268008-lq.mp3", 5)]);
+    let audioHomework = new Homework(tsks);
     return{
       audioTask:new AudioMatchTaskDef("https://raw.githubusercontent.com/serg-bloim/homework/master/data/audio/success.mp3"),
       arythmeticsTask:new ArythmeticsTaskDef("2+2", 4),
@@ -55,6 +59,16 @@ export default {
       chartOpts:{}
     }
   },
+  methods:{
+    testSound(){
+      let sound = new Howl({
+        src: ['https://raw.githubusercontent.com/serg-bloim/homework/master/data/audio/collections/number-serg/20.mp3',
+          'https://raw.githubusercontent.com/serg-bloim/homework/master/data/audio/collections/number-serg/6.mp3',],
+        autoplay:true,
+      })
+      sound.play()
+    }
+  }
 }
 </script>
 
