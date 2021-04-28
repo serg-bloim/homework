@@ -5,6 +5,9 @@ import * as fs from 'fs'
 import {TaskFactory} from "./TaskFactory.js";
 import {AudioNumberTaskFactory} from "./AudioNumberTaskFactory.js";
 import {audioCollection} from "./audio-numbers.js";
+import {create_seq} from "homework-common/src/util/arrays.js";
+import _ from 'lodash'
+import {debug} from "../common/src/util/basic.js";
 
 let prefix = 'Homework '
 let startDate = tomorrow(new Date())
@@ -178,7 +181,11 @@ class MinusTaskFactory extends TaskFactory{
 let hwFactory = new HomeworkFactory()
 
 // hwFactory.addTaskPlan(new SumTaskFactory(11, 15), 4)
-hwFactory.addTaskPlan(new AudioNumberTaskFactory(audioCollection, 1, 20), 10)
+let ns = _.shuffle(Array.from(create_seq(1, 20)).concat(Array.from(create_seq(3, 8)).map(i=>i*10)))
+ns.forEach(n=>
+    hwFactory.addTaskPlan(new AudioNumberTaskFactory(audioCollection, n, n), 1)
+)
+// hwFactory.addTaskPlan(new AudioNumberTaskFactory(audioCollection, 1, 20), 10)
 // hwFactory.addTaskPlan(new SumWithTensFactory(1, 3), 4)
 // hwFactory.addTaskPlan(new SumTaskFactory(16, 20), 1)
 let data = {homeworks: [hwFactory.create()]};
