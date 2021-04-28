@@ -2,7 +2,7 @@
 <div>
   <b-container class="bv-example-row">
     <b-row>
-      <b-col><AudioPlayer ref="player" :url="task.audioUrl" /></b-col>
+      <b-col><AudioPlayer ref="player" :url="audioCollection.getResourceUrl(task.expected)" /></b-col>
     </b-row>
     <b-row>
       <b-col  cols="4"></b-col>
@@ -18,6 +18,8 @@ import {AudioMatchTaskDef} from "homework-common/src/components/AudioMatchTaskDe
 import AudioPlayer from "./AudioPlayer";
 import AnswerInput from "./AnswerInput";
 import {debug} from "homework-common/src/util/basic.js";
+import {audioCollectionManager, AudioCollectionManager} from "../util/AudioCollectionManager.js";
+import {getAudioCollectionName} from "../util/common-settings.js";
 
 export default {
   name: "AudioMatchTaskWindow",
@@ -28,6 +30,7 @@ export default {
   data(){
     return{
       answerState:null,
+      audioCollection: audioCollectionManager.getCollection(getAudioCollectionName())
     }
   },
   computed:{

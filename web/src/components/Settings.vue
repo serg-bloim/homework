@@ -24,6 +24,10 @@
     <div>
       <b-checkbox v-model="taskSounds">Task Sounds</b-checkbox>
     </div>
+    <div>
+      <p>Audio collection:</p>
+      <b-form-select v-model="audioCollectionName" :options="audioCollectionOptions"></b-form-select>
+    </div>
     <router-link to="/report">Report</router-link>
   </div>
 </template>
@@ -35,8 +39,9 @@ import {initGitHub, LS_GITHUB_TOKEN} from "../util/github";
 import {appVersion} from "../util/version";
 import {Homework} from "homework-common/src/util/homework";
 import {isNullUndefinedEmpty} from "homework-common/src/util/isNullUndefinedEmpty";
-import {isTaskSounds, setTaskSounds} from "../util/common-settings";
+import {getAudioCollectionName, isTaskSounds, setAudioCollectionName, setTaskSounds} from "../util/common-settings";
 import {exportDB} from "../util/export";
+import {audioCollectionManager} from "../util/AudioCollectionManager.js";
 
 const LS_IMPORT_URL = "settings.importUrl";
 const LS_EXPORT_REPO = "settings.exportRepo";
@@ -54,8 +59,11 @@ export default {
       exportBranch: localStorage.getItem(LS_EXPORT_BRANCH) ?? 'master',
       exportPath: localStorage.getItem(LS_EXPORT_PATH) ?? 'data/export.json',
       taskSounds: isTaskSounds(),
+      audioCollectionName:getAudioCollectionName(),
+      audioCollectionOptions:audioCollectionManager.getCollectionNames(),
       importStatusText: '',
-      importStatusSuccess: false
+      importStatusSuccess: false,
+      audioCollectionManager:audioCollectionManager,
     }
   },
   computed: {
@@ -87,6 +95,9 @@ export default {
     taskSounds(newV, oldV){
       setTaskSounds(newV)
     },
+    audioCollectionName(newV, oldV){
+      setAudioCollectionName(newV)
+    }
   },
   methods: {
     importData() {
