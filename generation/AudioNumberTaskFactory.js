@@ -11,7 +11,7 @@ export class AudioNumberTaskFactory  extends TaskFactory {
     }
 
     create(){
-        let base = this.createBase("AudioMatchTaskDef", "1")
+        let base = this.createBase("AudioMatchTaskDef", "2")
         let expected = random.int(this.min, this.max)
         let __hash = expected
         return { ...base, expected, __hash }

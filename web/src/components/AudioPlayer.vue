@@ -24,12 +24,6 @@ export default {
   props:{
     urls:Array
   },
-  data(){
-    let audio = new Howl({src: this.urls,autoplay: true,})
-    return{
-      audio: audio
-    }
-  },
   methods:{
     play(){
       playSequentially(this.urls)

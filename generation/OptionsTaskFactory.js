@@ -36,7 +36,7 @@ export class OptionsTaskFactory extends TaskFactory {
             id: uuidv4(),
             type: "none",
             __class: "OptionsTaskDef",
-            __ver: "1",
+            __ver: "2",
             problem,
             correctOption,
             options,

@@ -116,7 +116,7 @@ function renderArythmeticTask(problem, correctAnswer) {
         id: uuidv4(),
         type: "none",
         __class: "ArythmeticsTaskDef",
-        __ver: "1",
+        __ver: "2",
         correctAnswer: correctAnswer,
         problem: problem,
         __hash: problem
@@ -150,7 +150,7 @@ class SumTaskFactory extends TaskFactory {
 class SumWithTensFactory extends SumTaskFactory {
     create() {
         let a = rand(this.min, this.max)*10
-        let b = rand(1, 10)
+        let b = rand(1, 9)
         return this.render(a, b)
     }
 }
@@ -180,14 +180,12 @@ class MinusTaskFactory extends TaskFactory{
 
 let hwFactory = new HomeworkFactory()
 
-// hwFactory.addTaskPlan(new SumTaskFactory(11, 15), 4)
-let ns = _.shuffle(Array.from(create_seq(1, 20)).concat(Array.from(create_seq(3, 8)).map(i=>i*10)))
-ns.forEach(n=>
-    hwFactory.addTaskPlan(new AudioNumberTaskFactory(audioCollection, n, n), 1)
-)
-// hwFactory.addTaskPlan(new AudioNumberTaskFactory(audioCollection, 1, 20), 10)
-// hwFactory.addTaskPlan(new SumWithTensFactory(1, 3), 4)
-// hwFactory.addTaskPlan(new SumTaskFactory(16, 20), 1)
+hwFactory.addTaskPlan(new SumTaskFactory(5, 10), 2)
+hwFactory.addTaskPlan(new SumTaskFactory(5, 15), 3)
+hwFactory.addTaskPlan(new MinusTaskFactory(5,10), 2)
+hwFactory.addTaskPlan(new AudioNumberTaskFactory(audioCollection, 1, 50), 5)
+hwFactory.addTaskPlan(new SumWithTensFactory(1, 3), 4)
+hwFactory.addTaskPlan(new SumTaskFactory(16, 20), 1)
 let data = {homeworks: [hwFactory.create()]};
 fs.writeFile('../data/import.json', JSON.stringify(data, null, 4), console.log);
 for (const hw of data.homeworks) {
