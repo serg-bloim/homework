@@ -12,7 +12,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 2,
           "problem": "1 + 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "0ebd12af-558d-401e-9b32-58c0b4cea2e7",
@@ -20,7 +20,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 3,
           "problem": "2 + 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "bc52dca9-97b4-4f35-b89b-fe9bc5448c4e",
@@ -28,7 +28,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 7,
           "problem": "1 + 6",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "9d7a9dcc-e53b-4c13-8940-d65271def890",
@@ -36,7 +36,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 9,
           "problem": "6 + 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "a65b43b2-1b05-4167-b3aa-4ccdabc8ebfc",
@@ -44,7 +44,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 3,
           "problem": "0 + 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "2192eda3-a37c-493e-8c3e-e12103203ba2",
@@ -52,7 +52,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 5,
           "problem": "5 - 0",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "ec6f74bb-731b-4f8e-bf25-ac3d065e8a3e",
@@ -60,7 +60,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 2,
           "problem": "2 - 0",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "36acae13-1309-4c15-8fb5-af5f5150f3b0",
@@ -68,7 +68,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 11,
           "problem": "8 + 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "cb838634-7c73-46c8-a34c-4fa6c4f3f7aa",
@@ -76,7 +76,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 12,
           "problem": "7 + 5",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "c99d4a69-79e1-4004-a2be-6c916f42b59a",
@@ -84,7 +84,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 11,
           "problem": "10 + 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "9eb81a65-8536-451f-abc9-b03a9a363a0d",
@@ -92,7 +92,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 18,
           "problem": "8 + 10",
-          "__ver": "1"
+          "__ver": "2"
         }
       ],
       "__ver": "1"
@@ -109,7 +109,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 5,
           "problem": "2 + 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "c0041512-cdf0-4fcf-99c7-aaf9771eb9b6",
@@ -117,7 +117,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 9,
           "problem": "5 + 4",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "eeb819c6-b1c4-4325-83a8-f220fa626422",
@@ -125,7 +125,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 7,
           "problem": "0 + 7",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "6038004f-0dc3-49db-9eff-08ae5c0b5900",
@@ -133,7 +133,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 7,
           "problem": "2 + 5",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "fdbaad41-fbf0-4622-9610-2598baa4b789",
@@ -141,7 +141,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 9,
           "problem": "4 + 5",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "204de5e6-4799-4c56-a76e-1ee2af747dd2",
@@ -149,7 +149,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 2,
           "problem": "2 - 0",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "6785cf97-7cb2-4a3d-b118-86e66cda86e2",
@@ -157,7 +157,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 2,
           "problem": "3 - 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "65fc37d2-5f38-436d-a8f6-45dfaf625829",
@@ -165,7 +165,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 11,
           "problem": "6 + 5",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "274d95a6-e620-475e-b4a4-56f92d6677da",
@@ -173,7 +173,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 14,
           "problem": "10 + 4",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "71293643-13fa-42d9-8dc4-4d10640f8b21",
@@ -181,7 +181,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 14,
           "problem": "9 + 5",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "b885f0f5-1dc4-4134-8cdd-9133f85adfed",
@@ -189,7 +189,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 16,
           "problem": "1 + 15",
-          "__ver": "1"
+          "__ver": "2"
         }
       ],
       "__ver": "1"
@@ -206,7 +206,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 4,
           "problem": "2 + 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "cdda582f-c181-4c0e-885b-aa328a0e9fc9",
@@ -214,7 +214,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 6,
           "problem": "4 + 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "d37bb2fe-bf7b-4f2b-884b-3960b71a567f",
@@ -222,7 +222,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 10,
           "problem": "4 + 6",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "b5c5ad00-f2fb-4a19-bf74-018cc073145e",
@@ -230,7 +230,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 4,
           "problem": "3 + 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "65be8e7c-bc18-4440-8692-a845128f8636",
@@ -238,7 +238,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 1,
           "problem": "8 - 7",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "16aa10e7-4592-4988-9c7e-f77a5ae6ce0f",
@@ -246,7 +246,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 1,
           "problem": "7 - 6",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "cc2f326f-6ce3-45bc-83f7-3c79586f7284",
@@ -254,7 +254,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 2,
           "problem": "8 - 6",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "a030aa00-bf72-4977-9e64-867b873ec34b",
@@ -262,7 +262,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 11,
           "problem": "9 + 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "48eb5499-8571-437b-8ec9-bb01386daf56",
@@ -270,7 +270,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 14,
           "problem": "13 + 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "aa438810-92ca-4ef3-99bc-4d4d8ed6cc12",
@@ -278,7 +278,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 13,
           "problem": "6 + 7",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "1e945a0c-12f8-40a6-9b3e-9703ef627798",
@@ -286,7 +286,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 12,
           "problem": "8 + 4",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "7915fcaa-ab8d-4e74-a817-76a293fa11af",
@@ -300,7 +300,7 @@
             "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cake.png"
           ],
           "correctOption": 2,
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "635c5acb-6ca0-462c-841b-712eacc95923",
@@ -314,7 +314,7 @@
             "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/bike.png"
           ],
           "correctOption": 0,
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "b89489ad-f9b0-4230-859e-62d27eb34172",
@@ -322,7 +322,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 20,
           "problem": "10 + 10",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "4430f364-b5e1-424b-8ff4-58104af81c98",
@@ -330,7 +330,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 38,
           "problem": "30 + 8",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "d441e005-4e44-4f74-82b5-8c85537b2f88",
@@ -338,7 +338,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 19,
           "problem": "6 + 13",
-          "__ver": "1"
+          "__ver": "2"
         }
       ],
       "__ver": "1"
@@ -355,7 +355,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 4,
           "problem": "2 + 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "77a85a4b-5c04-46dd-a919-431c04aec682",
@@ -363,7 +363,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 5,
           "problem": "4 + 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "7e27ae40-bc61-41d5-80ba-a82265e2c74d",
@@ -371,7 +371,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 8,
           "problem": "5 + 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "cf8a13d4-3450-49b4-96fa-5270c0f3ebde",
@@ -379,7 +379,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 7,
           "problem": "2 + 5",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "6d09c86a-8335-4a28-ad56-f1266fc2e26b",
@@ -387,7 +387,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 8,
           "problem": "0 + 8",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "ed055862-3f1b-4201-a726-478747da0f83",
@@ -395,7 +395,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 4,
           "problem": "5 - 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "b8bf613b-4beb-4511-9a67-53a73066a13f",
@@ -403,7 +403,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 2,
           "problem": "5 - 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "44b6e0a7-57ec-40b5-ae6a-aaca60114ad8",
@@ -411,7 +411,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 12,
           "problem": "2 + 10",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "d119db89-0c67-4aba-a0bd-b13516c4178c",
@@ -419,7 +419,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 12,
           "problem": "11 + 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "0ffdfcf0-0e85-4a78-9d71-680c9dfb6e1c",
@@ -427,7 +427,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 13,
           "problem": "4 + 9",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "f0a4e193-7d51-48a0-a686-fc99ca02a80c",
@@ -435,7 +435,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 18,
           "problem": "6 + 12",
-          "__ver": "1"
+          "__ver": "2"
         }
       ],
       "__ver": "1"
@@ -452,7 +452,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 5,
           "problem": "4 + 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "73de0f58-534a-4d24-9738-0527ac7553a8",
@@ -460,7 +460,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 6,
           "problem": "0 + 6",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "3e463075-54dd-46be-8392-770d8140417f",
@@ -468,7 +468,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 7,
           "problem": "0 + 7",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "e6eddbc7-2f20-4fa1-a56a-a9a1d285d096",
@@ -476,7 +476,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 8,
           "problem": "7 + 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "fbccd50d-dcfa-45f7-af52-3bbce13f378b",
@@ -484,7 +484,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 2,
           "problem": "4 - 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "860620cd-b835-4300-b1f0-41b570290d8b",
@@ -492,7 +492,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 3,
           "problem": "6 - 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "34ad42cc-e5d4-4be2-85bb-200cf2303dd6",
@@ -500,7 +500,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 4,
           "problem": "6 - 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "4f554627-801d-4a54-acfc-6810c8920a86",
@@ -508,7 +508,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 15,
           "problem": "8 + 7",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "704474fe-ada2-4848-9b68-8e4141ca3614",
@@ -516,7 +516,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 15,
           "problem": "14 + 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "6e9ad0ab-41d6-45ee-8af5-d2142b71f365",
@@ -524,7 +524,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 11,
           "problem": "3 + 8",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "9f60c2ac-d884-4190-9ebb-d9b2a38d4d01",
@@ -532,7 +532,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 12,
           "problem": "4 + 8",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "90952e9c-c78e-4f74-8483-f289ef08a52c",
@@ -540,7 +540,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 16,
           "problem": "10 + 6",
-          "__ver": "1"
+          "__ver": "2"
         }
       ],
       "__ver": "1"
@@ -557,7 +557,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 9,
           "problem": "1 + 8",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "b7f9062b-cae7-47bc-9b58-3a09243b7276",
@@ -565,7 +565,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 8,
           "problem": "0 + 8",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "8420b19a-b30f-44d3-92e9-ed30763470dd",
@@ -573,7 +573,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 3,
           "problem": "2 + 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "8123cad2-6fa5-4dd2-99d5-aeb60253ff55",
@@ -581,7 +581,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 9,
           "problem": "3 + 6",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "6364a17a-8ab1-4cfe-a5d8-dccef0d8223c",
@@ -589,7 +589,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 8,
           "problem": "7 + 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "546cdb82-7403-445d-8c75-98ba342682f4",
@@ -597,7 +597,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 3,
           "problem": "6 - 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "918c35c1-68eb-40b2-9cf6-73939267f67a",
@@ -605,7 +605,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 3,
           "problem": "4 - 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "1e515142-324c-44a9-a215-05873f6bb3c7",
@@ -613,7 +613,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 12,
           "problem": "10 + 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "42513fa0-6364-49c4-8b1b-2f4ac8c54dff",
@@ -621,7 +621,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 12,
           "problem": "7 + 5",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "80f68117-ee8f-4d0d-8641-76fc2123a89d",
@@ -629,7 +629,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 11,
           "problem": "6 + 5",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "15eb2346-5f9f-4ccf-9b34-f4efd8b1989d",
@@ -637,7 +637,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 19,
           "problem": "6 + 13",
-          "__ver": "1"
+          "__ver": "2"
         }
       ],
       "__ver": "1"
@@ -654,7 +654,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 5,
           "problem": "2 + 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "c1eb207f-5a04-4ed4-aff2-2d9d58c4067f",
@@ -662,7 +662,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 9,
           "problem": "6 + 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "b321bcc4-869f-4779-860f-dd79cb7f815e",
@@ -670,7 +670,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 6,
           "problem": "4 + 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "d1696525-6f26-4703-8eb2-cc253857f949",
@@ -678,7 +678,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 10,
           "problem": "4 + 6",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "d32ff01f-533e-4010-bf1c-1ec6ff2dd848",
@@ -686,7 +686,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 10,
           "problem": "5 + 5",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "8dc59fa9-f373-489a-b375-95413236182a",
@@ -694,7 +694,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 1,
           "problem": "4 - 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "89b10e4d-df01-4c93-bfd2-1512eeeea708",
@@ -702,7 +702,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 0,
           "problem": "2 - 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "09f158ae-d684-4fa7-a517-9207fcba23f5",
@@ -710,7 +710,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 13,
           "problem": "6 + 7",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "2aa534a8-b8b4-4b3e-8bff-6b1065af9acb",
@@ -718,7 +718,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 11,
           "problem": "9 + 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "0194540e-1c3a-49cc-ba22-7176e821091e",
@@ -726,7 +726,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 12,
           "problem": "2 + 10",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "8a8515e6-692a-4225-8e5f-bd550abdfc8a",
@@ -734,7 +734,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 17,
           "problem": "11 + 6",
-          "__ver": "1"
+          "__ver": "2"
         }
       ],
       "__ver": "1"
@@ -751,7 +751,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 8,
           "problem": "4 + 4",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "a76b16a0-0d34-4d0e-8c3a-3191bb2c7e11",
@@ -759,7 +759,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 9,
           "problem": "6 + 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "c4fbe184-b87e-4dcb-aa5d-8b6b20464f86",
@@ -767,7 +767,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 5,
           "problem": "0 + 5",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "efb27d77-8ea9-429d-91f0-bfdd6b03df8a",
@@ -775,7 +775,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 3,
           "problem": "1 + 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "a481e57d-2c6c-4f5f-8940-e27f9ad3ffc1",
@@ -783,7 +783,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 4,
           "problem": "7 - 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "bde47d8a-c06b-4fb4-9a0f-c01f919f404d",
@@ -791,7 +791,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 6,
           "problem": "7 - 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "46145cdb-68f6-4d6b-83f0-618d9f5d927f",
@@ -799,7 +799,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 2,
           "problem": "4 - 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "127a69f5-81bb-4be5-a29f-1fa045c0a19d",
@@ -807,7 +807,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 12,
           "problem": "2 + 10",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "9cb5f8fd-83b0-45c5-b1d7-f316626b776b",
@@ -815,7 +815,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 11,
           "problem": "2 + 9",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "fc994a07-2839-4c0a-946a-886664dc494b",
@@ -823,7 +823,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 15,
           "problem": "9 + 6",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "df53971f-24c1-4dfb-846e-777e34860a2f",
@@ -831,7 +831,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 14,
           "problem": "4 + 10",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "c48d7285-b3f8-46e5-9d51-e6cfa80e45bc",
@@ -839,7 +839,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 18,
           "problem": "9 + 9",
-          "__ver": "1"
+          "__ver": "2"
         }
       ],
       "__ver": "1"
@@ -856,7 +856,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 7,
           "problem": "2 + 5",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "b90794d6-393b-4ab0-b267-225ed70ee18a",
@@ -864,7 +864,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 8,
           "problem": "6 + 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "1fff6b2c-4e93-4fd0-80a7-6b60308d1152",
@@ -872,7 +872,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 8,
           "problem": "3 + 5",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "7a9cb3fe-8299-45c7-a81d-7250bc8378cb",
@@ -880,7 +880,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 8,
           "problem": "7 + 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "58f5d4e6-9a18-4204-82bc-2a9726c54d39",
@@ -888,7 +888,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 1,
           "problem": "8 - 7",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "e2c85b77-89ed-4dcc-9b3a-5f39611c22bd",
@@ -896,7 +896,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 1,
           "problem": "4 - 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "bfd916cc-6f27-44ee-9c95-0fabe019d235",
@@ -904,7 +904,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 1,
           "problem": "6 - 5",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "4b1fe8d0-91d4-4642-abdb-969fa327407a",
@@ -912,7 +912,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 14,
           "problem": "11 + 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "b80e9f2b-12cf-405f-8d71-7e349185cbcb",
@@ -920,7 +920,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 13,
           "problem": "4 + 9",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "d79eed53-7d6f-4931-9550-983fe012afc3",
@@ -928,7 +928,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 15,
           "problem": "6 + 9",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "d5875223-2d4d-430d-99d2-82d5bb432e26",
@@ -936,7 +936,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 12,
           "problem": "10 + 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "3de486e1-e1d0-4a18-bde9-dafbd0b0775e",
@@ -944,7 +944,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 19,
           "problem": "10 + 9",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "9cb1ef36-73ab-4293-93d6-8e7083f759a4",
@@ -952,7 +952,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 28,
           "problem": "20 + 8",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "13ce4b1f-d20e-42a9-a7e7-fba45f7cee01",
@@ -960,7 +960,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 39,
           "problem": "30 + 9",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "f32dc812-5894-413f-9c25-2ecb0bc962cf",
@@ -968,7 +968,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 26,
           "problem": "20 + 6",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "da4d2bd4-20da-4546-b3df-40f1749e2fb1",
@@ -976,7 +976,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 16,
           "problem": "9 + 7",
-          "__ver": "1"
+          "__ver": "2"
         }
       ],
       "__ver": "1"
@@ -993,7 +993,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 8,
           "problem": "4 + 4",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "adf26314-c010-47c1-9077-6be9ec1488d2",
@@ -1001,7 +1001,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 8,
           "problem": "3 + 5",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "4d102cc0-e284-438b-a23d-c1c5da24c36f",
@@ -1009,7 +1009,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 7,
           "problem": "4 + 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "4a946767-9ed9-41cb-88af-bd0cca21aaa2",
@@ -1017,7 +1017,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 5,
           "problem": "1 + 4",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "ce1cffb0-6d8f-4c08-9e36-82e69c0b890b",
@@ -1025,7 +1025,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 6,
           "problem": "0 + 6",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "a244cc64-fe40-4625-a140-c64379dd96c0",
@@ -1033,7 +1033,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 3,
           "problem": "5 - 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "02e84bab-0965-4afe-906c-d1ecbcc713fc",
@@ -1041,7 +1041,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 2,
           "problem": "4 - 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "7688244d-9a44-4e64-ba14-3ae50eeddc86",
@@ -1049,7 +1049,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 11,
           "problem": "7 + 4",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "1e080f2f-7fd1-48fc-af20-c49e4b23bf39",
@@ -1057,7 +1057,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 14,
           "problem": "12 + 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "516aba9c-f0b9-43c2-a57c-07cf23b02d75",
@@ -1065,7 +1065,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 14,
           "problem": "0 + 14",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "e21a9b5e-c240-4473-8264-6996e065ebac",
@@ -1073,7 +1073,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 20,
           "problem": "19 + 1",
-          "__ver": "1"
+          "__ver": "2"
         }
       ],
       "__ver": "1"
@@ -1090,7 +1090,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 6,
           "problem": "2 + 4",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "8f2357ba-1709-4c05-ac4d-6fe968c7f407",
@@ -1098,7 +1098,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 6,
           "problem": "3 + 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "df5adc76-a31f-4d3d-a5d4-dc956529f5ee",
@@ -1106,7 +1106,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 4,
           "problem": "1 + 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "65a6ae67-7f47-47df-9dfe-336f2acd1736",
@@ -1114,7 +1114,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 9,
           "problem": "6 + 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "b0b4aa54-d283-48be-a00a-537eb7f35ccc",
@@ -1122,7 +1122,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 8,
           "problem": "4 + 4",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "1f8ced13-a291-4f16-a539-ab53c04e161b",
@@ -1130,7 +1130,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 1,
           "problem": "5 - 4",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "c96c8424-5729-465e-b7bf-e3415ce18f1b",
@@ -1138,7 +1138,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 1,
           "problem": "3 - 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "d4d024fa-e17a-4a14-83b8-d02575ce49fb",
@@ -1146,7 +1146,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 14,
           "problem": "3 + 11",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "a5612f52-40ea-46b0-94ae-39d8aabd6d2e",
@@ -1154,7 +1154,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 13,
           "problem": "5 + 8",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "b2b1e5cb-71ff-41d6-9d0f-57836eb0e898",
@@ -1162,7 +1162,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 11,
           "problem": "11 + 0",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "73bdaedc-1ee4-4654-be6f-5e0aa62bac26",
@@ -1170,7 +1170,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 17,
           "problem": "6 + 11",
-          "__ver": "1"
+          "__ver": "2"
         }
       ],
       "__ver": "1"
@@ -1187,7 +1187,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 6,
           "problem": "3 + 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "bd283784-8939-40df-8886-bbf8d29b4f36",
@@ -1195,7 +1195,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 9,
           "problem": "1 + 8",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "310f575f-c076-4032-8dd1-f4f015171f9c",
@@ -1203,7 +1203,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 8,
           "problem": "1 + 7",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "fd5a80ee-9b55-4732-9748-868ca7ad13e2",
@@ -1211,7 +1211,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 6,
           "problem": "2 + 4",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "17feb1ed-2865-4634-b8dc-b0942084d9ee",
@@ -1219,7 +1219,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 3,
           "problem": "1 + 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "93f018d7-63dd-40fd-b5c3-9ba558935a20",
@@ -1227,7 +1227,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 3,
           "problem": "4 - 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "b4212384-9006-424b-8bfa-6c64aa1d71e1",
@@ -1235,7 +1235,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 5,
           "problem": "6 - 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "a6e6bf82-d5ed-4292-92cf-cfb41c39e056",
@@ -1243,7 +1243,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 15,
           "problem": "12 + 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "ebd45938-f4de-42f7-a6e4-29043f277541",
@@ -1251,7 +1251,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 12,
           "problem": "2 + 10",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "3b47632c-39b3-46a0-9b3f-f413b619b296",
@@ -1259,7 +1259,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 15,
           "problem": "15 + 0",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "9ebd1e5a-3d48-4cba-8072-89aab5f24475",
@@ -1267,7 +1267,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 20,
           "problem": "14 + 6",
-          "__ver": "1"
+          "__ver": "2"
         }
       ],
       "__ver": "1"
@@ -1284,7 +1284,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 10,
           "problem": "9 + 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "f5ef8f6f-deb5-4a6d-994d-0160cf3bd2dd",
@@ -1292,7 +1292,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 7,
           "problem": "4 + 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "23996823-036b-4d19-bc50-c681c99989d9",
@@ -1300,7 +1300,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 7,
           "problem": "1 + 6",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "8b5644a3-d776-4158-b20f-a61d15d4511b",
@@ -1308,7 +1308,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 6,
           "problem": "3 + 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "0f4273ea-2d50-4da2-9ff8-dd0890fa35a0",
@@ -1316,7 +1316,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 0,
           "problem": "6 - 6",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "5cfcb957-70ab-4c16-aac3-f4b6dfa50f6c",
@@ -1324,7 +1324,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 5,
           "problem": "7 - 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "450667c8-c21b-4991-bd41-35aefa711ecc",
@@ -1332,7 +1332,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 2,
           "problem": "8 - 6",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "45b5671c-3e06-4b32-b2d6-ddec1eaac0ff",
@@ -1340,7 +1340,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 15,
           "problem": "10 + 5",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "5de2a784-7ea1-48fd-8285-901060479fcb",
@@ -1348,7 +1348,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 13,
           "problem": "1 + 12",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "0059a945-aef7-4009-a660-a838fa3f8e87",
@@ -1356,7 +1356,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 13,
           "problem": "10 + 3",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "0e845d99-9872-487c-8db6-d6176e0cee44",
@@ -1364,7 +1364,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 13,
           "problem": "6 + 7",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "21c85d0d-e148-4994-8cb0-de6861289495",
@@ -1372,7 +1372,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 25,
           "problem": "20 + 5",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "bfa89993-08d6-49df-b688-ab43b91fdfa9",
@@ -1380,7 +1380,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 21,
           "problem": "20 + 1",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "2b9c74da-debc-4a91-9931-8a13a2b604b5",
@@ -1388,7 +1388,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 22,
           "problem": "20 + 2",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "0aa7a80a-50b8-40ce-badb-45736948d92a",
@@ -1396,7 +1396,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 19,
           "problem": "10 + 9",
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "f1d1c74f-4024-4abc-872d-3d70548c9390",
@@ -1404,7 +1404,7 @@
           "__class": "ArythmeticsTaskDef",
           "correctAnswer": 19,
           "problem": "12 + 7",
-          "__ver": "1"
+          "__ver": "2"
         }
       ],
       "__ver": "1"
@@ -1427,7 +1427,7 @@
             "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/elephant.png"
           ],
           "correctOption": 3,
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "74189750-4683-4576-a69c-6d5be61fb3c1",
@@ -1441,7 +1441,7 @@
             "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/robot.png"
           ],
           "correctOption": 0,
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "91174208-d8a2-4838-858f-494bef2b85a5",
@@ -1455,7 +1455,7 @@
             "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
           ],
           "correctOption": 1,
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "648cef5a-e0c4-4d98-b944-7e73be471160",
@@ -1469,7 +1469,7 @@
             "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png"
           ],
           "correctOption": 2,
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "ec18e471-2210-40e3-90a2-cc1e985406e9",
@@ -1483,7 +1483,7 @@
             "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/pear.png"
           ],
           "correctOption": 3,
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "d03e7fd2-5c76-4a95-87fd-1af56b84f86e",
@@ -1497,7 +1497,7 @@
             "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/orange.png"
           ],
           "correctOption": 0,
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "d950f018-1ce3-4757-90f7-e18897e0a04b",
@@ -1511,7 +1511,7 @@
             "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/ship.png"
           ],
           "correctOption": 2,
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "4e737c2b-6b0b-46b0-8678-c3a6f250c426",
@@ -1525,7 +1525,7 @@
             "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/orange.png"
           ],
           "correctOption": 2,
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "a76b0a70-2d1a-425d-9bf7-a54c3de0eda7",
@@ -1539,7 +1539,7 @@
             "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/orange.png"
           ],
           "correctOption": 0,
-          "__ver": "1"
+          "__ver": "2"
         },
         {
           "id": "26484a68-67d9-42e9-8db5-e09db4db0268",
@@ -1553,7 +1553,7 @@
             "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/flower.png"
           ],
           "correctOption": 3,
-          "__ver": "1"
+          "__ver": "2"
         }
       ],
       "__ver": "1"
@@ -2832,10 +2832,12 @@
         "answer": "41",
         "expected": 2,
         "correct": false,
-        "attemptTime": 0
+        "attemptTime": 0,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 1,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404760800,
@@ -2847,10 +2849,12 @@
         "answer": "4",
         "expected": 2,
         "correct": false,
-        "attemptTime": 7158
+        "attemptTime": 7158,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 2,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404761656,
@@ -2862,10 +2866,12 @@
         "answer": "4",
         "expected": 2,
         "correct": false,
-        "attemptTime": 856
+        "attemptTime": 856,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 3,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404762104,
@@ -2877,10 +2883,12 @@
         "answer": "4",
         "expected": 2,
         "correct": false,
-        "attemptTime": 448
+        "attemptTime": 448,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 4,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404762652,
@@ -2892,10 +2900,12 @@
         "answer": "4",
         "expected": 2,
         "correct": false,
-        "attemptTime": 548
+        "attemptTime": 548,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 5,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404764096,
@@ -2907,10 +2917,12 @@
         "answer": "4",
         "expected": 2,
         "correct": false,
-        "attemptTime": 1444
+        "attemptTime": 1444,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 6,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404764573,
@@ -2922,10 +2934,12 @@
         "answer": "4",
         "expected": 2,
         "correct": false,
-        "attemptTime": 477
+        "attemptTime": 477,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 7,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404789161,
@@ -2937,10 +2951,12 @@
         "answer": "2",
         "expected": 2,
         "correct": true,
-        "attemptTime": 24588
+        "attemptTime": 24588,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 8,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404797744,
@@ -2952,10 +2968,12 @@
         "answer": "3",
         "expected": 3,
         "correct": true,
-        "attemptTime": 7573
+        "attemptTime": 7573,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 9,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404811373,
@@ -2967,10 +2985,12 @@
         "answer": "7",
         "expected": 7,
         "correct": true,
-        "attemptTime": 12626
+        "attemptTime": 12626,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 10,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404838691,
@@ -2982,10 +3002,12 @@
         "answer": "01",
         "expected": 9,
         "correct": false,
-        "attemptTime": 27318
+        "attemptTime": 27318,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 11,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404859428,
@@ -2997,10 +3019,12 @@
         "answer": "9",
         "expected": 9,
         "correct": true,
-        "attemptTime": 20737
+        "attemptTime": 20737,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 12,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404867131,
@@ -3012,10 +3036,12 @@
         "answer": "3",
         "expected": 3,
         "correct": true,
-        "attemptTime": 6700
+        "attemptTime": 6700,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 13,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404873486,
@@ -3027,10 +3053,12 @@
         "answer": "5",
         "expected": 5,
         "correct": true,
-        "attemptTime": 5352
+        "attemptTime": 5352,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 14,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404885448,
@@ -3042,10 +3070,12 @@
         "answer": "0",
         "expected": 2,
         "correct": false,
-        "attemptTime": 11962
+        "attemptTime": 11962,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 15,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404900656,
@@ -3057,10 +3087,12 @@
         "answer": "2",
         "expected": 2,
         "correct": true,
-        "attemptTime": 15208
+        "attemptTime": 15208,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 16,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404919397,
@@ -3072,10 +3104,12 @@
         "answer": "11",
         "expected": 11,
         "correct": true,
-        "attemptTime": 17739
+        "attemptTime": 17739,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 17,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404919936,
@@ -3087,10 +3121,12 @@
         "answer": "11",
         "expected": 11,
         "correct": true,
-        "attemptTime": 539
+        "attemptTime": 539,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 18,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404947612,
@@ -3102,10 +3138,12 @@
         "answer": "12",
         "expected": 12,
         "correct": true,
-        "attemptTime": 27212
+        "attemptTime": 27212,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 19,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404957942,
@@ -3117,10 +3155,12 @@
         "answer": "11",
         "expected": 11,
         "correct": true,
-        "attemptTime": 9327
+        "attemptTime": 9327,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 20,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618404989552,
@@ -3132,10 +3172,12 @@
         "answer": "02",
         "expected": 18,
         "correct": false,
-        "attemptTime": 31610
+        "attemptTime": 31610,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 21,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618405002925,
@@ -3147,10 +3189,12 @@
         "answer": "2",
         "expected": 18,
         "correct": false,
-        "attemptTime": 13373
+        "attemptTime": 13373,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 22,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618405006763,
@@ -3162,10 +3206,12 @@
         "answer": "20",
         "expected": 18,
         "correct": false,
-        "attemptTime": 3838
+        "attemptTime": 3838,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 23,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618405007554,
@@ -3177,10 +3223,12 @@
         "answer": "20",
         "expected": 18,
         "correct": false,
-        "attemptTime": 791
+        "attemptTime": 791,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 24,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618405008135,
@@ -3192,10 +3240,12 @@
         "answer": "20",
         "expected": 18,
         "correct": false,
-        "attemptTime": 581
+        "attemptTime": 581,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 25,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618405008632,
@@ -3207,10 +3257,12 @@
         "answer": "20",
         "expected": 18,
         "correct": false,
-        "attemptTime": 497
+        "attemptTime": 497,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 26,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618405009135,
@@ -3222,10 +3274,12 @@
         "answer": "20",
         "expected": 18,
         "correct": false,
-        "attemptTime": 503
+        "attemptTime": 503,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 27,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618405012057,
@@ -3237,10 +3291,12 @@
         "answer": "",
         "expected": 18,
         "correct": false,
-        "attemptTime": 2922
+        "attemptTime": 2922,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 28,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618405035542,
@@ -3252,10 +3308,12 @@
         "answer": "81",
         "expected": 18,
         "correct": false,
-        "attemptTime": 23485
+        "attemptTime": 23485,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 29,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618405036704,
@@ -3267,10 +3325,12 @@
         "answer": "81",
         "expected": 18,
         "correct": false,
-        "attemptTime": 1162
+        "attemptTime": 1162,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 30,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618405043409,
@@ -3282,10 +3342,12 @@
         "answer": "18",
         "expected": 18,
         "correct": true,
-        "attemptTime": 6705
+        "attemptTime": 6705,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 31,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618405047822,
@@ -3297,10 +3359,12 @@
         "answer": "18",
         "expected": 18,
         "correct": true,
-        "attemptTime": 4413
+        "attemptTime": 4413,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 32,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618405048484,
@@ -3312,10 +3376,12 @@
         "answer": "18",
         "expected": 18,
         "correct": true,
-        "attemptTime": 662
+        "attemptTime": 662,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 33,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449606861,
@@ -3327,10 +3393,12 @@
         "answer": "4",
         "expected": 4,
         "correct": true,
-        "attemptTime": 8846
+        "attemptTime": 8846,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 34,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449614091,
@@ -3342,10 +3410,12 @@
         "answer": "5",
         "expected": 5,
         "correct": true,
-        "attemptTime": 6226
+        "attemptTime": 6226,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 35,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449625407,
@@ -3357,10 +3427,12 @@
         "answer": "8",
         "expected": 8,
         "correct": true,
-        "attemptTime": 10310
+        "attemptTime": 10310,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 36,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449646424,
@@ -3372,10 +3444,12 @@
         "answer": "6",
         "expected": 7,
         "correct": false,
-        "attemptTime": 21017
+        "attemptTime": 21017,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 37,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449669316,
@@ -3387,10 +3461,12 @@
         "answer": "7",
         "expected": 7,
         "correct": true,
-        "attemptTime": 22892
+        "attemptTime": 22892,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 38,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449674877,
@@ -3402,10 +3478,12 @@
         "answer": "8",
         "expected": 8,
         "correct": true,
-        "attemptTime": 4559
+        "attemptTime": 4559,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 39,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449680462,
@@ -3417,10 +3495,12 @@
         "answer": "6",
         "expected": 4,
         "correct": false,
-        "attemptTime": 5585
+        "attemptTime": 5585,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 40,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449693402,
@@ -3432,10 +3512,12 @@
         "answer": "6",
         "expected": 4,
         "correct": false,
-        "attemptTime": 12940
+        "attemptTime": 12940,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 41,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449694418,
@@ -3447,10 +3529,12 @@
         "answer": "6",
         "expected": 4,
         "correct": false,
-        "attemptTime": 1016
+        "attemptTime": 1016,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 42,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449705400,
@@ -3462,10 +3546,12 @@
         "answer": "6",
         "expected": 4,
         "correct": false,
-        "attemptTime": 10982
+        "attemptTime": 10982,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 43,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449711479,
@@ -3477,10 +3563,12 @@
         "answer": "4",
         "expected": 4,
         "correct": true,
-        "attemptTime": 6079
+        "attemptTime": 6079,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 44,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449731581,
@@ -3492,10 +3580,12 @@
         "answer": "2",
         "expected": 2,
         "correct": true,
-        "attemptTime": 19095
+        "attemptTime": 19095,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 45,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449745343,
@@ -3507,10 +3597,12 @@
         "answer": "21",
         "expected": 12,
         "correct": false,
-        "attemptTime": 13762
+        "attemptTime": 13762,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 46,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449767378,
@@ -3522,10 +3614,12 @@
         "answer": "12",
         "expected": 12,
         "correct": true,
-        "attemptTime": 22035
+        "attemptTime": 22035,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 47,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449799982,
@@ -3537,10 +3631,12 @@
         "answer": "90",
         "expected": 12,
         "correct": false,
-        "attemptTime": 32604
+        "attemptTime": 32604,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 48,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449809216,
@@ -3552,10 +3648,12 @@
         "answer": "09",
         "expected": 12,
         "correct": false,
-        "attemptTime": 9234
+        "attemptTime": 9234,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 49,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449815400,
@@ -3567,10 +3665,12 @@
         "answer": "9",
         "expected": 12,
         "correct": false,
-        "attemptTime": 6184
+        "attemptTime": 6184,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 50,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449817502,
@@ -3582,10 +3682,12 @@
         "answer": "",
         "expected": 12,
         "correct": false,
-        "attemptTime": 2102
+        "attemptTime": 2102,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 51,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449818815,
@@ -3597,10 +3699,12 @@
         "answer": "",
         "expected": 12,
         "correct": false,
-        "attemptTime": 1313
+        "attemptTime": 1313,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 52,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449819064,
@@ -3612,10 +3716,12 @@
         "answer": "",
         "expected": 12,
         "correct": false,
-        "attemptTime": 249
+        "attemptTime": 249,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 53,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449819265,
@@ -3627,10 +3733,12 @@
         "answer": "",
         "expected": 12,
         "correct": false,
-        "attemptTime": 201
+        "attemptTime": 201,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 54,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449834007,
@@ -3642,10 +3750,12 @@
         "answer": "22",
         "expected": 12,
         "correct": false,
-        "attemptTime": 14742
+        "attemptTime": 14742,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 55,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449834840,
@@ -3657,10 +3767,12 @@
         "answer": "22",
         "expected": 12,
         "correct": false,
-        "attemptTime": 833
+        "attemptTime": 833,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 56,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449835320,
@@ -3672,10 +3784,12 @@
         "answer": "22",
         "expected": 12,
         "correct": false,
-        "attemptTime": 480
+        "attemptTime": 480,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 57,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449841298,
@@ -3687,10 +3801,12 @@
         "answer": "12",
         "expected": 12,
         "correct": true,
-        "attemptTime": 5978
+        "attemptTime": 5978,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 58,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618449992625,
@@ -3702,10 +3818,12 @@
         "answer": "31",
         "expected": 13,
         "correct": false,
-        "attemptTime": 0
+        "attemptTime": 0,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 59,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618450002155,
@@ -3717,10 +3835,12 @@
         "answer": "13",
         "expected": 13,
         "correct": true,
-        "attemptTime": 9530
+        "attemptTime": 9530,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 60,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618450159449,
@@ -3732,10 +3852,12 @@
         "answer": "18",
         "expected": 18,
         "correct": true,
-        "attemptTime": 156291
+        "attemptTime": 156291,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 61,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491256120,
@@ -3746,10 +3868,12 @@
         "problem": "2 + 3",
         "expected": 5,
         "correct": false,
-        "attemptTime": 0
+        "attemptTime": 0,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 62,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491273332,
@@ -3761,10 +3885,12 @@
         "answer": "5",
         "expected": 5,
         "correct": true,
-        "attemptTime": 17212
+        "attemptTime": 17212,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 63,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491290794,
@@ -3776,10 +3902,12 @@
         "answer": "9",
         "expected": 9,
         "correct": true,
-        "attemptTime": 16457
+        "attemptTime": 16457,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 64,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491297624,
@@ -3791,10 +3919,12 @@
         "answer": "-7",
         "expected": 7,
         "correct": false,
-        "attemptTime": 6830
+        "attemptTime": 6830,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 65,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491339770,
@@ -3806,10 +3936,12 @@
         "answer": "",
         "expected": 7,
         "correct": false,
-        "attemptTime": 42146
+        "attemptTime": 42146,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 66,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491340436,
@@ -3821,10 +3953,12 @@
         "answer": "",
         "expected": 7,
         "correct": false,
-        "attemptTime": 666
+        "attemptTime": 666,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 67,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491340929,
@@ -3836,10 +3970,12 @@
         "answer": "",
         "expected": 7,
         "correct": false,
-        "attemptTime": 493
+        "attemptTime": 493,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 68,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491341220,
@@ -3851,10 +3987,12 @@
         "answer": "",
         "expected": 7,
         "correct": false,
-        "attemptTime": 291
+        "attemptTime": 291,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 69,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491347155,
@@ -3866,10 +4004,12 @@
         "answer": "",
         "expected": 7,
         "correct": false,
-        "attemptTime": 5935
+        "attemptTime": 5935,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 70,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491347731,
@@ -3881,10 +4021,12 @@
         "answer": "",
         "expected": 7,
         "correct": false,
-        "attemptTime": 576
+        "attemptTime": 576,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 71,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491376933,
@@ -3896,10 +4038,12 @@
         "answer": "7",
         "expected": 7,
         "correct": true,
-        "attemptTime": 5450
+        "attemptTime": 5450,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 72,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491388208,
@@ -3911,10 +4055,12 @@
         "answer": "7",
         "expected": 7,
         "correct": true,
-        "attemptTime": 10272
+        "attemptTime": 10272,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 73,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491407684,
@@ -3926,10 +4072,12 @@
         "answer": "9",
         "expected": 9,
         "correct": true,
-        "attemptTime": 18473
+        "attemptTime": 18473,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 74,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491414026,
@@ -3941,10 +4089,12 @@
         "answer": "2",
         "expected": 2,
         "correct": true,
-        "attemptTime": 5338
+        "attemptTime": 5338,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 75,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491423526,
@@ -3956,10 +4106,12 @@
         "answer": "4",
         "expected": 2,
         "correct": false,
-        "attemptTime": 9500
+        "attemptTime": 9500,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 76,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491437693,
@@ -3971,10 +4123,12 @@
         "answer": "4",
         "expected": 2,
         "correct": false,
-        "attemptTime": 14167
+        "attemptTime": 14167,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 77,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491438669,
@@ -3986,10 +4140,12 @@
         "answer": "4",
         "expected": 2,
         "correct": false,
-        "attemptTime": 976
+        "attemptTime": 976,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 78,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491439245,
@@ -4001,10 +4157,12 @@
         "answer": "4",
         "expected": 2,
         "correct": false,
-        "attemptTime": 576
+        "attemptTime": 576,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 79,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491466581,
@@ -4016,10 +4174,12 @@
         "answer": "2",
         "expected": 2,
         "correct": true,
-        "attemptTime": 27336
+        "attemptTime": 27336,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 80,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491487860,
@@ -4031,10 +4191,12 @@
         "answer": "11",
         "expected": 11,
         "correct": true,
-        "attemptTime": 20276
+        "attemptTime": 20276,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 81,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491505944,
@@ -4046,10 +4208,12 @@
         "answer": "14",
         "expected": 14,
         "correct": true,
-        "attemptTime": 17082
+        "attemptTime": 17082,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 82,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491524314,
@@ -4061,10 +4225,12 @@
         "answer": "95",
         "expected": 14,
         "correct": false,
-        "attemptTime": 18370
+        "attemptTime": 18370,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 83,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491709158,
@@ -4076,10 +4242,12 @@
         "answer": "16",
         "expected": 16,
         "correct": true,
-        "attemptTime": 49170
+        "attemptTime": 49170,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 84,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618491742044,
@@ -4091,10 +4259,12 @@
         "answer": "14",
         "expected": 14,
         "correct": true,
-        "attemptTime": 31879
+        "attemptTime": 31879,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 85,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618536982425,
@@ -4106,10 +4276,12 @@
         "answer": "9",
         "expected": 9,
         "correct": true,
-        "attemptTime": 26208
+        "attemptTime": 26208,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 86,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618536990236,
@@ -4121,10 +4293,12 @@
         "answer": "8",
         "expected": 8,
         "correct": true,
-        "attemptTime": 6805
+        "attemptTime": 6805,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 87,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537001204,
@@ -4136,10 +4310,12 @@
         "answer": "3",
         "expected": 3,
         "correct": true,
-        "attemptTime": 9962
+        "attemptTime": 9962,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 88,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537027462,
@@ -4151,10 +4327,12 @@
         "answer": "9",
         "expected": 9,
         "correct": true,
-        "attemptTime": 25252
+        "attemptTime": 25252,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 89,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537041951,
@@ -4166,10 +4344,12 @@
         "answer": "8",
         "expected": 8,
         "correct": true,
-        "attemptTime": 13483
+        "attemptTime": 13483,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 90,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537076021,
@@ -4181,10 +4361,12 @@
         "answer": "3",
         "expected": 3,
         "correct": true,
-        "attemptTime": 33067
+        "attemptTime": 33067,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 91,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537085063,
@@ -4196,10 +4378,12 @@
         "answer": "3",
         "expected": 3,
         "correct": true,
-        "attemptTime": 8036
+        "attemptTime": 8036,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 92,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537095684,
@@ -4211,10 +4395,12 @@
         "answer": "21",
         "expected": 12,
         "correct": false,
-        "attemptTime": 10621
+        "attemptTime": 10621,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 93,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537101811,
@@ -4226,10 +4412,12 @@
         "answer": "12",
         "expected": 12,
         "correct": true,
-        "attemptTime": 6127
+        "attemptTime": 6127,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 94,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537174425,
@@ -4241,10 +4429,12 @@
         "answer": "12",
         "expected": 12,
         "correct": true,
-        "attemptTime": 71609
+        "attemptTime": 71609,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 95,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537195224,
@@ -4256,10 +4446,12 @@
         "answer": "0",
         "expected": 11,
         "correct": false,
-        "attemptTime": 20799
+        "attemptTime": 20799,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 96,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537199457,
@@ -4271,10 +4463,12 @@
         "answer": "10",
         "expected": 11,
         "correct": false,
-        "attemptTime": 4233
+        "attemptTime": 4233,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 97,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537200531,
@@ -4286,10 +4480,12 @@
         "answer": "10",
         "expected": 11,
         "correct": false,
-        "attemptTime": 1074
+        "attemptTime": 1074,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 98,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537201155,
@@ -4301,10 +4497,12 @@
         "answer": "10",
         "expected": 11,
         "correct": false,
-        "attemptTime": 624
+        "attemptTime": 624,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 99,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537206610,
@@ -4316,10 +4514,12 @@
         "answer": "1",
         "expected": 11,
         "correct": false,
-        "attemptTime": 5455
+        "attemptTime": 5455,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 100,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537207818,
@@ -4331,10 +4531,12 @@
         "answer": "1",
         "expected": 11,
         "correct": false,
-        "attemptTime": 1208
+        "attemptTime": 1208,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 101,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537208311,
@@ -4346,10 +4548,12 @@
         "answer": "1",
         "expected": 11,
         "correct": false,
-        "attemptTime": 493
+        "attemptTime": 493,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 102,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537219434,
@@ -4361,10 +4565,12 @@
         "answer": "10",
         "expected": 11,
         "correct": false,
-        "attemptTime": 11123
+        "attemptTime": 11123,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 103,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537220157,
@@ -4376,10 +4582,12 @@
         "answer": "10",
         "expected": 11,
         "correct": false,
-        "attemptTime": 723
+        "attemptTime": 723,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 104,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537220847,
@@ -4391,10 +4599,12 @@
         "answer": "10",
         "expected": 11,
         "correct": false,
-        "attemptTime": 690
+        "attemptTime": 690,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 105,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537237712,
@@ -4406,10 +4616,12 @@
         "answer": "11",
         "expected": 11,
         "correct": true,
-        "attemptTime": 16865
+        "attemptTime": 16865,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 106,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537300630,
@@ -4421,10 +4633,12 @@
         "answer": "19",
         "expected": 19,
         "correct": true,
-        "attemptTime": 61913
+        "attemptTime": 61913,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 107,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618537452304,
@@ -4436,10 +4650,12 @@
         "answer": "19",
         "expected": 19,
         "correct": true,
-        "attemptTime": 61866
+        "attemptTime": 61866,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 108,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618595520242,
@@ -4451,10 +4667,12 @@
         "answer": "5",
         "expected": 5,
         "correct": true,
-        "attemptTime": 7988
+        "attemptTime": 7988,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 109,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618595542975,
@@ -4466,10 +4684,12 @@
         "answer": "9",
         "expected": 9,
         "correct": true,
-        "attemptTime": 21728
+        "attemptTime": 21728,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 110,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618595560033,
@@ -4481,10 +4701,12 @@
         "answer": "6",
         "expected": 6,
         "correct": true,
-        "attemptTime": 16055
+        "attemptTime": 16055,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 111,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618595578966,
@@ -4496,10 +4718,12 @@
         "answer": "10",
         "expected": 10,
         "correct": true,
-        "attemptTime": 17928
+        "attemptTime": 17928,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 112,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618595589700,
@@ -4511,10 +4735,12 @@
         "answer": "10",
         "expected": 10,
         "correct": true,
-        "attemptTime": 9731
+        "attemptTime": 9731,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 113,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618595599444,
@@ -4526,10 +4752,12 @@
         "answer": "1",
         "expected": 1,
         "correct": true,
-        "attemptTime": 8740
+        "attemptTime": 8740,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 114,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618595608582,
@@ -4541,10 +4769,12 @@
         "answer": "0",
         "expected": 0,
         "correct": true,
-        "attemptTime": 8134
+        "attemptTime": 8134,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 115,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618595645443,
@@ -4556,10 +4786,12 @@
         "answer": "17",
         "expected": 13,
         "correct": false,
-        "attemptTime": 35857
+        "attemptTime": 35857,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 116,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618595658619,
@@ -4571,10 +4803,12 @@
         "answer": "60",
         "expected": 13,
         "correct": false,
-        "attemptTime": 13176
+        "attemptTime": 13176,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 117,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618595689560,
@@ -4586,10 +4820,12 @@
         "answer": "13",
         "expected": 13,
         "correct": true,
-        "attemptTime": 30941
+        "attemptTime": 30941,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 118,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618596502431,
@@ -4601,10 +4837,12 @@
         "answer": "11",
         "expected": 11,
         "correct": true,
-        "attemptTime": 22813
+        "attemptTime": 22813,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 119,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618596513723,
@@ -4616,10 +4854,12 @@
         "answer": "21",
         "expected": 12,
         "correct": false,
-        "attemptTime": 10290
+        "attemptTime": 10290,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 120,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618596525327,
@@ -4631,10 +4871,12 @@
         "answer": "12",
         "expected": 12,
         "correct": true,
-        "attemptTime": 11604
+        "attemptTime": 11604,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 121,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618596548860,
@@ -4646,10 +4888,12 @@
         "answer": "17",
         "expected": 17,
         "correct": true,
-        "attemptTime": 22529
+        "attemptTime": 22529,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 122,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618596551941,
@@ -4661,10 +4905,12 @@
         "answer": "17",
         "expected": 17,
         "correct": true,
-        "attemptTime": 3081
+        "attemptTime": 3081,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 123,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618596560766,
@@ -4676,10 +4922,12 @@
         "answer": "17",
         "expected": 17,
         "correct": true,
-        "attemptTime": 3017
+        "attemptTime": 3017,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 124,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618596563701,
@@ -4691,10 +4939,12 @@
         "answer": "17",
         "expected": 17,
         "correct": true,
-        "attemptTime": 2935
+        "attemptTime": 2935,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 125,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618596563904,
@@ -4706,10 +4956,12 @@
         "answer": "17",
         "expected": 17,
         "correct": true,
-        "attemptTime": 203
+        "attemptTime": 203,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 126,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618596564520,
@@ -4721,10 +4973,12 @@
         "answer": "17",
         "expected": 17,
         "correct": true,
-        "attemptTime": 616
+        "attemptTime": 616,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 127,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618668720567,
@@ -4736,10 +4990,12 @@
         "answer": "6",
         "expected": 6,
         "correct": true,
-        "attemptTime": 8931
+        "attemptTime": 8931,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 128,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618668736010,
@@ -4751,10 +5007,12 @@
         "answer": "9",
         "expected": 9,
         "correct": true,
-        "attemptTime": 14435
+        "attemptTime": 14435,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 129,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618668743642,
@@ -4766,10 +5024,12 @@
         "answer": "8",
         "expected": 8,
         "correct": true,
-        "attemptTime": 6628
+        "attemptTime": 6628,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 130,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618668759436,
@@ -4781,10 +5041,12 @@
         "answer": "6",
         "expected": 6,
         "correct": true,
-        "attemptTime": 14791
+        "attemptTime": 14791,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 131,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618668780236,
@@ -4796,10 +5058,12 @@
         "answer": "3",
         "expected": 3,
         "correct": true,
-        "attemptTime": 19797
+        "attemptTime": 19797,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 132,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618668786299,
@@ -4811,10 +5075,12 @@
         "answer": "3",
         "expected": 3,
         "correct": true,
-        "attemptTime": 5059
+        "attemptTime": 5059,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 133,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618668793091,
@@ -4826,10 +5092,12 @@
         "answer": "5",
         "expected": 5,
         "correct": true,
-        "attemptTime": 5789
+        "attemptTime": 5789,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 134,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618668821434,
@@ -4841,10 +5109,12 @@
         "answer": "15",
         "expected": 15,
         "correct": true,
-        "attemptTime": 27339
+        "attemptTime": 27339,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 135,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618668833899,
@@ -4856,10 +5126,12 @@
         "answer": "12",
         "expected": 12,
         "correct": true,
-        "attemptTime": 11462
+        "attemptTime": 11462,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 136,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618668856364,
@@ -4871,10 +5143,12 @@
         "answer": "15",
         "expected": 15,
         "correct": true,
-        "attemptTime": 21463
+        "attemptTime": 21463,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 137,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618668880944,
@@ -4886,10 +5160,12 @@
         "answer": "21",
         "expected": 20,
         "correct": false,
-        "attemptTime": 23577
+        "attemptTime": 23577,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 138,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618668887346,
@@ -4901,10 +5177,12 @@
         "answer": "12",
         "expected": 20,
         "correct": false,
-        "attemptTime": 6402
+        "attemptTime": 6402,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 139,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618668888197,
@@ -4916,10 +5194,12 @@
         "answer": "12",
         "expected": 20,
         "correct": false,
-        "attemptTime": 851
+        "attemptTime": 851,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 140,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618668898593,
@@ -4931,10 +5211,12 @@
         "answer": "12",
         "expected": 20,
         "correct": false,
-        "attemptTime": 10396
+        "attemptTime": 10396,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 141,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618668899318,
@@ -4946,10 +5228,12 @@
         "answer": "12",
         "expected": 20,
         "correct": false,
-        "attemptTime": 725
+        "attemptTime": 725,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 142,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618668908283,
@@ -4961,10 +5245,12 @@
         "answer": "20",
         "expected": 20,
         "correct": true,
-        "attemptTime": 8965
+        "attemptTime": 8965,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 143,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618707121501,
@@ -4976,10 +5262,12 @@
         "answer": "6",
         "expected": 6,
         "correct": true,
-        "attemptTime": 18592
+        "attemptTime": 18592,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 144,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618707132330,
@@ -4991,10 +5279,12 @@
         "answer": "6",
         "expected": 6,
         "correct": true,
-        "attemptTime": 9824
+        "attemptTime": 9824,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 145,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618707140581,
@@ -5006,10 +5296,12 @@
         "answer": "5",
         "expected": 4,
         "correct": false,
-        "attemptTime": 7245
+        "attemptTime": 7245,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 146,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618707144514,
@@ -5021,10 +5313,12 @@
         "answer": "4",
         "expected": 4,
         "correct": true,
-        "attemptTime": 3933
+        "attemptTime": 3933,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 147,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618707153534,
@@ -5036,10 +5330,12 @@
         "answer": "9",
         "expected": 9,
         "correct": true,
-        "attemptTime": 8016
+        "attemptTime": 8016,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 148,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618707179679,
@@ -5051,10 +5347,12 @@
         "answer": "6",
         "expected": 8,
         "correct": false,
-        "attemptTime": 25139
+        "attemptTime": 25139,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 149,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618707190738,
@@ -5066,10 +5364,12 @@
         "answer": "8",
         "expected": 8,
         "correct": true,
-        "attemptTime": 11059
+        "attemptTime": 11059,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 150,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618707196880,
@@ -5081,10 +5381,12 @@
         "answer": "1",
         "expected": 1,
         "correct": true,
-        "attemptTime": 5138
+        "attemptTime": 5138,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 151,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618707202189,
@@ -5096,10 +5398,12 @@
         "answer": "1",
         "expected": 1,
         "correct": true,
-        "attemptTime": 4305
+        "attemptTime": 4305,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 152,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618707222868,
@@ -5111,10 +5415,12 @@
         "answer": "14",
         "expected": 14,
         "correct": true,
-        "attemptTime": 19676
+        "attemptTime": 19676,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 153,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618707240299,
@@ -5126,10 +5432,12 @@
         "answer": "10",
         "expected": 13,
         "correct": false,
-        "attemptTime": 16425
+        "attemptTime": 16425,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 154,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618707314097,
@@ -5141,10 +5449,12 @@
         "answer": "8",
         "expected": 13,
         "correct": false,
-        "attemptTime": 73798
+        "attemptTime": 73798,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 155,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618707314639,
@@ -5156,10 +5466,12 @@
         "answer": "8",
         "expected": 13,
         "correct": false,
-        "attemptTime": 542
+        "attemptTime": 542,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 156,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618707315425,
@@ -5171,10 +5483,12 @@
         "answer": "8",
         "expected": 13,
         "correct": false,
-        "attemptTime": 786
+        "attemptTime": 786,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 157,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618707445722,
@@ -5186,10 +5500,12 @@
         "answer": "13",
         "expected": 13,
         "correct": true,
-        "attemptTime": 130297
+        "attemptTime": 130297,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 158,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618707450933,
@@ -5201,10 +5517,12 @@
         "answer": "11",
         "expected": 11,
         "correct": true,
-        "attemptTime": 4208
+        "attemptTime": 4208,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 159,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618707514086,
@@ -5216,10 +5534,12 @@
         "answer": "17",
         "expected": 17,
         "correct": true,
-        "attemptTime": 62149
+        "attemptTime": 62149,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 160,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757768318,
@@ -5231,10 +5551,12 @@
         "answer": "7",
         "expected": 8,
         "correct": false,
-        "attemptTime": 22163
+        "attemptTime": 22163,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 161,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757774225,
@@ -5246,10 +5568,12 @@
         "answer": "8",
         "expected": 8,
         "correct": true,
-        "attemptTime": 5907
+        "attemptTime": 5907,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 162,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757790588,
@@ -5261,10 +5585,12 @@
         "answer": "8",
         "expected": 8,
         "correct": true,
-        "attemptTime": 15359
+        "attemptTime": 15359,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 163,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757805230,
@@ -5276,10 +5602,12 @@
         "answer": "7",
         "expected": 7,
         "correct": true,
-        "attemptTime": 13637
+        "attemptTime": 13637,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 164,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757822374,
@@ -5291,10 +5619,12 @@
         "answer": "5",
         "expected": 5,
         "correct": true,
-        "attemptTime": 16140
+        "attemptTime": 16140,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 165,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757826089,
@@ -5306,10 +5636,12 @@
         "answer": "6",
         "expected": 6,
         "correct": true,
-        "attemptTime": 2709
+        "attemptTime": 2709,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 166,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757833019,
@@ -5321,10 +5653,12 @@
         "answer": "3",
         "expected": 3,
         "correct": true,
-        "attemptTime": 5927
+        "attemptTime": 5927,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 167,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757841430,
@@ -5336,10 +5670,12 @@
         "answer": "2",
         "expected": 2,
         "correct": true,
-        "attemptTime": 7408
+        "attemptTime": 7408,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 168,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757864499,
@@ -5351,10 +5687,12 @@
         "answer": "11",
         "expected": 11,
         "correct": true,
-        "attemptTime": 22064
+        "attemptTime": 22064,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 169,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757879891,
@@ -5366,10 +5704,12 @@
         "answer": "14",
         "expected": 14,
         "correct": true,
-        "attemptTime": 14389
+        "attemptTime": 14389,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 170,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757919243,
@@ -5381,10 +5721,12 @@
         "answer": "14",
         "expected": 14,
         "correct": true,
-        "attemptTime": 38347
+        "attemptTime": 38347,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 171,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757958131,
@@ -5396,10 +5738,12 @@
         "answer": "12",
         "expected": 20,
         "correct": false,
-        "attemptTime": 37884
+        "attemptTime": 37884,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 172,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757962265,
@@ -5411,10 +5755,12 @@
         "answer": "21",
         "expected": 20,
         "correct": false,
-        "attemptTime": 4134
+        "attemptTime": 4134,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 173,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757962901,
@@ -5426,10 +5772,12 @@
         "answer": "21",
         "expected": 20,
         "correct": false,
-        "attemptTime": 636
+        "attemptTime": 636,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 174,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757982079,
@@ -5441,10 +5789,12 @@
         "answer": "02",
         "expected": 20,
         "correct": false,
-        "attemptTime": 19178
+        "attemptTime": 19178,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 175,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757982718,
@@ -5456,10 +5806,12 @@
         "answer": "02",
         "expected": 20,
         "correct": false,
-        "attemptTime": 639
+        "attemptTime": 639,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 176,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757983248,
@@ -5471,10 +5823,12 @@
         "answer": "02",
         "expected": 20,
         "correct": false,
-        "attemptTime": 530
+        "attemptTime": 530,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 177,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757988006,
@@ -5486,10 +5840,12 @@
         "answer": "20",
         "expected": 20,
         "correct": true,
-        "attemptTime": 4758
+        "attemptTime": 4758,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 178,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618757988297,
@@ -5501,10 +5857,12 @@
         "answer": "20",
         "expected": 20,
         "correct": true,
-        "attemptTime": 291
+        "attemptTime": 291,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 179,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618848173283,
@@ -5516,10 +5874,12 @@
         "answer": "5",
         "expected": 5,
         "correct": true,
-        "attemptTime": 2918
+        "attemptTime": 2918,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 180,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618848177513,
@@ -5531,10 +5891,12 @@
         "answer": "6",
         "expected": 6,
         "correct": true,
-        "attemptTime": 3225
+        "attemptTime": 3225,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 181,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618848182403,
@@ -5546,10 +5908,12 @@
         "answer": "7",
         "expected": 7,
         "correct": true,
-        "attemptTime": 3885
+        "attemptTime": 3885,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 182,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618848189474,
@@ -5561,10 +5925,12 @@
         "answer": "8",
         "expected": 8,
         "correct": true,
-        "attemptTime": 6068
+        "attemptTime": 6068,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 183,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618848196819,
@@ -5576,10 +5942,12 @@
         "answer": "3",
         "expected": 2,
         "correct": false,
-        "attemptTime": 6340
+        "attemptTime": 6340,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 184,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618848205617,
@@ -5591,10 +5959,12 @@
         "answer": "2",
         "expected": 2,
         "correct": true,
-        "attemptTime": 8798
+        "attemptTime": 8798,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 185,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618848226277,
@@ -5606,10 +5976,12 @@
         "answer": "3",
         "expected": 3,
         "correct": true,
-        "attemptTime": 19656
+        "attemptTime": 19656,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 186,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618848242162,
@@ -5621,10 +5993,12 @@
         "answer": "4",
         "expected": 4,
         "correct": true,
-        "attemptTime": 14877
+        "attemptTime": 14877,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 187,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618848271766,
@@ -5636,10 +6010,12 @@
         "answer": "51",
         "expected": 15,
         "correct": false,
-        "attemptTime": 28598
+        "attemptTime": 28598,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 188,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618848277294,
@@ -5651,10 +6027,12 @@
         "answer": "15",
         "expected": 15,
         "correct": true,
-        "attemptTime": 5528
+        "attemptTime": 5528,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 189,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618848287860,
@@ -5666,10 +6044,12 @@
         "answer": "15",
         "expected": 15,
         "correct": true,
-        "attemptTime": 9561
+        "attemptTime": 9561,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 190,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618848297109,
@@ -5681,10 +6061,12 @@
         "answer": "11",
         "expected": 11,
         "correct": true,
-        "attemptTime": 8246
+        "attemptTime": 8246,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 191,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618848346669,
@@ -5696,10 +6078,12 @@
         "answer": "12",
         "expected": 12,
         "correct": true,
-        "attemptTime": 48553
+        "attemptTime": 48553,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 192,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618848369856,
@@ -5711,10 +6095,12 @@
         "answer": "16",
         "expected": 16,
         "correct": true,
-        "attemptTime": 22184
+        "attemptTime": 22184,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 193,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881696992,
@@ -5726,10 +6112,12 @@
         "answer": "8",
         "expected": 8,
         "correct": true,
-        "attemptTime": 23020
+        "attemptTime": 23020,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 194,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881708445,
@@ -5741,10 +6129,12 @@
         "answer": "9",
         "expected": 9,
         "correct": true,
-        "attemptTime": 10449
+        "attemptTime": 10449,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 195,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881708909,
@@ -5756,10 +6146,12 @@
         "answer": "9",
         "expected": 9,
         "correct": true,
-        "attemptTime": 464
+        "attemptTime": 464,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 196,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881709714,
@@ -5770,10 +6162,12 @@
         "problem": "0 + 5",
         "expected": 5,
         "correct": false,
-        "attemptTime": 265
+        "attemptTime": 265,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 197,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881718359,
@@ -5785,10 +6179,12 @@
         "answer": "5",
         "expected": 5,
         "correct": true,
-        "attemptTime": 8645
+        "attemptTime": 8645,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 198,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881718750,
@@ -5800,10 +6196,12 @@
         "answer": "5",
         "expected": 5,
         "correct": true,
-        "attemptTime": 391
+        "attemptTime": 391,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 199,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881719556,
@@ -5814,10 +6212,12 @@
         "problem": "1 + 2",
         "expected": 3,
         "correct": false,
-        "attemptTime": 195
+        "attemptTime": 195,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 200,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881719806,
@@ -5828,10 +6228,12 @@
         "problem": "1 + 2",
         "expected": 3,
         "correct": false,
-        "attemptTime": 250
+        "attemptTime": 250,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 201,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881723812,
@@ -5843,10 +6245,12 @@
         "answer": "3",
         "expected": 3,
         "correct": true,
-        "attemptTime": 4006
+        "attemptTime": 4006,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 202,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881741170,
@@ -5858,10 +6262,12 @@
         "answer": "4",
         "expected": 4,
         "correct": true,
-        "attemptTime": 16354
+        "attemptTime": 16354,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 203,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881767809,
@@ -5873,10 +6279,12 @@
         "answer": "6",
         "expected": 6,
         "correct": true,
-        "attemptTime": 25636
+        "attemptTime": 25636,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 204,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881778580,
@@ -5888,10 +6296,12 @@
         "answer": "3",
         "expected": 2,
         "correct": false,
-        "attemptTime": 9768
+        "attemptTime": 9768,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 205,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881811332,
@@ -5903,10 +6313,12 @@
         "answer": "2",
         "expected": 2,
         "correct": true,
-        "attemptTime": 32752
+        "attemptTime": 32752,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 206,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881821342,
@@ -5918,10 +6330,12 @@
         "answer": "12",
         "expected": 12,
         "correct": true,
-        "attemptTime": 9006
+        "attemptTime": 9006,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 207,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881829485,
@@ -5933,10 +6347,12 @@
         "answer": "11",
         "expected": 11,
         "correct": true,
-        "attemptTime": 7140
+        "attemptTime": 7140,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 208,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881848424,
@@ -5948,10 +6364,12 @@
         "answer": "15",
         "expected": 15,
         "correct": true,
-        "attemptTime": 17935
+        "attemptTime": 17935,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 209,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881870468,
@@ -5963,10 +6381,12 @@
         "answer": "14",
         "expected": 14,
         "correct": true,
-        "attemptTime": 21042
+        "attemptTime": 21042,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 210,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881892135,
@@ -5978,10 +6398,12 @@
         "answer": "19",
         "expected": 18,
         "correct": false,
-        "attemptTime": 20663
+        "attemptTime": 20663,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 211,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881897526,
@@ -5993,10 +6415,12 @@
         "answer": "09",
         "expected": 18,
         "correct": false,
-        "attemptTime": 5391
+        "attemptTime": 5391,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 212,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881897917,
@@ -6008,10 +6432,12 @@
         "answer": "09",
         "expected": 18,
         "correct": false,
-        "attemptTime": 391
+        "attemptTime": 391,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 213,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881898370,
@@ -6023,10 +6449,12 @@
         "answer": "09",
         "expected": 18,
         "correct": false,
-        "attemptTime": 453
+        "attemptTime": 453,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 214,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881915349,
@@ -6038,10 +6466,12 @@
         "answer": "19",
         "expected": 18,
         "correct": false,
-        "attemptTime": 16979
+        "attemptTime": 16979,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 215,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881922667,
@@ -6053,10 +6483,12 @@
         "answer": "90",
         "expected": 18,
         "correct": false,
-        "attemptTime": 7318
+        "attemptTime": 7318,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 216,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881923906,
@@ -6068,10 +6500,12 @@
         "answer": "90",
         "expected": 18,
         "correct": false,
-        "attemptTime": 1239
+        "attemptTime": 1239,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 217,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618881962115,
@@ -6083,10 +6517,12 @@
         "answer": "09",
         "expected": 18,
         "correct": false,
-        "attemptTime": 38209
+        "attemptTime": 38209,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 218,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618882138798,
@@ -6098,10 +6534,12 @@
         "answer": "17",
         "expected": 18,
         "correct": false,
-        "attemptTime": 176683
+        "attemptTime": 176683,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 219,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1618882155759,
@@ -6113,10 +6551,12 @@
         "answer": "18",
         "expected": 18,
         "correct": true,
-        "attemptTime": 16961
+        "attemptTime": 16961,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
       "id": 220,
-      "__ver": "1"
+      "__ver": "2"
     },
     {
       "timestamp": 1619141480207,
@@ -6128,9 +6568,12 @@
         "answer": "8",
         "expected": 8,
         "correct": true,
-        "attemptTime": 8002
+        "attemptTime": 8002,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 221
+      "id": 221,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141492701,
@@ -6142,9 +6585,12 @@
         "answer": "7",
         "expected": 8,
         "correct": false,
-        "attemptTime": 11488
+        "attemptTime": 11488,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 222
+      "id": 222,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141501524,
@@ -6156,9 +6602,12 @@
         "answer": "8",
         "expected": 8,
         "correct": true,
-        "attemptTime": 8823
+        "attemptTime": 8823,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 223
+      "id": 223,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141507753,
@@ -6170,9 +6619,12 @@
         "answer": "8",
         "expected": 8,
         "correct": true,
-        "attemptTime": 5224
+        "attemptTime": 5224,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 224
+      "id": 224,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141534044,
@@ -6184,9 +6636,12 @@
         "answer": "1",
         "expected": 1,
         "correct": true,
-        "attemptTime": 25288
+        "attemptTime": 25288,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 225
+      "id": 225,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141556045,
@@ -6198,9 +6653,12 @@
         "answer": "4",
         "expected": 1,
         "correct": false,
-        "attemptTime": 20995
+        "attemptTime": 20995,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 226
+      "id": 226,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141573172,
@@ -6212,9 +6670,12 @@
         "answer": "3",
         "expected": 1,
         "correct": false,
-        "attemptTime": 17127
+        "attemptTime": 17127,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 227
+      "id": 227,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141573692,
@@ -6226,9 +6687,12 @@
         "answer": "3",
         "expected": 1,
         "correct": false,
-        "attemptTime": 520
+        "attemptTime": 520,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 228
+      "id": 228,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141579079,
@@ -6240,9 +6704,12 @@
         "answer": "2",
         "expected": 1,
         "correct": false,
-        "attemptTime": 5387
+        "attemptTime": 5387,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 229
+      "id": 229,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141592246,
@@ -6254,9 +6721,12 @@
         "answer": "2",
         "expected": 1,
         "correct": false,
-        "attemptTime": 13167
+        "attemptTime": 13167,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 230
+      "id": 230,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141599411,
@@ -6268,9 +6738,12 @@
         "answer": "1",
         "expected": 1,
         "correct": true,
-        "attemptTime": 7165
+        "attemptTime": 7165,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 231
+      "id": 231,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141599888,
@@ -6282,9 +6755,12 @@
         "answer": "1",
         "expected": 1,
         "correct": true,
-        "attemptTime": 477
+        "attemptTime": 477,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 232
+      "id": 232,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141602328,
@@ -6295,9 +6771,12 @@
         "problem": "6 - 5",
         "expected": 1,
         "correct": false,
-        "attemptTime": 1914
+        "attemptTime": 1914,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 233
+      "id": 233,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141636826,
@@ -6309,9 +6788,12 @@
         "answer": "1",
         "expected": 1,
         "correct": true,
-        "attemptTime": 11695
+        "attemptTime": 11695,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 234
+      "id": 234,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141646265,
@@ -6323,9 +6805,12 @@
         "answer": "13",
         "expected": 14,
         "correct": false,
-        "attemptTime": 8435
+        "attemptTime": 8435,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 235
+      "id": 235,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141652621,
@@ -6337,9 +6822,12 @@
         "answer": "13",
         "expected": 14,
         "correct": false,
-        "attemptTime": 6356
+        "attemptTime": 6356,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 236
+      "id": 236,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141653251,
@@ -6351,9 +6839,12 @@
         "answer": "13",
         "expected": 14,
         "correct": false,
-        "attemptTime": 629
+        "attemptTime": 629,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 237
+      "id": 237,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141663182,
@@ -6365,9 +6856,12 @@
         "answer": "14",
         "expected": 14,
         "correct": true,
-        "attemptTime": 9931
+        "attemptTime": 9931,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 238
+      "id": 238,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141707348,
@@ -6379,9 +6873,12 @@
         "answer": "13",
         "expected": 13,
         "correct": true,
-        "attemptTime": 43164
+        "attemptTime": 43164,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 239
+      "id": 239,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141726956,
@@ -6393,9 +6890,12 @@
         "answer": "13",
         "expected": 15,
         "correct": false,
-        "attemptTime": 18605
+        "attemptTime": 18605,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 240
+      "id": 240,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141746823,
@@ -6407,9 +6907,12 @@
         "answer": "14",
         "expected": 15,
         "correct": false,
-        "attemptTime": 19867
+        "attemptTime": 19867,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 241
+      "id": 241,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141747689,
@@ -6421,9 +6924,12 @@
         "answer": "14",
         "expected": 15,
         "correct": false,
-        "attemptTime": 865
+        "attemptTime": 865,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 242
+      "id": 242,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141748116,
@@ -6435,9 +6941,12 @@
         "answer": "14",
         "expected": 15,
         "correct": false,
-        "attemptTime": 429
+        "attemptTime": 429,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 243
+      "id": 243,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141748435,
@@ -6449,9 +6958,12 @@
         "answer": "14",
         "expected": 15,
         "correct": false,
-        "attemptTime": 319
+        "attemptTime": 319,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 244
+      "id": 244,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141748881,
@@ -6463,9 +6975,12 @@
         "answer": "14",
         "expected": 15,
         "correct": false,
-        "attemptTime": 445
+        "attemptTime": 445,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 245
+      "id": 245,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141757845,
@@ -6477,9 +6992,12 @@
         "answer": "16",
         "expected": 15,
         "correct": false,
-        "attemptTime": 8964
+        "attemptTime": 8964,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 246
+      "id": 246,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141758904,
@@ -6491,9 +7009,12 @@
         "answer": "16",
         "expected": 15,
         "correct": false,
-        "attemptTime": 1059
+        "attemptTime": 1059,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 247
+      "id": 247,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141785827,
@@ -6505,9 +7026,12 @@
         "answer": "15",
         "expected": 15,
         "correct": true,
-        "attemptTime": 26923
+        "attemptTime": 26923,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 248
+      "id": 248,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141807281,
@@ -6519,9 +7043,12 @@
         "answer": "12",
         "expected": 12,
         "correct": true,
-        "attemptTime": 20448
+        "attemptTime": 20448,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 249
+      "id": 249,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141829768,
@@ -6533,9 +7060,12 @@
         "answer": "19",
         "expected": 19,
         "correct": true,
-        "attemptTime": 21483
+        "attemptTime": 21483,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 250
+      "id": 250,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141859987,
@@ -6547,9 +7077,12 @@
         "answer": "1",
         "expected": 28,
         "correct": false,
-        "attemptTime": 29216
+        "attemptTime": 29216,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 251
+      "id": 251,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141903134,
@@ -6561,9 +7094,12 @@
         "answer": "28",
         "expected": 28,
         "correct": true,
-        "attemptTime": 43147
+        "attemptTime": 43147,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 252
+      "id": 252,
+      "__ver": "2"
     },
     {
       "timestamp": 1619141962327,
@@ -6575,9 +7111,12 @@
         "answer": "39",
         "expected": 39,
         "correct": true,
-        "attemptTime": 58191
+        "attemptTime": 58191,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 253
+      "id": 253,
+      "__ver": "2"
     },
     {
       "timestamp": 1619142040243,
@@ -6589,9 +7128,12 @@
         "answer": "26",
         "expected": 26,
         "correct": true,
-        "attemptTime": 76913
+        "attemptTime": 76913,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 254
+      "id": 254,
+      "__ver": "2"
     },
     {
       "timestamp": 1619142090847,
@@ -6603,9 +7145,12 @@
         "answer": "16",
         "expected": 16,
         "correct": true,
-        "attemptTime": 49599
+        "attemptTime": 49599,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 255
+      "id": 255,
+      "__ver": "2"
     },
     {
       "timestamp": 1619142118724,
@@ -6617,9 +7162,12 @@
         "answer": "7",
         "expected": 7,
         "correct": true,
-        "attemptTime": 26874
+        "attemptTime": 26874,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 256
+      "id": 256,
+      "__ver": "2"
     },
     {
       "timestamp": 1619315999643,
@@ -6631,9 +7179,12 @@
         "answer": "10",
         "expected": 10,
         "correct": true,
-        "attemptTime": 15034
+        "attemptTime": 15034,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 257
+      "id": 257,
+      "__ver": "2"
     },
     {
       "timestamp": 1619316009136,
@@ -6645,9 +7196,12 @@
         "answer": "10",
         "expected": 10,
         "correct": true,
-        "attemptTime": 3364
+        "attemptTime": 3364,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 258
+      "id": 258,
+      "__ver": "2"
     },
     {
       "timestamp": 1619316026563,
@@ -6659,9 +7213,12 @@
         "answer": "6",
         "expected": 7,
         "correct": false,
-        "attemptTime": 16422
+        "attemptTime": 16422,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 259
+      "id": 259,
+      "__ver": "2"
     },
     {
       "timestamp": 1619316035302,
@@ -6673,9 +7230,12 @@
         "answer": "7",
         "expected": 7,
         "correct": true,
-        "attemptTime": 8740
+        "attemptTime": 8740,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 260
+      "id": 260,
+      "__ver": "2"
     },
     {
       "timestamp": 1619316049696,
@@ -6687,9 +7247,12 @@
         "answer": "7",
         "expected": 7,
         "correct": true,
-        "attemptTime": 13389
+        "attemptTime": 13389,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 261
+      "id": 261,
+      "__ver": "2"
     },
     {
       "timestamp": 1619316059842,
@@ -6701,9 +7264,12 @@
         "answer": "6",
         "expected": 6,
         "correct": true,
-        "attemptTime": 9140
+        "attemptTime": 9140,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 262
+      "id": 262,
+      "__ver": "2"
     },
     {
       "timestamp": 1619316073943,
@@ -6715,9 +7281,12 @@
         "answer": "0",
         "expected": 0,
         "correct": true,
-        "attemptTime": 13090
+        "attemptTime": 13090,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 263
+      "id": 263,
+      "__ver": "2"
     },
     {
       "timestamp": 1619316087607,
@@ -6729,9 +7298,12 @@
         "answer": "5",
         "expected": 5,
         "correct": true,
-        "attemptTime": 12662
+        "attemptTime": 12662,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 264
+      "id": 264,
+      "__ver": "2"
     },
     {
       "timestamp": 1619316111840,
@@ -6743,9 +7315,12 @@
         "answer": "5",
         "expected": 2,
         "correct": false,
-        "attemptTime": 23230
+        "attemptTime": 23230,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 265
+      "id": 265,
+      "__ver": "2"
     },
     {
       "timestamp": 1619316242423,
@@ -6757,9 +7332,12 @@
         "answer": "2",
         "expected": 2,
         "correct": true,
-        "attemptTime": 130584
+        "attemptTime": 130584,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 266
+      "id": 266,
+      "__ver": "2"
     },
     {
       "timestamp": 1619316257835,
@@ -6771,9 +7349,12 @@
         "answer": "15",
         "expected": 15,
         "correct": true,
-        "attemptTime": 14411
+        "attemptTime": 14411,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 267
+      "id": 267,
+      "__ver": "2"
     },
     {
       "timestamp": 1619316267475,
@@ -6785,9 +7366,12 @@
         "answer": "13",
         "expected": 13,
         "correct": true,
-        "attemptTime": 8634
+        "attemptTime": 8634,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 268
+      "id": 268,
+      "__ver": "2"
     },
     {
       "timestamp": 1619316281684,
@@ -6799,9 +7383,12 @@
         "answer": "13",
         "expected": 13,
         "correct": true,
-        "attemptTime": 13203
+        "attemptTime": 13203,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 269
+      "id": 269,
+      "__ver": "2"
     },
     {
       "timestamp": 1619316316049,
@@ -6813,9 +7400,12 @@
         "answer": "13",
         "expected": 13,
         "correct": true,
-        "attemptTime": 33361
+        "attemptTime": 33361,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 270
+      "id": 270,
+      "__ver": "2"
     },
     {
       "timestamp": 1619316455475,
@@ -6827,9 +7417,12 @@
         "answer": "25",
         "expected": 25,
         "correct": true,
-        "attemptTime": 138424
+        "attemptTime": 138424,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 271
+      "id": 271,
+      "__ver": "2"
     },
     {
       "timestamp": 1619316489345,
@@ -6841,9 +7434,12 @@
         "answer": "21",
         "expected": 21,
         "correct": true,
-        "attemptTime": 32867
+        "attemptTime": 32867,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 272
+      "id": 272,
+      "__ver": "2"
     },
     {
       "timestamp": 1619316499629,
@@ -6855,9 +7451,12 @@
         "answer": "22",
         "expected": 22,
         "correct": true,
-        "attemptTime": 9281
+        "attemptTime": 9281,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 273
+      "id": 273,
+      "__ver": "2"
     },
     {
       "timestamp": 1619316532563,
@@ -6869,9 +7468,12 @@
         "answer": "19",
         "expected": 19,
         "correct": true,
-        "attemptTime": 31932
+        "attemptTime": 31932,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 274
+      "id": 274,
+      "__ver": "2"
     },
     {
       "timestamp": 1619316716457,
@@ -6883,9 +7485,12 @@
         "answer": "19",
         "expected": 19,
         "correct": true,
-        "attemptTime": 182891
+        "attemptTime": 182891,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 275
+      "id": 275,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395613138,
@@ -6903,9 +7508,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/robot.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/elephant.png"
         ],
-        "attemptTime": 11683
+        "attemptTime": 11683,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 276
+      "id": 276,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395627470,
@@ -6923,9 +7531,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fireworks.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/robot.png"
         ],
-        "attemptTime": 13328
+        "attemptTime": 13328,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 277
+      "id": 277,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395631527,
@@ -6943,9 +7554,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fireworks.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/robot.png"
         ],
-        "attemptTime": 4057
+        "attemptTime": 4057,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 278
+      "id": 278,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395635502,
@@ -6963,9 +7577,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fireworks.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/robot.png"
         ],
-        "attemptTime": 3975
+        "attemptTime": 3975,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 279
+      "id": 279,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395657607,
@@ -6983,9 +7600,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 21100
+        "attemptTime": 21100,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 280
+      "id": 280,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395661157,
@@ -7003,9 +7623,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 3550
+        "attemptTime": 3550,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 281
+      "id": 281,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395664420,
@@ -7023,9 +7646,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 3263
+        "attemptTime": 3263,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 282
+      "id": 282,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395668300,
@@ -7043,9 +7669,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 3880
+        "attemptTime": 3880,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 283
+      "id": 283,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395671298,
@@ -7063,9 +7692,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 2998
+        "attemptTime": 2998,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 284
+      "id": 284,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395671976,
@@ -7083,9 +7715,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 678
+        "attemptTime": 678,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 285
+      "id": 285,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395673032,
@@ -7103,9 +7738,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 1057
+        "attemptTime": 1057,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 286
+      "id": 286,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395673270,
@@ -7123,9 +7761,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 238
+        "attemptTime": 238,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 287
+      "id": 287,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395673707,
@@ -7143,9 +7784,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 436
+        "attemptTime": 436,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 288
+      "id": 288,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395673910,
@@ -7163,9 +7807,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 203
+        "attemptTime": 203,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 289
+      "id": 289,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395674136,
@@ -7183,9 +7830,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 226
+        "attemptTime": 226,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 290
+      "id": 290,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395674370,
@@ -7203,9 +7853,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 235
+        "attemptTime": 235,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 291
+      "id": 291,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395674630,
@@ -7223,9 +7876,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 259
+        "attemptTime": 259,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 292
+      "id": 292,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395674855,
@@ -7243,9 +7899,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 225
+        "attemptTime": 225,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 293
+      "id": 293,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395675072,
@@ -7263,9 +7922,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 218
+        "attemptTime": 218,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 294
+      "id": 294,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395675541,
@@ -7283,9 +7945,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 468
+        "attemptTime": 468,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 295
+      "id": 295,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395675973,
@@ -7303,9 +7968,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 433
+        "attemptTime": 433,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 296
+      "id": 296,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395678138,
@@ -7323,9 +7991,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 2164
+        "attemptTime": 2164,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 297
+      "id": 297,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395678629,
@@ -7343,9 +8014,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cheburashka.png"
         ],
-        "attemptTime": 491
+        "attemptTime": 491,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 298
+      "id": 298,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395680332,
@@ -7363,9 +8037,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/carusel.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png"
         ],
-        "attemptTime": 1192
+        "attemptTime": 1192,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 299
+      "id": 299,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395680811,
@@ -7383,9 +8060,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/carusel.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png"
         ],
-        "attemptTime": 478
+        "attemptTime": 478,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 300
+      "id": 300,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395681351,
@@ -7403,9 +8083,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/carusel.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png"
         ],
-        "attemptTime": 539
+        "attemptTime": 539,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 301
+      "id": 301,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395691687,
@@ -7423,9 +8106,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/carusel.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png"
         ],
-        "attemptTime": 1659
+        "attemptTime": 1659,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 302
+      "id": 302,
+      "__ver": "2"
     },
     {
       "timestamp": 1619395739323,
@@ -7443,9 +8129,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/carusel.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png"
         ],
-        "attemptTime": 5067
+        "attemptTime": 5067,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 303
+      "id": 303,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527226871,
@@ -7457,9 +8146,12 @@
         "answer": "4",
         "expected": 4,
         "correct": true,
-        "attemptTime": 2520
+        "attemptTime": 2520,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 304
+      "id": 304,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527227846,
@@ -7471,9 +8163,12 @@
         "answer": "4",
         "expected": 4,
         "correct": true,
-        "attemptTime": 975
+        "attemptTime": 975,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 305
+      "id": 305,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527228535,
@@ -7484,9 +8179,12 @@
         "problem": "4 + 2",
         "expected": 6,
         "correct": false,
-        "attemptTime": 656
+        "attemptTime": 656,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 306
+      "id": 306,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527236100,
@@ -7498,9 +8196,12 @@
         "answer": "6",
         "expected": 6,
         "correct": true,
-        "attemptTime": 7564
+        "attemptTime": 7564,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 307
+      "id": 307,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527236819,
@@ -7512,9 +8213,12 @@
         "answer": "6",
         "expected": 6,
         "correct": true,
-        "attemptTime": 720
+        "attemptTime": 720,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 308
+      "id": 308,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527237461,
@@ -7525,9 +8229,12 @@
         "problem": "4 + 6",
         "expected": 10,
         "correct": false,
-        "attemptTime": 358
+        "attemptTime": 358,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 309
+      "id": 309,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527257730,
@@ -7539,9 +8246,12 @@
         "answer": "10",
         "expected": 10,
         "correct": true,
-        "attemptTime": 20269
+        "attemptTime": 20269,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 310
+      "id": 310,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527258794,
@@ -7552,9 +8262,12 @@
         "problem": "3 + 1",
         "expected": 4,
         "correct": false,
-        "attemptTime": 59
+        "attemptTime": 59,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 311
+      "id": 311,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527294282,
@@ -7566,9 +8279,12 @@
         "answer": "4",
         "expected": 4,
         "correct": true,
-        "attemptTime": 8379
+        "attemptTime": 8379,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 312
+      "id": 312,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527300219,
@@ -7580,9 +8296,12 @@
         "answer": "6",
         "expected": 1,
         "correct": false,
-        "attemptTime": 4932
+        "attemptTime": 4932,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 313
+      "id": 313,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527303389,
@@ -7594,9 +8313,12 @@
         "answer": "6",
         "expected": 1,
         "correct": false,
-        "attemptTime": 3170
+        "attemptTime": 3170,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 314
+      "id": 314,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527305684,
@@ -7608,9 +8330,12 @@
         "answer": "6",
         "expected": 1,
         "correct": false,
-        "attemptTime": 2294
+        "attemptTime": 2294,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 315
+      "id": 315,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527305922,
@@ -7622,9 +8347,12 @@
         "answer": "6",
         "expected": 1,
         "correct": false,
-        "attemptTime": 238
+        "attemptTime": 238,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 316
+      "id": 316,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527306139,
@@ -7636,9 +8364,12 @@
         "answer": "6",
         "expected": 1,
         "correct": false,
-        "attemptTime": 216
+        "attemptTime": 216,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 317
+      "id": 317,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527306338,
@@ -7650,9 +8381,12 @@
         "answer": "6",
         "expected": 1,
         "correct": false,
-        "attemptTime": 199
+        "attemptTime": 199,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 318
+      "id": 318,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527306560,
@@ -7664,9 +8398,12 @@
         "answer": "6",
         "expected": 1,
         "correct": false,
-        "attemptTime": 223
+        "attemptTime": 223,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 319
+      "id": 319,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527306966,
@@ -7678,9 +8415,12 @@
         "answer": "6",
         "expected": 1,
         "correct": false,
-        "attemptTime": 405
+        "attemptTime": 405,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 320
+      "id": 320,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527344255,
@@ -7692,9 +8432,12 @@
         "answer": "15",
         "expected": 1,
         "correct": false,
-        "attemptTime": 37289
+        "attemptTime": 37289,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 321
+      "id": 321,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527344945,
@@ -7706,9 +8449,12 @@
         "answer": "15",
         "expected": 1,
         "correct": false,
-        "attemptTime": 690
+        "attemptTime": 690,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 322
+      "id": 322,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527384054,
@@ -7720,9 +8466,12 @@
         "answer": "5",
         "expected": 1,
         "correct": false,
-        "attemptTime": 39109
+        "attemptTime": 39109,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 323
+      "id": 323,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527432791,
@@ -7734,9 +8483,12 @@
         "answer": "1",
         "expected": 1,
         "correct": true,
-        "attemptTime": 48737
+        "attemptTime": 48737,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 324
+      "id": 324,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527467716,
@@ -7748,9 +8500,12 @@
         "answer": "14",
         "expected": 14,
         "correct": true,
-        "attemptTime": 18463
+        "attemptTime": 18463,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 325
+      "id": 325,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527490549,
@@ -7762,9 +8517,12 @@
         "answer": "13",
         "expected": 13,
         "correct": true,
-        "attemptTime": 21829
+        "attemptTime": 21829,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 326
+      "id": 326,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527512824,
@@ -7776,9 +8534,12 @@
         "answer": "13",
         "expected": 12,
         "correct": false,
-        "attemptTime": 21269
+        "attemptTime": 21269,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 327
+      "id": 327,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527516717,
@@ -7790,9 +8551,12 @@
         "answer": "",
         "expected": 12,
         "correct": false,
-        "attemptTime": 3893
+        "attemptTime": 3893,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 328
+      "id": 328,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527553252,
@@ -7804,9 +8568,12 @@
         "answer": "12",
         "expected": 12,
         "correct": true,
-        "attemptTime": 36535
+        "attemptTime": 36535,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 329
+      "id": 329,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527606038,
@@ -7824,9 +8591,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/corn.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cake.png"
         ],
-        "attemptTime": 51783
+        "attemptTime": 51783,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 330
+      "id": 330,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527627302,
@@ -7844,9 +8614,12 @@
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cat.png",
           "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/bike.png"
         ],
-        "attemptTime": 20262
+        "attemptTime": 20262,
+        "__ver": "2",
+        "__class": "OptionsTaskDef"
       },
-      "id": 331
+      "id": 331,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527675322,
@@ -7858,9 +8631,12 @@
         "answer": "21",
         "expected": 20,
         "correct": false,
-        "attemptTime": 47012
+        "attemptTime": 47012,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 332
+      "id": 332,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527681407,
@@ -7872,9 +8648,12 @@
         "answer": "12",
         "expected": 20,
         "correct": false,
-        "attemptTime": 6085
+        "attemptTime": 6085,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 333
+      "id": 333,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527700865,
@@ -7886,9 +8665,12 @@
         "answer": "20",
         "expected": 20,
         "correct": true,
-        "attemptTime": 19459
+        "attemptTime": 19459,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 334
+      "id": 334,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527827716,
@@ -7900,9 +8682,12 @@
         "answer": "38",
         "expected": 38,
         "correct": true,
-        "attemptTime": 125845
+        "attemptTime": 125845,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 335
+      "id": 335,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527892157,
@@ -7914,9 +8699,12 @@
         "answer": "12",
         "expected": 19,
         "correct": false,
-        "attemptTime": 44896
+        "attemptTime": 44896,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 336
+      "id": 336,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527900340,
@@ -7928,9 +8716,12 @@
         "answer": "16",
         "expected": 19,
         "correct": false,
-        "attemptTime": 8184
+        "attemptTime": 8184,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 337
+      "id": 337,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527901023,
@@ -7942,9 +8733,12 @@
         "answer": "16",
         "expected": 19,
         "correct": false,
-        "attemptTime": 682
+        "attemptTime": 682,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 338
+      "id": 338,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527911002,
@@ -7956,9 +8750,12 @@
         "answer": "63",
         "expected": 19,
         "correct": false,
-        "attemptTime": 9980
+        "attemptTime": 9980,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 339
+      "id": 339,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527911749,
@@ -7970,9 +8767,12 @@
         "answer": "63",
         "expected": 19,
         "correct": false,
-        "attemptTime": 746
+        "attemptTime": 746,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 340
+      "id": 340,
+      "__ver": "2"
     },
     {
       "timestamp": 1619527937125,
@@ -7984,9 +8784,12 @@
         "answer": "63",
         "expected": 19,
         "correct": false,
-        "attemptTime": 25376
+        "attemptTime": 25376,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 341
+      "id": 341,
+      "__ver": "2"
     },
     {
       "timestamp": 1619528036728,
@@ -7998,9 +8801,12 @@
         "answer": "63",
         "expected": 19,
         "correct": false,
-        "attemptTime": 99603
+        "attemptTime": 99603,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 342
+      "id": 342,
+      "__ver": "2"
     },
     {
       "timestamp": 1619528126230,
@@ -8012,9 +8818,12 @@
         "answer": "19",
         "expected": 19,
         "correct": true,
-        "attemptTime": 89503
+        "attemptTime": 89503,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 343
+      "id": 343,
+      "__ver": "2"
     },
     {
       "timestamp": 1619528171550,
@@ -8026,9 +8835,12 @@
         "answer": "1",
         "expected": 1,
         "correct": true,
-        "attemptTime": 44318
+        "attemptTime": 44318,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 344
+      "id": 344,
+      "__ver": "2"
     },
     {
       "timestamp": 1619528196392,
@@ -8040,9 +8852,12 @@
         "answer": "1",
         "expected": 2,
         "correct": false,
-        "attemptTime": 23836
+        "attemptTime": 23836,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 345
+      "id": 345,
+      "__ver": "2"
     },
     {
       "timestamp": 1619528196954,
@@ -8054,9 +8869,12 @@
         "answer": "1",
         "expected": 2,
         "correct": false,
-        "attemptTime": 563
+        "attemptTime": 563,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 346
+      "id": 346,
+      "__ver": "2"
     },
     {
       "timestamp": 1619528230907,
@@ -8068,9 +8886,12 @@
         "answer": "2",
         "expected": 2,
         "correct": true,
-        "attemptTime": 33953
+        "attemptTime": 33953,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 347
+      "id": 347,
+      "__ver": "2"
     },
     {
       "timestamp": 1619528250795,
@@ -8082,9 +8903,12 @@
         "answer": "11",
         "expected": 11,
         "correct": true,
-        "attemptTime": 18886
+        "attemptTime": 18886,
+        "__ver": "2",
+        "__class": "ArythmeticsTaskDef"
       },
-      "id": 348
+      "id": 348,
+      "__ver": "2"
     }
   ]
 }
