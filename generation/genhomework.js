@@ -186,9 +186,9 @@ hwFactory.addTaskPlan(new SumTaskFactory(5, 10), 2)
 hwFactory.addTaskPlan(new SumTaskFactory(5, 15), 3)
 hwFactory.addTaskPlan(new MinusTaskFactory(5,10), 2)
 hwFactory.addTaskPlan(new AudioNumberTaskFactory(audioCollection, 1, 50), 5)
-hwFactory.addTaskPlan(new OptionsTaskFactory(imgs, 20), 5)
-// hwFactory.addTaskPlan(new SumWithTensFactory(1, 3), 4)
-// hwFactory.addTaskPlan(new SumTaskFactory(16, 20), 1)
+hwFactory.addTaskPlan(new OptionsTaskFactory(imgs, 20), 4)
+hwFactory.addTaskPlan(new SumWithTensFactory(1, 4), 3)
+hwFactory.addTaskPlan(new SumTaskFactory(16, 20), 1)
 let data = {homeworks: [hwFactory.create()]};
 fs.writeFile('../data/import.json', JSON.stringify(data, null, 4), console.log);
 for (const hw of data.homeworks) {
