@@ -4,7 +4,8 @@ import random from "random";
 export class AudioNumberTaskFactory  extends TaskFactory {
     min;
     max;
-    constructor(audioCollection, min, max) {
+
+    constructor(min, max) {
         super();
         this.min = min;
         this.max = max;

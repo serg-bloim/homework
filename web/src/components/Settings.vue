@@ -28,7 +28,12 @@
       <p>Audio collection:</p>
       <b-form-select v-model="audioCollectionName" :options="audioCollectionOptions"></b-form-select>
     </div>
-    <router-link to="/report">Report</router-link>
+    <div>
+      <router-link to="/report">Report</router-link>
+    </div>
+    <div>
+      <router-link to="/generate">Generate homework</router-link>
+    </div>
   </div>
 </template>
 

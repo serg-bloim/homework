@@ -7,6 +7,7 @@ import DataServices from "./DataServices";
 import TestPage from "./TestPage";
 import ReportMain from "../report/ReportMain";
 import Demo from "./Demo.vue";
+import GeneratePage from "./GeneratePage.vue";
 
 const routes = [
     {path: '/task', name:"task", component: TaskView, props:true},
@@ -17,6 +18,7 @@ const routes = [
     {path: '/test', component: TestPage},
     {path: '/report', component: ReportMain},
     {path: '/demo', component: Demo, props: true},
+    {path: '/generate', component: GeneratePage},
     {path: "/", redirect: "/homeworks"},
 ]
 export default new VueRouter({routes})

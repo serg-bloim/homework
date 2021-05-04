@@ -6,6 +6,8 @@
   "dependencies": {
     "class-transformer": "^0.4.0",
     "core-js": "^3.6.5",
+    "dateformat": "^4.5.1",
+    "random": "^3.0.6",
     "uuid": "^3.4.0"
   },
   "devDependencies": {

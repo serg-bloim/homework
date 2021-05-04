@@ -1,9 +1,7 @@
 import uuidv4 from "uuid/v4.js";
 import random from "random";
 import {TaskFactory} from "./TaskFactory.js";
-import "homework-common/src/util/arrays.js";
 import _ from 'lodash'
-import {imgs} from "./images.js";
 import {word2syllables} from "./syllables.js";
 
 export class OptionsTaskFactory extends TaskFactory {
