@@ -163,11 +163,13 @@ export default {
       let data = arrangeLogData(this.data).map(group => {
         let groupName = group.groupName
         let tasks = _.sortBy(group.tasks, tsk => tsk.totalTime).map(tsk => {
-          let taskStr = tsk.logs[0].data.problem
+          let taskStr = tsk.taskStr
           let attempts = tsk.attemptsNum
           let solved = tsk.solved
           let time = _.round(tsk.totalTime / 1000, 1)
+          let tid = tsk.taskId
           return {
+            tid,
             taskStr,
             attempts,
             solved,

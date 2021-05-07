@@ -32,12 +32,12 @@ export function arrangeLogData(data) {
         let solved = attemptsNum > 0
         let timestamp = logs[0].timestamp
         let totalTime = _.sumBy(solved ? _.take(logs, attemptsNum): logs, l=>l.data.attemptTime)
-
-        return {taskId: tid, timestamp, solved, totalTime, attemptsNum, logs}
+        let lastLog = logs.last();
+        let taskStr = lastLog?.data?.msg !== undefined ? lastLog.data.msg : lastLog.msg
+        return {taskId: tid, taskStr, timestamp, solved, totalTime, attemptsNum, logs}
     })
     let tasksByGroup = Object.values(_.mapValues(Object.values(logsByTask).groupBy(t => dateFormat(new Date(t.timestamp), 'yyyy-mm-dd')),
         (tasks, groupName) =>({groupName, tasks})
     ))
-    debug(tasksByGroup)
     return tasksByGroup
 }
