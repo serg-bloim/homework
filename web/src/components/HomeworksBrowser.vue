@@ -15,6 +15,7 @@
 <script>
 import HomeworkRepo from "../util/HomeworkRepo";
 import {Homework} from "homework-common/src/util/homework";
+import _ from 'lodash'
 
 export default {
   name: "HomeworksBrowser",
@@ -46,7 +47,7 @@ export default {
       })
     },
     refresh() {
-      HomeworkRepo.getAllHomeworks().then(hws => this.homeworks = hws)
+      HomeworkRepo.getAllHomeworks().then(hws => this.homeworks = _.orderBy(hws,hw=>hw.name, 'desc'))
     },
   },
   mounted() {
