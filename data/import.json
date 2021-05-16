@@ -1,190 +1,190 @@
 {
     "homeworks": [
         {
-            "id": "1987e445-924e-4e9c-bdc9-bed734da501d",
-            "name": "Homework 2021/05/16",
+            "id": "9966a433-73d7-4fb1-be48-f127b46b22e3",
+            "name": "Homework 2021/05/17",
             "__class": "Homework",
             "__ver": "1",
             "status": "new",
             "tasks": [
                 {
-                    "id": "7c9bb9e7-92db-43f1-bd36-cd22ae64ff3c",
+                    "id": "45d80c5e-d896-4b21-b4d3-f2b35366cf81",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
                     "__ver": "2",
                     "correctAnswer": 10,
-                    "problem": "4 + 6"
+                    "problem": "6 + 4"
                 },
                 {
-                    "id": "0fbe7529-97a1-4996-b1f9-22e42bd30ba7",
+                    "id": "4f0a0f3a-7ebf-4cd0-a39a-a1b9546bf884",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
                     "__ver": "2",
-                    "correctAnswer": 6,
-                    "problem": "5 + 1"
+                    "correctAnswer": 7,
+                    "problem": "4 + 3"
                 },
                 {
-                    "id": "2910c4d9-a87a-4c96-994d-0b28456a1d91",
+                    "id": "d6eb61c7-0f81-4cbb-985c-fec28614e4e5",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
                     "__ver": "2",
-                    "correctAnswer": 12,
-                    "problem": "2 + 10"
+                    "correctAnswer": 8,
+                    "problem": "2 + 6"
                 },
                 {
-                    "id": "56f1e718-63b5-4e4b-8f04-beb82874bd24",
+                    "id": "d836788d-2af5-4be2-b051-bb43fa319b54",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
                     "__ver": "2",
-                    "correctAnswer": 13,
-                    "problem": "4 + 9"
+                    "correctAnswer": 11,
+                    "problem": "3 + 8"
                 },
                 {
-                    "id": "59f3a7b9-4de8-4491-b56b-2c74cbe73536",
+                    "id": "4ee5b004-79bd-4cfe-9cff-b367eb6aab67",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
                     "__ver": "2",
-                    "correctAnswer": 14,
-                    "problem": "3 + 11"
+                    "correctAnswer": 9,
+                    "problem": "8 + 1"
                 },
                 {
-                    "id": "fdc1b3b3-dc60-4c6e-b0fc-2e81a3087b15",
+                    "id": "f7d86e8f-1c3e-47fa-8042-1e579ec48eab",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
                     "__ver": "2",
-                    "correctAnswer": 6,
-                    "problem": "10 - 4"
+                    "correctAnswer": 2,
+                    "problem": "5 - 3"
                 },
                 {
-                    "id": "9ca8350a-3e5a-40e9-9482-58e30072f84e",
+                    "id": "08fdbb57-8978-499a-9f96-ccb2050b80b3",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
                     "__ver": "2",
-                    "correctAnswer": 3,
-                    "problem": "5 - 2"
+                    "correctAnswer": 0,
+                    "problem": "7 - 7"
                 },
                 {
-                    "id": "bb28cb72-a914-4234-b752-d1cd4cddc01d",
+                    "id": "f624c760-574a-4351-9113-f28689ec5282",
                     "type": "none",
                     "__class": "AudioMatchTaskDef",
                     "__ver": "2",
-                    "expected": 16
+                    "expected": 33
                 },
                 {
-                    "id": "e373c177-f290-41f9-893c-fdf4d686f9b0",
-                    "type": "none",
-                    "__class": "AudioMatchTaskDef",
-                    "__ver": "2",
-                    "expected": 25
-                },
-                {
-                    "id": "1da28fec-9af6-4544-bdea-ce5623b19834",
+                    "id": "3b8bef7e-6e20-4ea7-9476-c9c1c12869c5",
                     "type": "none",
                     "__class": "AudioMatchTaskDef",
                     "__ver": "2",
                     "expected": 32
                 },
                 {
-                    "id": "89d31a4c-8bf9-42f6-89c5-484ea75c7324",
-                    "type": "none",
-                    "__class": "AudioMatchTaskDef",
-                    "__ver": "2",
-                    "expected": 21
-                },
-                {
-                    "id": "656a4b77-da89-45eb-b920-2f60aae2c146",
+                    "id": "933b4fd6-652b-4697-8bd7-f1d1f83038c9",
                     "type": "none",
                     "__class": "AudioMatchTaskDef",
                     "__ver": "2",
                     "expected": 50
                 },
                 {
-                    "id": "be4acb28-85d3-4c05-8332-a5f9bae2a186",
+                    "id": "59ad38c3-87e2-43c1-8653-c085eb04f550",
+                    "type": "none",
+                    "__class": "AudioMatchTaskDef",
+                    "__ver": "2",
+                    "expected": 41
+                },
+                {
+                    "id": "dfe7e2d5-79ba-4346-b48e-98b1a95e9ea5",
+                    "type": "none",
+                    "__class": "AudioMatchTaskDef",
+                    "__ver": "2",
+                    "expected": 15
+                },
+                {
+                    "id": "fe2fd157-4aaa-4d2f-883a-cc1efdf3641d",
                     "type": "none",
                     "__class": "OptionsTaskDef",
                     "__ver": "2",
-                    "problem": "Гу-сь",
+                    "problem": "Строй-ка",
+                    "correctOption": 2,
+                    "options": [
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fence.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/flower.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/construction.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/pen.png"
+                    ]
+                },
+                {
+                    "id": "d1e0996b-4b70-4ec6-9ce0-f0cae9a58696",
+                    "type": "none",
+                    "__class": "OptionsTaskDef",
+                    "__ver": "2",
+                    "problem": "Че-ре-па-ха",
                     "correctOption": 1,
                     "options": [
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/pear.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/goose.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cake.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/turtle.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/frog.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/carusel.png"
+                    ]
+                },
+                {
+                    "id": "7a3bc95c-bfa3-4ef3-813d-efc6497b8620",
+                    "type": "none",
+                    "__class": "OptionsTaskDef",
+                    "__ver": "2",
+                    "problem": "Ма-ши-на",
+                    "correctOption": 1,
+                    "options": [
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fireworks.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/car.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/dog.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/robot.png"
+                    ]
+                },
+                {
+                    "id": "bb66c160-80b9-4ee1-b92f-b572c1996d4a",
+                    "type": "none",
+                    "__class": "OptionsTaskDef",
+                    "__ver": "2",
+                    "problem": "Торт",
+                    "correctOption": 2,
+                    "options": [
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/beans.png",
                         "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cat.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/whale.png"
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cake.png",
+                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/fireworks.png"
                     ]
                 },
                 {
-                    "id": "8cb3ba85-30e3-45fa-aa99-cf74d59334b8",
-                    "type": "none",
-                    "__class": "OptionsTaskDef",
-                    "__ver": "2",
-                    "problem": "Дом",
-                    "correctOption": 1,
-                    "options": [
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/carusel.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/house.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/onager.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png"
-                    ]
-                },
-                {
-                    "id": "c52c3665-d8c7-4368-9c3c-c9c061543c0a",
-                    "type": "none",
-                    "__class": "OptionsTaskDef",
-                    "__ver": "2",
-                    "problem": "Ку-ку-ру-за",
-                    "correctOption": 0,
-                    "options": [
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/corn.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/pear.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/house.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/cofe.png"
-                    ]
-                },
-                {
-                    "id": "331c8933-609f-4e70-9088-c40d43148dd2",
-                    "type": "none",
-                    "__class": "OptionsTaskDef",
-                    "__ver": "2",
-                    "problem": "Де-ре-во",
-                    "correctOption": 1,
-                    "options": [
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/book.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/tree.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/elephant.png",
-                        "https://raw.githubusercontent.com/serg-bloim/homework/master/data/img/onager.png"
-                    ]
-                },
-                {
-                    "id": "1756dd75-b9d2-43c4-9703-8659f38ee46c",
+                    "id": "023c3980-0b05-4c53-bd69-94fd6ebeb0dd",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
                     "__ver": "2",
-                    "correctAnswer": 21,
-                    "problem": "20 + 1"
+                    "correctAnswer": 44,
+                    "problem": "40 + 4"
                 },
                 {
-                    "id": "d484f73f-2d5e-4fde-85fb-43f0da3966cb",
+                    "id": "e3cc3a73-59b5-4648-b772-ed03b8f0e4af",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
                     "__ver": "2",
-                    "correctAnswer": 15,
-                    "problem": "10 + 5"
+                    "correctAnswer": 23,
+                    "problem": "20 + 3"
                 },
                 {
-                    "id": "b946e233-ce8c-40a4-91c1-694a2b4b047f",
+                    "id": "6b5d4906-4426-4301-acdc-4fa2cc81dc49",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
                     "__ver": "2",
-                    "correctAnswer": 17,
-                    "problem": "10 + 7"
+                    "correctAnswer": 14,
+                    "problem": "10 + 4"
                 },
                 {
-                    "id": "680b123c-f2c8-4a83-ac79-b675f8c887ed",
+                    "id": "af3ce682-07af-4fc2-be12-ef273bcbcb04",
                     "type": "none",
                     "__class": "ArythmeticsTaskDef",
                     "__ver": "2",
-                    "correctAnswer": 19,
-                    "problem": "6 + 13"
+                    "correctAnswer": 16,
+                    "problem": "5 + 11"
                 }
             ]
         }
